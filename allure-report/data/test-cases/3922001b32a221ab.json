@@ -1,0 +1,215 @@
+{
+  "uid" : "3922001b32a221ab",
+  "name" : "Navigate to Admin Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest.TC_08_Navigate_to_AdminLogin",
+  "historyId" : "6a2e96dbe7c1f2b026d427db0b82ecdc",
+  "time" : {
+    "start" : 1611957026460,
+    "stop" : 1611957032949,
+    "duration" : 6489
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611957008193,
+      "stop" : 1611957025817,
+      "duration" : 17624
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1611957025818,
+      "stop" : 1611957025818,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1611957025818,
+      "stop" : 1611957026118,
+      "duration" : 300
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1611957026144,
+      "stop" : 1611957026144,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611957225493,
+      "stop" : 1611957225613,
+      "duration" : 120
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611957225614,
+      "stop" : 1611957228901,
+      "duration" : 3287
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611957032980,
+      "stop" : 1611957032980,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08_Navigate_to_AdminLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "17412@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d942d3dc21dd7c7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 5e0a3ac7042f90831c7485e89766295b",
+      "time" : {
+        "start" : 1611956949915,
+        "stop" : 1611956963223,
+        "duration" : 13308
+      }
+    }, {
+      "uid" : "90e38369c3c68e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611956883893,
+        "stop" : 1611956889680,
+        "duration" : 5787
+      }
+    }, {
+      "uid" : "6dd0854bb2d5b58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611956681404,
+        "stop" : 1611956688209,
+        "duration" : 6805
+      }
+    }, {
+      "uid" : "62b17579a4df6de8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611956472583,
+        "stop" : 1611956479270,
+        "duration" : 6687
+      }
+    }, {
+      "uid" : "fd6ce1d28cf6dfcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611956322520,
+        "stop" : 1611956329037,
+        "duration" : 6517
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3922001b32a221ab.json",
+  "parameterValues" : [ ]
+}

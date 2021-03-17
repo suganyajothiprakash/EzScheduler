@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608335644069" stop="1608335939269" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>DoctorSuite : DoctorSuite</name>
+    <title>DoctorSuite : DoctorSuite</title>
+    <test-cases>
+        <test-case start="1608335686923" stop="1608335690288" status="passed">
+            <name>TC_01_navigate_homepage_to_DoctorRegister</name>
+            <description type="text">Navigate_homepage_to_DoctorLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="e324a6ff-9104-4682-b078-0e82872b459e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335690325" stop="1608335713903" status="passed">
+            <name>TC_02_DoctorRegister</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_02_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335760675" stop="1608335762528" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="2d33a2ae-eb42-4ef5-a9da-5a2da045be42-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorLoginTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335762536" stop="1608335764827" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="ac5cd977-1714-4e3f-8b3f-21f3e5bfe841-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorLoginTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335782938" stop="1608335784640" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="0668b90b-d30b-4bd6-849f-b4e2e6d74a15-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335784648" stop="1608335787107" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="65ff7e59-4177-497f-bda2-0650e454c01c-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_09"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335787117" stop="1608335862570" status="passed">
+            <name>TC_03_GenerateSlots</name>
+            <description type="text">Navigate_GenerateSlots</description>
+            <steps/>
+            <attachments>
+                <attachment title="ToGenerateSlots" source="c23b65e5-5c76-4784-9a48-5e2a4d8e94fd-attachment.png" type="image/png"/>
+                <attachment title="ToGenerateSlots" source="dc1d78b9-054a-401f-9998-cf693fe74a6f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_03_GenerateSlots"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_10"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335862584" stop="1608335867520" status="passed">
+            <name>TC_04_Doctor_Logout</name>
+            <description type="text">Navigate_homepage_to_DoctorLogout</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="5ae81cb8-4b6b-412e-ae98-f8753411e9a0-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_04_Doctor_Logout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335912067" stop="1608335913869" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="008c5557-8811-44ea-8379-c12f92940540-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.DoctorLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_21"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608335913881" stop="1608335938668" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="f95fc147-84f2-4984-b0bb-ecf77f32ded3-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="DoctorSuite"/>
+                <label name="testGroup" value="DoctorSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.DoctorLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_22"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31984@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

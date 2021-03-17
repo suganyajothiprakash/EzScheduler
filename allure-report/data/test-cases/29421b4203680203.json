@@ -1,0 +1,126 @@
+{
+  "uid" : "29421b4203680203",
+  "name" : "Navigate_homepage_to_AdminLogin",
+  "fullName" : "com.sailotech.ezscheduler.testpages.AdminVerifydoctortest.TC_02_adminLogout",
+  "historyId" : "c3e782b8b932cd3f46dcbe7bd5a52f5f",
+  "time" : {
+    "start" : 1608843638334,
+    "stop" : 1608843638334,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method AdminVerifydoctortest.TC_02_adminLogout()[pri:0, instance:com.sailotech.ezscheduler.testpages.AdminVerifydoctortest@468646ea] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method AdminVerifydoctortest.TC_02_adminLogout()[pri:0, instance:com.sailotech.ezscheduler.testpages.AdminVerifydoctortest@468646ea] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608843550738,
+      "stop" : 1608843570748,
+      "duration" : 20010
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608843570749,
+      "stop" : 1608843571197,
+      "duration" : 448
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608843638346,
+      "stop" : 1608843638346,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1608843638347,
+      "stop" : 1608843638550,
+      "duration" : 203
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.testpages.AdminVerifydoctortest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.testpages.AdminVerifydoctortest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_adminLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.testpages.AdminVerifydoctortest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "61548@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29421b4203680203.json",
+  "parameterValues" : [ ]
+}

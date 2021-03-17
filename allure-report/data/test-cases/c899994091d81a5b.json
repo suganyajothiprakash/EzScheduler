@@ -1,0 +1,172 @@
+{
+  "uid" : "c899994091d81a5b",
+  "name" : "Consumer schedule an Appointment with provider",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest.TC_18_PatientScheduleAnAppointment",
+  "historyId" : "7fcccb68b9c2b82c085d02125a10bb59",
+  "time" : {
+    "start" : 1612304017999,
+    "stop" : 1612304152557,
+    "duration" : 134558
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1612304017990,
+      "stop" : 1612304017990,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612303988846,
+      "stop" : 1612304006073,
+      "duration" : 17227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1612304006074,
+      "stop" : 1612304006074,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1612304006075,
+      "stop" : 1612304006412,
+      "duration" : 337
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1612304160587,
+      "stop" : 1612304164368,
+      "duration" : 3781
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1612304152560,
+      "stop" : 1612304152560,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612304156213,
+      "stop" : 1612304160586,
+      "duration" : 4373
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_18_PatientScheduleAnAppointment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "31948@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c899994091d81a5b.json",
+  "parameterValues" : [ ]
+}

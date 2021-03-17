@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608834378525" stop="1608834441203" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1608834397019" stop="1608834426549" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="88aad7c2-4e6f-48ad-9cbd-f4771167866d-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.login_testpages.Providerlogintest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="26272@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608834426837" stop="1608834436946" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="35294e70-4764-4662-bb9d-e1b0868ef70a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.login_testpages.Providerlogintest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="26272@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

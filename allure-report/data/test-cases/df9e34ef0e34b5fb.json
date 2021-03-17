@@ -1,0 +1,142 @@
+{
+  "uid" : "df9e34ef0e34b5fb",
+  "name" : "Consumer Logout from EzScheduler Website",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest.TC_16_PatientLogout",
+  "historyId" : "6dbc5786f8f415a16225d172edadd4b6",
+  "time" : {
+    "start" : 1613077258995,
+    "stop" : 1613077258996,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method ConsumerscheduleannAppTest.TC_16_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest@2c731a16] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method ConsumerscheduleannAppTest.TC_16_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest@2c731a16] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613077165404,
+      "stop" : 1613077180403,
+      "duration" : 14999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1613077180404,
+      "stop" : 1613077180404,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1613077180404,
+      "stop" : 1613077180795,
+      "duration" : 391
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1613077263105,
+      "stop" : 1613077266809,
+      "duration" : 3704
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613077258998,
+      "stop" : 1613077263104,
+      "duration" : 4106
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_16_PatientLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "28192@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df9e34ef0e34b5fb.json",
+  "parameterValues" : [ ]
+}

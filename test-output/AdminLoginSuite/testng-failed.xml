@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AdminLoginSuite]">
+  <test thread-count="5" name="ONT CL_UR Test Cases(failed)">
+    <classes>
+      <class name="com.sailotech.ezscheduler.Testpages.AdminloginTest">
+        <methods>
+          <include name="display"/>
+          <include name="TC_08_Navigate_to_AdminLogin"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="stopRecording"/>
+          <include name="screenRecord"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.AdminloginTest -->
+    </classes>
+  </test> <!-- ONT CL_UR Test Cases(failed) -->
+</suite> <!-- Failed suite [AdminLoginSuite] -->

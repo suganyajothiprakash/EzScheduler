@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1613403788946" stop="1613403853713" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1613403811233" stop="1613403823225" status="passed">
+            <name>TC_05_ProviderLogin</name>
+            <description type="text">Navigate To Provider Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateEzHomePage" source="e744f4d5-e7d4-424e-8181-b258d495c648-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ProviderLogoutTest"/>
+                <label name="testMethod" value="TC_05_ProviderLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="3420@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1613403823246" stop="1613403849577" status="passed">
+            <name>TC_04_ProviderLogout</name>
+            <description type="text">Provider Logout from Ezscheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="c151f720-0eaa-49de-a59f-4ee5afae7e82-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ProviderLogoutTest"/>
+                <label name="testMethod" value="TC_04_ProviderLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_04"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="3420@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

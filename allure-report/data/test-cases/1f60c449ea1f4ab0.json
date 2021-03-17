@@ -1,0 +1,124 @@
+{
+  "uid" : "1f60c449ea1f4ab0",
+  "name" : "Navigate_DoctorRegister",
+  "fullName" : "sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest.TC_02_DoctorRegister",
+  "historyId" : "26252940f255cc3de3a3476306ae5d4a",
+  "time" : {
+    "start" : 1607486867835,
+    "stop" : 1607486884861,
+    "duration" : 17026
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607486818177,
+      "stop" : 1607486865026,
+      "duration" : 46849
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607486865026,
+      "stop" : 1607486865038,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607486884867,
+      "stop" : 1607486884867,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607486884864,
+      "stop" : 1607486884864,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_DoctorRegister"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PatientRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "PatientRegistration"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "39248@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f60c449ea1f4ab0.json",
+  "parameterValues" : [ ]
+}

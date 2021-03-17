@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607790884585" stop="1607790951012" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1607790922828" stop="1607790925920" status="passed">
+            <name>TC_01_navigate_homepage_to_DoctorRegister</name>
+            <description type="text">Navigate_homepage_to_DoctorLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="6f844e22-4f7f-44c5-8bf2-c6430577e9fa-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="36848@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607790926230" stop="1607790950973" status="passed">
+            <name>TC_02_DoctorRegister</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="DoctorRegister" source="e3189a00-0309-4528-b96f-d173306146a1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_02_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="36848@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

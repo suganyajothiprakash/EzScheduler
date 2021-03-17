@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1612993771622" stop="1612993822303" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1612993787877" stop="1612993799836" status="passed">
+            <name>TC_12_ConsumerRegistration</name>
+            <description type="text">Consumer Registering in EzScheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="eb2b22ac-c74f-42ef-8a1c-119d5204513f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"/>
+                <label name="testMethod" value="TC_12_ConsumerRegistration"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_12"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="23408@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1612993799864" stop="1612993808006" status="passed">
+            <name>TC_15_Consumer_Credentialsfrom_Mail</name>
+            <description type="text">Reading Consumer credentials/OTP from mail</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"/>
+                <label name="testMethod" value="TC_15_Consumer_Credentialsfrom_Mail"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_30"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="23408@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1612993808015" stop="1612993814245" status="broken">
+            <name>TC_15_Consumer_OTP</name>
+            <description type="text">Entering OTP in that OTP field and verifing that OTP</description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException&#13;
+	at com.sailotech.ezscheduler.Implpages.ConsumerOTP.Consumer_OTP(ConsumerOTP.java:44)&#13;
+	at com.sailotech.ezscheduler.Testpages.ConsumerOTPTest.TC_15_Consumer_OTP(ConsumerOTPTest.java:74)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:505)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;
+	at org.testng.TestNG.run(TestNG.java:1017)&#13;
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"/>
+                <label name="testMethod" value="TC_15_Consumer_OTP"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_15"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="23408@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

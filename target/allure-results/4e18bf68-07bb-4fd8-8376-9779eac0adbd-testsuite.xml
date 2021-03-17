@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1610555792054" stop="1610555826145" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1610555813050" stop="1610555818853" status="passed">
+            <name>TC_01_Navigate_To_DoctorLoginRegister</name>
+            <description type="text">Navigate_To_DoctorLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="db25c2ea-82ba-4c1c-941e-2cb1f20474c5-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerlogintest"/>
+                <label name="testMethod" value="TC_01_Navigate_To_DoctorLoginRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="9516@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610555819019" stop="1610555825354" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_To_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="df380906-199c-46e9-98f5-f13043fbb65c-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerlogintest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="9516@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

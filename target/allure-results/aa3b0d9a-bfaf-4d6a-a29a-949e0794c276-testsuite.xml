@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1610563245370" stop="1610563276629" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1610563266187" stop="1610563271312" status="passed">
+            <name>TC_01_Navigate_to_HomeLoginRegister</name>
+            <description type="text">Navigate_to_HomeloginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="b70eadfc-0020-46e9-a668-a212900cedcd-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Adminlogintest"/>
+                <label name="testMethod" value="TC_01_Navigate_to_HomeLoginRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="19616@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

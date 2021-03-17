@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607837092618" stop="1607837181290" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1607837111076" stop="1607837113346" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="c248290b-9620-488f-b13e-b1e6ce44ab5b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_15"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="32948@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607837113375" stop="1607837117453" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="ca4bcf73-b5bc-425a-bde5-8a012ce92e51-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_16"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="32948@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607837117465" stop="1607837181089" status="passed">
+            <name>TC_03_PatientScheduleAnApp</name>
+            <description type="text">patient_schedule_an_Appointment</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="79af8173-ab89-4c29-82a9-d75055320870-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_03_PatientScheduleAnApp"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_17"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="32948@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

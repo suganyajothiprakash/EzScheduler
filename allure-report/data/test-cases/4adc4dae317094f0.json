@@ -1,0 +1,140 @@
+{
+  "uid" : "4adc4dae317094f0",
+  "name" : "Navigate_homepage_to_Admin_loginRegister",
+  "fullName" : "sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest.TC_01_navigate_homepage_to_admin_login",
+  "historyId" : "b92c2bff8f543c0ab51284dbb2c16e5d",
+  "time" : {
+    "start" : 1607620504603,
+    "stop" : 1607620506710,
+    "duration" : 2107
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607620479746,
+      "stop" : 1607620504277,
+      "duration" : 24531
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607620504278,
+      "stop" : 1607620504503,
+      "duration" : 225
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607620506910,
+      "stop" : 1607620506910,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607620543644,
+      "stop" : 1607620543754,
+      "duration" : 110
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607620543644,
+      "stop" : 1607620543644,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01_navigate_homepage_to_admin_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "70436@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4adc4dae317094f0.json",
+  "parameterValues" : [ ]
+}

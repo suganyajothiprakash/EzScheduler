@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PatientLogin]">
+  <test thread-count="5" name="PatientLogin(failed)">
+    <classes>
+      <class name="com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest">
+        <methods>
+          <include name="TC_18_PatientScheduleAnAppointment"/>
+          <include name="TC_17_ConsumerLogin"/>
+          <include name="beforeClass"/>
+          <include name="startRecording"/>
+          <include name="TC_16_PatientLogout"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="stopRecording"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest -->
+      <class name="com.sailotech.ezscheduler.Testpages.Consumerlogintest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="TC_12_ConsumerLogin"/>
+          <include name="startRecording"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.Consumerlogintest -->
+    </classes>
+  </test> <!-- PatientLogin(failed) -->
+</suite> <!-- Failed suite [PatientLogin] -->

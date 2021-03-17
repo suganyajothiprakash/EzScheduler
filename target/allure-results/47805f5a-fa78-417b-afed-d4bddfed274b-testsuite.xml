@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608835728040" stop="1608835755173" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1608835746342" stop="1608835748615" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="080e6bda-be97-4c09-95a5-fea3d3e04326-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.login_testpages.Consumerlogintest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_13"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="6848@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608835748939" stop="1608835755085" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="117bb9c1-a9d2-4924-a648-d17c79a39fdb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.login_testpages.Consumerlogintest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_14"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="6848@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

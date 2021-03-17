@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="AdminSuite">
+	<test thread-count="5" verbose="2" name="AdminSuite">
+
+		<classes>
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Adminlogin_test" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Admincreateprovider_test" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Adminunverifieddoctors_test" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Adminverifieddoctors_test" />
+		</classes>
+
+	</test>
+</suite>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DoctorSuite]">
+  <test thread-count="5" name="DoctorSuite(failed)">
+    <classes>
+      <class name="com.sailotech.ezscheduler.Testpages.Providerlogintest">
+        <methods>
+          <include name="startRecording"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="TC_09_DoctorLogin"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.Providerlogintest -->
+      <class name="com.sailotech.ezscheduler.Testpages.Providerrregistrationtest">
+        <methods>
+          <include name="stopRecording"/>
+          <include name="Providercredentialsfrommail"/>
+          <include name="beforeClass"/>
+          <include name="startRecording"/>
+          <include name="TC_01_DoctorRegistration"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="TC_05_Provider_LoginCredentials"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.Providerrregistrationtest -->
+      <class name="com.sailotech.ezscheduler.Testpages.Providergenerateslotstest">
+        <methods>
+          <include name="startRecording"/>
+          <include name="TC_11_DoctorLogout"/>
+          <include name="TC_10_To_GenerateSlots"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="TC_09_DoctorLogin"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.Testpages.Providergenerateslotstest -->
+    </classes>
+  </test> <!-- DoctorSuite(failed) -->
+</suite> <!-- Failed suite [DoctorSuite] -->

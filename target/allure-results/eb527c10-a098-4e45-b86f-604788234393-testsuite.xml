@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607632806042" stop="1607632858046" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1607632824102" stop="1607632825977" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="8f2cc15f-b42f-404b-bf34-cab8b2da2e1e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="13400@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607632825997" stop="1607632857930" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="83a593a4-3e8c-4f10-9d08-4b7d2aa35392-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="13400@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="sailotech.com.AdminCredentialspage.AdminCredentialsTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_admin_login"/>
+          <include name="stopRecording"/>
+          <include name="beforeClass"/>
+          <include name="TC_02_adminlogin"/>
+          <include name="startRecording"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sailotech.com.AdminCredentialspage.AdminCredentialsTest -->
+      <class name="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_DoctorRegister"/>
+          <include name="beforeClass"/>
+          <include name="startRecording"/>
+          <include name="TC_02_DoctorRegister"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest -->
+      <class name="sailotech.com.EzScheduler.PatientPages.PatientTest">
+        <methods>
+          <include name="TC_02_Patientlogin"/>
+          <include name="TC_01_navigate_homepage_to_Patient_login"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="afterClass"/>
+          <include name="screenShot"/>
+          <include name="startRecording"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.PatientPages.PatientTest -->
+      <class name="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_Patient_login"/>
+          <include name="TC_02_Patientlogin"/>
+          <include name="TC_03_PatientScheduleAnApp"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="startRecording"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest -->
+      <class name="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_admin_login"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="TC_02_adminlogin"/>
+          <include name="afterClass"/>
+          <include name="screenShot"/>
+          <include name="startRecording"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

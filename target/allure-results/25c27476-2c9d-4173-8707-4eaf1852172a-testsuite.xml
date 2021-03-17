@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1612822733030" stop="1612822834491" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1612822750759" stop="1612822757409" status="passed">
+            <name>TC_08_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate to Admin Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="695dabe7-85ed-4f88-92e0-e1ec345570f1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminCreateProviderTest"/>
+                <label name="testMethod" value="TC_08_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="10112@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1612822757436" stop="1612822830093" status="passed">
+            <name>TC_20_Admin_CreatingDoctor</name>
+            <description type="text">Create Doctor</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatecreateDoctor" source="b3d44cc7-07b5-4f0e-b8a5-9f0c0d6640b1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminCreateProviderTest"/>
+                <label name="testMethod" value="TC_20_Admin_CreatingDoctor"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_20"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="10112@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

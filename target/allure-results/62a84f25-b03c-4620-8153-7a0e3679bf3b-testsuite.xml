@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1615350854067" stop="1615350917549" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1615350873726" stop="1615350880168" status="passed">
+            <name>TC_05_ProviderLogin</name>
+            <description type="text">Navigate To Provider Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateEzHomePage" source="c928714d-d003-4801-9979-51e8a8ce5bb1-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"/>
+                <label name="testMethod" value="TC_05_ProviderLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31616@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615350880189" stop="1615350917542" status="broken">
+            <name>TC_06_To_GenerateSlots</name>
+            <description type="text">Provider Generating slots</description>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"/>
+                <label name="testMethod" value="TC_06_To_GenerateSlots"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="31616@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615350854067" stop="1615350917544" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1610564643308" stop="1610564679495" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1610564664143" stop="1610564667439" status="passed">
+            <name>TC_01_Navigate_To_PatientRegister</name>
+            <description type="text">Navigate_To_PatientLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="d490701d-5038-493c-8dde-2316b8a7ccaa-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"/>
+                <label name="testMethod" value="TC_01_Navigate_To_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_11"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="2544@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610564667466" stop="1610564678646" status="passed">
+            <name>TC_02_PatientRegistration</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="fea234c8-a607-48c0-94d1-01223d042702-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"/>
+                <label name="testMethod" value="TC_02_PatientRegistration"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_12"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="2544@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

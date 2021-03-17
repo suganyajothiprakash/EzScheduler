@@ -1,0 +1,176 @@
+{
+  "uid" : "ff00ee09d34790c0",
+  "name" : "Admin Creating Doctor",
+  "fullName" : "com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest.TC_20_Admin_CreatingDoctor",
+  "historyId" : "ca1bfb1d9e1841b24dd4412ffb6e43d1",
+  "time" : {
+    "start" : 1613493044905,
+    "stop" : 1613493347928,
+    "duration" : 303023
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613493044897,
+      "stop" : 1613493044897,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613493019372,
+      "stop" : 1613493037703,
+      "duration" : 18331
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1613493037704,
+      "stop" : 1613493037704,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1613493037704,
+      "stop" : 1613493037967,
+      "duration" : 263
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613493347942,
+      "stop" : 1613493352037,
+      "duration" : 4095
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1613493347935,
+      "stop" : 1613493347936,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_20_Admin_CreatingDoctor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "16596@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b1ff837dff8f935b",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminCreateProviderTest.TC_20_Admin_CreatingDoctor()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest@532ea86b] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613491349669,
+        "stop" : 1613491349670,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8c062c7b4a205047",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminCreateProviderTest.TC_20_Admin_CreatingDoctor()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.AdminCreateProviderTest@184bb873] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613491276890,
+        "stop" : 1613491276890,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff00ee09d34790c0.json",
+  "parameterValues" : [ ]
+}

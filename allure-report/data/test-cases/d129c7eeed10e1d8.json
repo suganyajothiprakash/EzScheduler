@@ -1,0 +1,92 @@
+{
+  "uid" : "d129c7eeed10e1d8",
+  "name" : "Navigate To Provider Login page",
+  "fullName" : "com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test.TC_05_ProviderLogin",
+  "historyId" : "92a26ba114103daba68a38acf2d9c2f6",
+  "time" : {
+    "start" : 1613571948661,
+    "stop" : 1613571961064,
+    "duration" : 12403
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613571948387,
+      "stop" : 1613571948388,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1613571961092,
+      "stop" : 1613571961092,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_05_ProviderLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "3216@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d129c7eeed10e1d8.json",
+  "parameterValues" : [ ]
+}

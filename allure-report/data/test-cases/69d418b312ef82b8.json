@@ -1,0 +1,76 @@
+{
+  "uid" : "69d418b312ef82b8",
+  "name" : "Navigate_homepage_to_PatientLogin",
+  "fullName" : "sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest.TC_02_Patientlogin",
+  "historyId" : "79a6357e3885a5a36ea87007e0dfb14b",
+  "time" : {
+    "start" : 1608507553011,
+    "stop" : 1608507555543,
+    "duration" : 2532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608507555549,
+      "stop" : 1608507555549,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_Patientlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "9404@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69d418b312ef82b8.json",
+  "parameterValues" : [ ]
+}

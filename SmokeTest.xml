@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite guice-stage="DEVELOPMENT" name="SmokeTest">
+
+	<test thread-count="5" verbose="2" name="SmokeTest">
+
+		<classes>
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providerrregistrationtest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Adminlogintest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Adminverifydoctortest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providerlogintest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslotstest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Consumerregistrationtest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Consumerlogintest" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Consumerscheduleanapptest" />
+		</classes>
+		`
+	</test>
+</suite>

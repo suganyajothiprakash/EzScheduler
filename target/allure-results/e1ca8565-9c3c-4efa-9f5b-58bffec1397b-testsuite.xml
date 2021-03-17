@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607532492678" stop="1607532588541" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AdminLogin : AdminLogin</name>
+    <title>AdminLogin : AdminLogin</title>
+    <test-cases>
+        <test-case start="1607532573751" stop="1607532578475" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="539e9543-ffdd-444f-8f46-5ed63d064f73-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminLogin"/>
+                <label name="testGroup" value="AdminLogin"/>
+                <label name="testClass" value="sailotech.com.EzSchedulerAdminpages.AdminTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="41344@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607532578915" stop="1607532588296" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="8a90b612-7987-4bb8-a0b7-a974e9c5d5b9-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminLogin"/>
+                <label name="testGroup" value="AdminLogin"/>
+                <label name="testClass" value="sailotech.com.EzSchedulerAdminpages.AdminTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="41344@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

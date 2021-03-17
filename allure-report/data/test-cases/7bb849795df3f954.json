@@ -1,0 +1,488 @@
+{
+  "uid" : "7bb849795df3f954",
+  "name" : "To-Logout_from_Adminpage",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest.TC_06_AdminLogout",
+  "historyId" : "8c7a3bc13ff6bca7d86b5a7f31e45889",
+  "time" : {
+    "start" : 1611175417490,
+    "stop" : 1611175420907,
+    "duration" : 3417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611175333986,
+      "stop" : 1611175350415,
+      "duration" : 16429
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611175350415,
+      "stop" : 1611175350597,
+      "duration" : 182
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611175420909,
+      "stop" : 1611175420909,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611175425246,
+      "stop" : 1611175425896,
+      "duration" : 650
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611175420912,
+      "stop" : 1611175425245,
+      "duration" : 4333
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_06_AdminLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "8088@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "61f575691069ed09",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@6d8096ee] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611175321682,
+        "stop" : 1611175321682,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15767074e5819466",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@6d8096ee] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611175194909,
+        "stop" : 1611175194909,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc4f6af88bbb97f9",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@5d449307] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611175031382,
+        "stop" : 1611175031382,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e3ce840ddfe870e",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@736f2fb8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611174915402,
+        "stop" : 1611174915402,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15c6739b4dd426fe",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@12811f95] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611173354150,
+        "stop" : 1611173354150,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b61d82107b5dc883",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@9715d26] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611160528328,
+        "stop" : 1611160528328,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96f9a9a3a7a83539",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@35d8ba22] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611159996729,
+        "stop" : 1611159996729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d925535e09998a9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611159791185,
+        "stop" : 1611159797839,
+        "duration" : 6654
+      }
+    }, {
+      "uid" : "25321efc192ad52e",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@9715d26] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611159589207,
+        "stop" : 1611159589207,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8998838072f2ad54",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@aca594d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611159515670,
+        "stop" : 1611159515670,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2d817aaa6c3c198",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@9715d26] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611159415676,
+        "stop" : 1611159415676,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "293964be357b7543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611159039556,
+        "stop" : 1611159043529,
+        "duration" : 3973
+      }
+    }, {
+      "uid" : "b3b8c73cca1d410e",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@736f2fb8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611158852618,
+        "stop" : 1611158852619,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cc936d9a100eaa2f",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@9715d26] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611158739124,
+        "stop" : 1611158739124,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9250e3f9cd968089",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@9715d26] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611158614711,
+        "stop" : 1611158614711,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3d17fe0e4a47cf34",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@573f2e67] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611158525436,
+        "stop" : 1611158525436,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94df6c43adccedcf",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@44e7c06b] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611157059663,
+        "stop" : 1611157059663,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "460640ad6dd1bbcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611012169005,
+        "stop" : 1611012172935,
+        "duration" : 3930
+      }
+    }, {
+      "uid" : "87b3ef5231d010e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610987394206,
+        "stop" : 1610987398111,
+        "duration" : 3905
+      }
+    }, {
+      "uid" : "9adc2daaa060fe05",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@5d449307] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610987244573,
+        "stop" : 1610987244573,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec95518cc4663534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610985986130,
+        "stop" : 1610986037677,
+        "duration" : 51547
+      }
+    }, {
+      "uid" : "d20238fd316e2c89",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@a84b6de] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610985650596,
+        "stop" : 1610985650596,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8ee8d5efae53554",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@6e0dec27] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610985565301,
+        "stop" : 1610985565301,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "135fd5b1cc23b09c",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@18918d70] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610983626451,
+        "stop" : 1610983626451,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "95ff9294bd8017e0",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@12478b4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610983483034,
+        "stop" : 1610983483034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5066803ab0341b8",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@75507e68] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610983276564,
+        "stop" : 1610983276564,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "67a85ef5f727656d",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@50b2ba2c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610983112815,
+        "stop" : 1610983112816,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "39c7cc1e73500796",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@2119b989] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610983005633,
+        "stop" : 1610983005633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ce1c23b912e32b48",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@76eee0b1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982910074,
+        "stop" : 1610982910074,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "95b52fe4441593f2",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@64921450] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982845607,
+        "stop" : 1610982845608,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "23eaec4b9e73662c",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@7c07023] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982644828,
+        "stop" : 1610982644829,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7b2db7392299a5ce",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@12478b4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982355319,
+        "stop" : 1610982355319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2c8878a91105c67",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@152d2a58] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982178941,
+        "stop" : 1610982178941,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bdfe6d483587dc07",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@64921450] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610982064377,
+        "stop" : 1610982064377,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ccc096e0fd010b0d",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@152d2a58] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610981982557,
+        "stop" : 1610981982557,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d556014349eb1364",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@7304ca87] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610981554324,
+        "stop" : 1610981554324,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc461ff0bd674f50",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@12478b4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610981102858,
+        "stop" : 1610981102858,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2bc8cb9370b00fec",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@12478b4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610981006782,
+        "stop" : 1610981006782,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3bfb887a0b56f2a5",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminverifyUnverifiedDoctortest.TC_06_AdminLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest@5f1dadf4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610980444636,
+        "stop" : 1610980444636,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bb849795df3f954.json",
+  "parameterValues" : [ ]
+}

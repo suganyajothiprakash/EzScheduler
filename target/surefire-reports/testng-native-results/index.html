@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 5 failed,  6 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest" hash-for-method="TC_01_navigate_homepage_to_DoctorRegister">TC_01_navigate_homepage_to_DoctorRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest" hash-for-method="TC_01_navigate_homepage_to_Patient_login">TC_01_navigate_homepage_to_Patient_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.PatientPages.PatientTest" hash-for-method="TC_01_navigate_homepage_to_Patient_login">TC_01_navigate_homepage_to_Patient_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.AdminCredentialspage.AdminCredentialsTest" hash-for-method="TC_01_navigate_homepage_to_admin_login">TC_01_navigate_homepage_to_admin_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest" hash-for-method="TC_01_navigate_homepage_to_admin_login">TC_01_navigate_homepage_to_admin_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest" hash-for-method="TC_02_DoctorRegister">TC_02_DoctorRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest" hash-for-method="TC_02_Patientlogin">TC_02_Patientlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.PatientPages.PatientTest" hash-for-method="TC_02_Patientlogin">TC_02_Patientlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest" hash-for-method="TC_02_adminlogin">TC_02_adminlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.AdminCredentialspage.AdminCredentialsTest" hash-for-method="TC_02_adminlogin">TC_02_adminlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest" hash-for-method="TC_03_PatientScheduleAnApp">TC_03_PatientScheduleAnApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest" hash-for-method="TC_01_navigate_homepage_to_DoctorRegister">TC_01_navigate_homepage_to_DoctorRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest" hash-for-method="TC_01_navigate_homepage_to_Doctor_login">TC_01_navigate_homepage_to_Doctor_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest" hash-for-method="TC_01_navigate_homepage_to_Doctor_login">TC_01_navigate_homepage_to_Doctor_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzSchedulerAdminpages.AdminTest" hash-for-method="TC_01_navigate_homepage_to_admin_login">TC_01_navigate_homepage_to_admin_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest" hash-for-method="TC_02_DoctorLogin">TC_02_DoctorLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest" hash-for-method="TC_02_DoctorLogin">TC_02_DoctorLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest" hash-for-method="TC_02_DoctorRegister">TC_02_DoctorRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzSchedulerAdminpages.AdminTest" hash-for-method="TC_02_adminlogin">TC_02_adminlogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest" hash-for-method="TC_03_GenerateSlots">TC_03_GenerateSlots</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sailotech.com.AdminCredentialspage.AdminCredentialsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_admin_login">
+                  </a> <!-- TC_01_navigate_homepage_to_admin_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (41844485ad6d5d975c89ea7ac4a4d034)] -&gt; xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A4GJKOM&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 41844485ad6d5d975c89ea7ac4a4d034
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sailotech.com.AdminCredentialspage.AdminCredentials.navigate_to_Admin_login(AdminCredentials.java:50)
+	at sailotech.com.AdminCredentialspage.AdminCredentialsTest.TC_01_navigate_homepage_to_admin_login(AdminCredentialsTest.java:55)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_Admin_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_DoctorRegister">
+                  </a> <!-- TC_01_navigate_homepage_to_DoctorRegister -->
+                  <span class="method-name">TC_01_navigate_homepage_to_DoctorRegister</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (5089e0bf357cb1593dd7c5b2143bb099)] -&gt; xpath: //*[@id=&quot;app-site&quot;]/div/div/div[3]/div/header/div/ul/li/div/div/div/div[1]/ul/li[2]/div/h5/a[2]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A4GJKOM&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 5089e0bf357cb1593dd7c5b2143bb099
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistration.navigate_homepage_to_doctor_register(DoctorRegistration.java:46)
+	at sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister(DoctorRegistrationTest.java:53)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_DoctorLoginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.PatientPages.PatientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_Patient_login">
+                  </a> <!-- TC_01_navigate_homepage_to_Patient_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_Patient_login</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (78366cd459df340825d9eed3a7befcdf)] -&gt; xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A4GJKOM&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 78366cd459df340825d9eed3a7befcdf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sailotech.com.EzScheduler.PatientPages.PatientLogin.navigate_to_patient_login(PatientLogin.java:46)
+	at sailotech.com.EzScheduler.PatientPages.PatientTest.TC_01_navigate_homepage_to_Patient_login(PatientTest.java:55)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_Patient_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_Patient_login">
+                  </a> <!-- TC_01_navigate_homepage_to_Patient_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_Patient_login</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (ad7e3d1bdb8462b6441b3a1ece2b0259)] -&gt; xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A4GJKOM&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: ad7e3d1bdb8462b6441b3a1ece2b0259
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sailotech.com.EzScheduler.PatientPages.PatientLogin.navigate_to_patient_login(PatientLogin.java:46)
+	at sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_01_navigate_homepage_to_Patient_login(PatientScheduleAnAppTest.java:60)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_Patient_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_admin_login">
+                  </a> <!-- TC_01_navigate_homepage_to_admin_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (829971ac10908808664c57140c6041e2)] -&gt; xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-A4GJKOM&apos;, ip: &apos;192.168.1.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 829971ac10908808664c57140c6041e2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyDoctors.navigate_to_Admin_login(AdminVerifyDoctors.java:55)
+	at sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest.TC_01_navigate_homepage_to_admin_login(AdminVerifyTest.java:55)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_Admin_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sailotech.com.AdminCredentialspage.AdminCredentialsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_adminlogin">
+                  </a> <!-- TC_02_adminlogin -->
+                  <span class="method-name">TC_02_adminlogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method AdminCredentialsTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_AdminLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_DoctorRegister">
+                  </a> <!-- TC_02_DoctorRegister -->
+                  <span class="method-name">TC_02_DoctorRegister</span>
+                  <div class="stack-trace">java.lang.Throwable: Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_DoctorRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.PatientPages.PatientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_Patientlogin">
+                  </a> <!-- TC_02_Patientlogin -->
+                  <span class="method-name">TC_02_Patientlogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_PatientLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_Patientlogin">
+                  </a> <!-- TC_02_Patientlogin -->
+                  <span class="method-name">TC_02_Patientlogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_PatientLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_PatientScheduleAnApp">
+                  </a> <!-- TC_03_PatientScheduleAnApp -->
+                  <span class="method-name">TC_03_PatientScheduleAnApp</span>
+                  <div class="stack-trace">java.lang.Throwable: Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(patient_schedule_an_Appointment)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_adminlogin">
+                  </a> <!-- TC_02_adminlogin -->
+                  <span class="method-name">TC_02_adminlogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method AdminVerifyTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Navigate_homepage_to_AdminLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_Doctor_login">
+                  </a> <!-- TC_01_navigate_homepage_to_Doctor_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_Doctor_login</span>
+                  <em>
+(Navigate_homepage_to_Doctor_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_DoctorLogin">
+                  </a> <!-- TC_02_DoctorLogin -->
+                  <span class="method-name">TC_02_DoctorLogin</span>
+                  <em>
+(Navigate_homepage_to_DoctorLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_GenerateSlots">
+                  </a> <!-- TC_03_GenerateSlots -->
+                  <span class="method-name">TC_03_GenerateSlots</span>
+                  <em>
+(Navigate_GenerateSlots)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_Doctor_login">
+                  </a> <!-- TC_01_navigate_homepage_to_Doctor_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_Doctor_login</span>
+                  <em>
+(Navigate_homepage_to_Doctor_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_DoctorLogin">
+                  </a> <!-- TC_02_DoctorLogin -->
+                  <span class="method-name">TC_02_DoctorLogin</span>
+                  <em>
+(Navigate_homepage_to_DoctorLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sailotech.com.EzSchedulerAdminpages.AdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_admin_login">
+                  </a> <!-- TC_01_navigate_homepage_to_admin_login -->
+                  <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                  <em>
+(Navigate_homepage_to_Admin_loginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_adminlogin">
+                  </a> <!-- TC_02_adminlogin -->
+                  <span class="method-name">TC_02_adminlogin</span>
+                  <em>
+(Navigate_homepage_to_AdminLogin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_navigate_homepage_to_DoctorRegister">
+                  </a> <!-- TC_01_navigate_homepage_to_DoctorRegister -->
+                  <span class="method-name">TC_01_navigate_homepage_to_DoctorRegister</span>
+                  <em>
+(Navigate_homepage_to_PatientLoginRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_DoctorRegister">
+                  </a> <!-- TC_02_DoctorRegister -->
+                  <span class="method-name">TC_02_DoctorRegister</span>
+                  <em>
+(Navigate_DoctorRegister)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sailotech.com.AdminCredentialspage.AdminCredentialsTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.adminTests.AdminTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.basePages.BaseTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.PatientPages.PatientTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest&quot;/&gt;
+      &lt;class name=&quot;sailotech.com.EzSchedulerAdminpages.AdminTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_01_navigate_homepage_to_Patient_login')
+data.setCell(0, 2, 'sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest')
+data.setCell(0, 3, 48177);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_03_GenerateSlots')
+data.setCell(1, 2, 'sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest')
+data.setCell(1, 3, 32663);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_01_navigate_homepage_to_admin_login')
+data.setCell(2, 2, 'sailotech.com.AdminCredentialspage.AdminCredentialsTest')
+data.setCell(2, 3, 19730);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_01_navigate_homepage_to_DoctorRegister')
+data.setCell(3, 2, 'sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest')
+data.setCell(3, 3, 17310);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_02_DoctorRegister')
+data.setCell(4, 2, 'sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest')
+data.setCell(4, 3, 12103);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_01_navigate_homepage_to_admin_login')
+data.setCell(5, 2, 'sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest')
+data.setCell(5, 3, 12070);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_01_navigate_homepage_to_Patient_login')
+data.setCell(6, 2, 'sailotech.com.EzScheduler.PatientPages.PatientTest')
+data.setCell(6, 3, 11890);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_02_DoctorLogin')
+data.setCell(7, 2, 'sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest')
+data.setCell(7, 3, 8155);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_02_DoctorLogin')
+data.setCell(8, 2, 'sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest')
+data.setCell(8, 3, 4623);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_01_navigate_homepage_to_DoctorRegister')
+data.setCell(9, 2, 'sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest')
+data.setCell(9, 3, 4039);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_02_adminlogin')
+data.setCell(10, 2, 'sailotech.com.EzSchedulerAdminpages.AdminTest')
+data.setCell(10, 3, 2564);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_01_navigate_homepage_to_Doctor_login')
+data.setCell(11, 2, 'sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest')
+data.setCell(11, 3, 2484);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_01_navigate_homepage_to_admin_login')
+data.setCell(12, 2, 'sailotech.com.EzSchedulerAdminpages.AdminTest')
+data.setCell(12, 3, 2447);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_01_navigate_homepage_to_Doctor_login')
+data.setCell(13, 2, 'sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest')
+data.setCell(13, 3, 1973);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_02_DoctorRegister')
+data.setCell(14, 2, 'sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_02_adminlogin')
+data.setCell(15, 2, 'sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_02_Patientlogin')
+data.setCell(16, 2, 'sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_03_PatientScheduleAnApp')
+data.setCell(17, 2, 'sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_02_adminlogin')
+data.setCell(18, 2, 'sailotech.com.AdminCredentialspage.AdminCredentialsTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_02_Patientlogin')
+data.setCell(19, 2, 'sailotech.com.EzScheduler.PatientPages.PatientTest')
+data.setCell(19, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.AdminCredentialspage.AdminCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">17968 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                <span class="method-start">18238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_admin_login status=FAILURE method=AdminCredentialsTest.T...)</span>
+                <span class="method-start">38303 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">39788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">57732 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                <span class="method-start">57757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_admin_login status=FAILURE method=AdminVerifyTest.TC_01_...)</span>
+                <span class="method-start">69832 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">342993 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">369772 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_navigate_homepage_to_Doctor_login</span>
+                <span class="method-start">369836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_Doctor_login status=SUCCESS method=DoctorLoginTest.TC_01...)</span>
+                <span class="method-start">372377 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.AdminCredentialspage.AdminCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">372416 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">372429 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TC_02_DoctorLogin</span>
+                <span class="method-start">372432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_02_DoctorLogin status=SUCCESS method=DoctorLoginTest.TC_02_DoctorLogin()[pri:0, ...)</span>
+                <span class="method-start">380591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">380595 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">380597 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">402861 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_navigate_homepage_to_DoctorRegister</span>
+                <span class="method-start">402881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_DoctorRegister status=FAILURE method=DoctorRegistrationT...)</span>
+                <span class="method-start">420194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">501217 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">501218 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">554733 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_navigate_homepage_to_Doctor_login</span>
+                <span class="method-start">554812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_Doctor_login status=SUCCESS method=GenerateSlotsTest.TC_...)</span>
+                <span class="method-start">556789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_02_DoctorLogin</span>
+                <span class="method-start">556794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_02_DoctorLogin status=SUCCESS method=GenerateSlotsTest.TC_02_DoctorLogin()[pri:0...)</span>
+                <span class="method-start">561425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_03_GenerateSlots</span>
+                <span class="method-start">561427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_03_GenerateSlots status=SUCCESS method=GenerateSlotsTest.TC_03_GenerateSlots()[p...)</span>
+                <span class="method-start">594095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">594098 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.PatientPages.PatientTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">594099 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">614411 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_navigate_homepage_to_Patient_login</span>
+                <span class="method-start">614466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_Patient_login status=FAILURE method=PatientTest.TC_01_na...)</span>
+                <span class="method-start">626361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1020455 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1020455 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">1045130 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_navigate_homepage_to_DoctorRegister</span>
+                <span class="method-start">1045315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_DoctorRegister status=SUCCESS method=PatientRegistration...)</span>
+                <span class="method-start">1049359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_02_DoctorRegister</span>
+                <span class="method-start">1049375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_02_DoctorRegister status=SUCCESS method=PatientRegistrationTest.TC_02_DoctorRegi...)</span>
+                <span class="method-start">1061483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1061496 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1061498 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">1106648 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_navigate_homepage_to_Patient_login</span>
+                <span class="method-start">1107064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_Patient_login status=FAILURE method=PatientScheduleAnApp...)</span>
+                <span class="method-start">1155251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1732967 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzSchedulerAdminpages.AdminTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">1732969 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">startRecording</span>
+                <span class="method-start">1789174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_navigate_homepage_to_admin_login</span>
+                <span class="method-start">1789659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_01_navigate_homepage_to_admin_login status=SUCCESS method=AdminTest.TC_01_naviga...)</span>
+                <span class="method-start">1792110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TC_02_adminlogin</span>
+                <span class="method-start">1792113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenShot([TestResult name=TC_02_adminlogin status=SUCCESS method=AdminTest.TC_02_adminlogin()[pri:0, instance...)</span>
+                <span class="method-start">1794682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">1794686 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.AdminCredentialspage.AdminCredentialsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">stopRecording</span>
+                <span class="method-start">1794687 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sailotech.com.EzScheduler.adminTests.AdminTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">stopRecording</span>
+                <span class="method-start">1797845 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608503829149" stop="1608504126648" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1608503877487" stop="1608504101426" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="8e1fa37a-3f3a-4f0f-9ecb-7a4865961539-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_18"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="22120@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608504101665" stop="1608504126243" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="15b265b0-2c2a-47f1-8e80-ea42f131b909-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_19"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="22120@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

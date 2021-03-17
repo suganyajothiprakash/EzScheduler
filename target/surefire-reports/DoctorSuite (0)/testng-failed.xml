@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DoctorSuite (0)]">
+  <test thread-count="5" verbose="0" name="DoctorSuite(failed)">
+    <classes>
+      <class name="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_Doctor_login"/>
+          <include name="TC_02_DoctorLogin"/>
+          <include name="stopRecording"/>
+          <include name="beforeClass"/>
+          <include name="TC_03_GenerateSlots"/>
+          <include name="startRecording"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest -->
+    </classes>
+  </test> <!-- DoctorSuite(failed) -->
+</suite> <!-- Failed suite [DoctorSuite (0)] -->

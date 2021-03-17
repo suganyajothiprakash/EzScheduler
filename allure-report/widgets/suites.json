@@ -1,0 +1,114 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56",
+    "name" : "Default suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 87,
+      "skipped" : 46,
+      "passed" : 192,
+      "unknown" : 0,
+      "total" : 326
+    }
+  }, {
+    "uid" : "495a249fa63b5c8a12c0c5dfcde10b02",
+    "name" : "SmokeTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 17,
+      "skipped" : 7,
+      "passed" : 60,
+      "unknown" : 0,
+      "total" : 84
+    }
+  }, {
+    "uid" : "71d878420738ba92ede094a82c77abb4",
+    "name" : "PatientLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 2,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "b1a8c53a33e7aa02cebb4581eaf8bdd2",
+    "name" : "DoctorSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "940a09faf31371a51747026c9d178f0a",
+    "name" : "Surefire suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1def7d9a5da08b9528362ee0213b0091",
+    "name" : "AdminSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "e6cc17b0d15eb9c0b0af60bb3fd30c00",
+    "name" : "PatientRegistration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c8e523382a81e5301d0d372290dfff24",
+    "name" : "PatientScheduleAnAppontment",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b82762ca4fb7d8fe9838b9b6521d6864",
+    "name" : "AdminVerifyDoctor",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c6fb83bc1165f08b4d504116691b425c",
+    "name" : "DoctorLogin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

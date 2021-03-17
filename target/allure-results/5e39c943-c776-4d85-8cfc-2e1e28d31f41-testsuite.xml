@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1611261811269" stop="1611262068630" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AdminSuite : AdminSuite</name>
+    <title>AdminSuite : AdminSuite</title>
+    <test-cases>
+        <test-case start="1611261830208" stop="1611261836103" status="passed">
+            <name>TC_08_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate to Admin Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="8bf38b19-bdb4-4dea-be16-9a6988ceab14-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Adminlogintest"/>
+                <label name="testMethod" value="TC_08_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611261857418" stop="1611261861906" status="passed">
+            <name>TC_08_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate to Admin Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="9c78e988-b4ff-4336-baae-4be96a2f01d9-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_08_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611261861938" stop="1611261909901" status="passed">
+            <name>TC_11_Admin_VerifyDoctor_negativescenarios</name>
+            <description type="text">Admin checks verified doctors Details</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="59f13a99-fa17-47e2-b6f9-db908f15d545-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_11_Admin_VerifyDoctor_negativescenarios"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_11"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611261909917" stop="1611261913932" status="passed">
+            <name>TC_10_AdminLogout</name>
+            <description type="text">Admin Logout from EzScheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="f3d28637-d224-4dfe-913f-850c4a61bdaf-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_10_AdminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_10"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611261930246" stop="1611261934911" status="passed">
+            <name>TC_08_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate to Admin Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="f7009e88-806b-4dda-bcca-43b50e5e1295-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_08_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611261934928" stop="1611262033524" status="passed">
+            <name>TC_09_AdminVerifyDoctor</name>
+            <description type="text">After Registration Admin is Verifying the Unverified Doctors</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="7bc16946-88b5-4cbd-a26d-a98b66bf9074-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_09_AdminVerifyDoctor"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_09"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611262033538" stop="1611262062992" status="passed">
+            <name>TC_10_AdminLogout</name>
+            <description type="text">Admin Logout from EzScheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="08442805-0b60-4b4a-8456-ed9a27c412b7-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_10_AdminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_10"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29924@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

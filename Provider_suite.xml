@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="DoctorSuite">
+	<test thread-count="5" verbose="2" name="DoctorSuite">
+
+		<classes>
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providerlogin_test" />
+			<class
+				name="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test" />
+		</classes>
+
+	</test>
+</suite>

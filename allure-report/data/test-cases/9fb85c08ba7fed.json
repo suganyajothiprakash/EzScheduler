@@ -1,0 +1,167 @@
+{
+  "uid" : "9fb85c08ba7fed",
+  "name" : "Navigate_homepage_to_AdminLogin",
+  "fullName" : "com.sailotech.ezscheduler.login_testpages.AdminLoginTest.TC_02_adminlogin",
+  "historyId" : "5e4415a16c7426c1d681b03074496fd4",
+  "time" : {
+    "start" : 1608757449015,
+    "stop" : 1608757453424,
+    "duration" : 4409
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608757279950,
+      "stop" : 1608757296578,
+      "duration" : 16628
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608757296579,
+      "stop" : 1608757296914,
+      "duration" : 335
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608757453428,
+      "stop" : 1608757453428,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608757453431,
+      "stop" : 1608757453431,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1608757453431,
+      "stop" : 1608757453634,
+      "duration" : 203
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.login_testpages.AdminLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.login_testpages.AdminLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_adminlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.login_testpages.AdminLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "22200@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12fb11dd1f51d417",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608756873762,
+        "stop" : 1608756877815,
+        "duration" : 4053
+      }
+    }, {
+      "uid" : "5ef1a2adb17a346f",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminLoginTest.TC_02_adminlogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.AdminLoginTest@62525dd3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608756807604,
+        "stop" : 1608756807607,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "eb7110b7b68df02e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608750263758,
+        "stop" : 1608750267603,
+        "duration" : 3845
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fb85c08ba7fed.json",
+  "parameterValues" : [ ]
+}

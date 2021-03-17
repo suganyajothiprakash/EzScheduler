@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="com.sailotech.ezscheduler.testpages.Providergenerateslotstest">
+        <methods>
+          <include name="stopRecording"/>
+          <include name="beforeClass"/>
+          <include name="TC_02_DoctorLogin"/>
+          <include name="TC_04_DoctorLogout"/>
+          <include name="TC_01_Navigate_To_DoctorLoginRegister"/>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="startRecording"/>
+          <include name="TC_03_To_GenerateSlots"/>
+        </methods>
+      </class> <!-- com.sailotech.ezscheduler.testpages.Providergenerateslotstest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

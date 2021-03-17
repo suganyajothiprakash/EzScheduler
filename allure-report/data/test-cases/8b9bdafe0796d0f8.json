@@ -1,0 +1,140 @@
+{
+  "uid" : "8b9bdafe0796d0f8",
+  "name" : "Navigate_homepage_to_PatientLogin",
+  "fullName" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_02_Patientlogin",
+  "historyId" : "1e1229a7edf9df43635099e7ac3e9bb4",
+  "time" : {
+    "start" : 1607805759656,
+    "stop" : 1607805761503,
+    "duration" : 1847
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607805738059,
+      "stop" : 1607805758119,
+      "duration" : 20060
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607805758119,
+      "stop" : 1607805758133,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607805804651,
+      "stop" : 1607805804651,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607805804651,
+      "stop" : 1607805804700,
+      "duration" : 49
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607805761504,
+      "stop" : 1607805761504,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_Patientlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PatientScheduleAnAppontment"
+  }, {
+    "name" : "suite",
+    "value" : "PatientScheduleAnAppontment"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "36248@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b9bdafe0796d0f8.json",
+  "parameterValues" : [ ]
+}

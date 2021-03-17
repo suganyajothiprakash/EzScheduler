@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1610382820324" stop="1610383109510" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>PatientLogin : PatientLogin</name>
+    <title>PatientLogin : PatientLogin</title>
+    <test-cases>
+        <test-case start="1610382884425" stop="1610382887858" status="passed">
+            <name>TC_01_Navigate_To_PatientRegister</name>
+            <description type="text">Navigate_To_PatientLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="85937bf5-e11a-4920-be6e-ed38603ae989-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"/>
+                <label name="testMethod" value="TC_01_Navigate_To_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_11"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610382888249" stop="1610382899545" status="passed">
+            <name>TC_02_PatientRegistration</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="313f60eb-7178-4138-afba-dfa33630d330-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"/>
+                <label name="testMethod" value="TC_02_PatientRegistration"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_12"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383005592" stop="1610383009311" status="passed">
+            <name>TC_01_Navigate_To_Patient_LoginRegister</name>
+            <description type="text">Navigate_To_Patient_LoginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="2d54cc07-7852-4a4a-b222-7d44247c2c99-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerlogintest"/>
+                <label name="testMethod" value="TC_01_Navigate_To_Patient_LoginRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_13"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383009324" stop="1610383017510" status="passed">
+            <name>TC_02_PatientLogin</name>
+            <description type="text">Navigate_To_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="4ee7a1b3-6c63-4076-a178-93f55b8fb6d5-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerlogintest"/>
+                <label name="testMethod" value="TC_02_PatientLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_14"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383056857" stop="1610383060574" status="passed">
+            <name>TC_01_Navigate_To_Patient_LoginRegister</name>
+            <description type="text">Navigate_To_Patient_LoginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="493e2330-44e9-4392-8ac6-d7eee412221b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"/>
+                <label name="testMethod" value="TC_01_Navigate_To_Patient_LoginRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_13"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383060582" stop="1610383068896" status="passed">
+            <name>TC_02_PatientLogin</name>
+            <description type="text">Navigate_To_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="644d649a-eb12-47c2-93b8-365211b1b1dc-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"/>
+                <label name="testMethod" value="TC_02_PatientLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_14"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383068908" stop="1610383103010" status="passed">
+            <name>TC_03_PatientScheduleAnAppointmant</name>
+            <description type="text">patient_schedule_an_Appointment</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="6ea87bca-c85b-4bb1-b3f1-81c6a95aad59-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"/>
+                <label name="testMethod" value="TC_03_PatientScheduleAnAppointmant"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_15"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610383103020" stop="1610383107863" status="passed">
+            <name>TC_03_PatientLogout</name>
+            <description type="text">patientLogout</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="e44baadc-1e76-4a8e-9f38-f04a373a48fe-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"/>
+                <label name="testMethod" value="TC_03_PatientLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_16"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="47012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

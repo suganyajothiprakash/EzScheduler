@@ -1,0 +1,342 @@
+{
+  "uid" : "2d971f4b96a271a2",
+  "name" : "Provider Logout from Ezscheduler Website",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest.TC_04_ProviderLogout",
+  "historyId" : "2f124c7f3f8fa49a43038585ba9fe009",
+  "time" : {
+    "start" : 1613427797765,
+    "stop" : 1613427797765,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@467cd4b9] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@467cd4b9] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613427752825,
+      "stop" : 1613427770186,
+      "duration" : 17361
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1613427770186,
+      "stop" : 1613427770187,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1613427770187,
+      "stop" : 1613427770454,
+      "duration" : 267
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613427797773,
+      "stop" : 1613427797872,
+      "duration" : 99
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1613427797873,
+      "stop" : 1613427801484,
+      "duration" : 3611
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_04_ProviderLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "29024@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb17071238b86ef3",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@69a3bf40] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613427667400,
+        "stop" : 1613427667400,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bde5d681b5b3e0d2",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@70df41f9] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613427573164,
+        "stop" : 1613427573164,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c5c2e36e78c1dfa",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@467cd4b9] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613427461047,
+        "stop" : 1613427461048,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ec02624f55786c80",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@4fb99927] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613427362748,
+        "stop" : 1613427362748,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "832c5a1fc4cc7430",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613427250286,
+        "stop" : 1613427250286,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1070e29508395ac3",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613426970505,
+        "stop" : 1613426970505,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7dcac06ec5f5aaf",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613426778544,
+        "stop" : 1613426778544,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84b7c1af0eb7ec6f",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@69a3bf40] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613425990078,
+        "stop" : 1613425990078,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51abd0cfe31ab1c9",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613425880644,
+        "stop" : 1613425880645,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "42c422df2e0f98af",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2a341e3d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613425806079,
+        "stop" : 1613425806080,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2bc3d39015658b3b",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@70df41f9] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613425670931,
+        "stop" : 1613425670931,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f6aeb63431b4d33",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@47fce2c4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612212191107,
+        "stop" : 1612212191107,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db4c25df42cb4abc",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@1ae23815] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612211758627,
+        "stop" : 1612211758627,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2afa8b7a01e92250",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@3c38e2bf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612211548735,
+        "stop" : 1612211548735,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dbf7ece05feae02a",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@47fce2c4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612211483574,
+        "stop" : 1612211483574,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13f9bf3d50f943ac",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@2b76ecd5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612211388287,
+        "stop" : 1612211388287,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "188cc2d392e8cfdb",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@1b868ef0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612211161078,
+        "stop" : 1612211161078,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "280171cf3ef33aa5",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@5bc40f5d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612210931292,
+        "stop" : 1612210931292,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d21503011294f418",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@6520625f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612210888748,
+        "stop" : 1612210888748,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4a106a9c0798f3ec",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@3c205259] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612210700705,
+        "stop" : 1612210700705,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb44c51c31ef4085",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@5bc40f5d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612210587990,
+        "stop" : 1612210587990,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c55a6cb7a65a49",
+      "status" : "skipped",
+      "statusDetails" : "Method ProviderrcancelappointmentsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProviderrcancelappointmentsTest@1640a6b5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612210460865,
+        "stop" : 1612210460865,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d971f4b96a271a2.json",
+  "parameterValues" : [ ]
+}

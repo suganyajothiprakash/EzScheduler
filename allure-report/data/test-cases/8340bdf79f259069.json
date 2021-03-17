@@ -1,0 +1,340 @@
+{
+  "uid" : "8340bdf79f259069",
+  "name" : "Navigate_homepage_to_Doctor_loginRegister",
+  "fullName" : "sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest.TC_01_navigate_homepage_to_Doctor_login",
+  "historyId" : "5859ebe1cf58696e34630a6e534a917b",
+  "time" : {
+    "start" : 1608731164899,
+    "stop" : 1608731166959,
+    "duration" : 2060
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608731166967,
+      "stop" : 1608731166967,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01_navigate_homepage_to_Doctor_login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "12340@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0e4cacb426ea70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608727952904,
+        "stop" : 1608727955174,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "641d0a8001b32171",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608695890163,
+        "stop" : 1608695892118,
+        "duration" : 1955
+      }
+    }, {
+      "uid" : "c49bf6f5411a5006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608694715666,
+        "stop" : 1608694718811,
+        "duration" : 3145
+      }
+    }, {
+      "uid" : "99657d3c04c64dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608679023169,
+        "stop" : 1608679025052,
+        "duration" : 1883
+      }
+    }, {
+      "uid" : "b63978e14e39557a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608678866130,
+        "stop" : 1608678867930,
+        "duration" : 1800
+      }
+    }, {
+      "uid" : "f6fa7f242a8290dd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (df5a494547458b086ddcb1ac2cebdf87)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: df5a494547458b086ddcb1ac2cebdf87",
+      "time" : {
+        "start" : 1608677918117,
+        "stop" : 1608677929782,
+        "duration" : 11665
+      }
+    }, {
+      "uid" : "ad97a5c325a97a0c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (89e74bb0e211fcc7a8a37455f1b15db9)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 89e74bb0e211fcc7a8a37455f1b15db9",
+      "time" : {
+        "start" : 1608677854608,
+        "stop" : 1608677866186,
+        "duration" : 11578
+      }
+    }, {
+      "uid" : "4fdae6143d2fb0cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608675303369,
+        "stop" : 1608675305341,
+        "duration" : 1972
+      }
+    }, {
+      "uid" : "b1ec237361cf2183",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608667933197,
+        "stop" : 1608667935329,
+        "duration" : 2132
+      }
+    }, {
+      "uid" : "2f96d24ea5550af2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608522022161,
+        "stop" : 1608522024192,
+        "duration" : 2031
+      }
+    }, {
+      "uid" : "97dd275ccd47c828",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608507381509,
+        "stop" : 1608507383283,
+        "duration" : 1774
+      }
+    }, {
+      "uid" : "cc39993f52fdbf01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608505443721,
+        "stop" : 1608505445483,
+        "duration" : 1762
+      }
+    }, {
+      "uid" : "e72723e06f385ed8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608504987746,
+        "stop" : 1608504989993,
+        "duration" : 2247
+      }
+    }, {
+      "uid" : "90b149cb51398c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608426968047,
+        "stop" : 1608426970094,
+        "duration" : 2047
+      }
+    }, {
+      "uid" : "60311058081caec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608348415249,
+        "stop" : 1608348417241,
+        "duration" : 1992
+      }
+    }, {
+      "uid" : "659b3222ae4e8166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608335782937,
+        "stop" : 1608335784638,
+        "duration" : 1701
+      }
+    }, {
+      "uid" : "9934dc6eb9994e2f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (a1a97b374151bbca915340de80cac1e3)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: a1a97b374151bbca915340de80cac1e3",
+      "time" : {
+        "start" : 1608329968540,
+        "stop" : 1608329980266,
+        "duration" : 11726
+      }
+    }, {
+      "uid" : "7ca01802f87f507f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608318873770,
+        "stop" : 1608318875711,
+        "duration" : 1941
+      }
+    }, {
+      "uid" : "70a5b02b916bd295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608315462952,
+        "stop" : 1608315464886,
+        "duration" : 1934
+      }
+    }, {
+      "uid" : "e6e0dea6d9b38cb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608245381440,
+        "stop" : 1608245383346,
+        "duration" : 1906
+      }
+    }, {
+      "uid" : "a8e2ba5b49d1d4d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608245104515,
+        "stop" : 1608245145387,
+        "duration" : 40872
+      }
+    }, {
+      "uid" : "a83a365f4dc2fca1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608245018493,
+        "stop" : 1608245020347,
+        "duration" : 1854
+      }
+    }, {
+      "uid" : "5b3a90ab04a5df5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608244967135,
+        "stop" : 1608244969053,
+        "duration" : 1918
+      }
+    }, {
+      "uid" : "4eeeb6f6962628d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608244899900,
+        "stop" : 1608244901808,
+        "duration" : 1908
+      }
+    }, {
+      "uid" : "bbf0196b45c20886",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608243721448,
+        "stop" : 1608243723280,
+        "duration" : 1832
+      }
+    }, {
+      "uid" : "1b0890092c1fe4ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608243325319,
+        "stop" : 1608243335880,
+        "duration" : 10561
+      }
+    }, {
+      "uid" : "4e9139e4e61bb728",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (8201ee5594dc716283ea96ce580fcfdf)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 8201ee5594dc716283ea96ce580fcfdf",
+      "time" : {
+        "start" : 1608243263666,
+        "stop" : 1608243275189,
+        "duration" : 11523
+      }
+    }, {
+      "uid" : "70fd7a1b156e49eb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (a8638cc5b23fa3986fd6f94cb81ea4fa)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: a8638cc5b23fa3986fd6f94cb81ea4fa",
+      "time" : {
+        "start" : 1608243124015,
+        "stop" : 1608243133734,
+        "duration" : 9719
+      }
+    }, {
+      "uid" : "e54a9c709d091a7e",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <span class=\"app-notification-menu\">...</span> is not clickable at point (943, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss13\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 6fc5a88edc5e55ab74239c09210b9581",
+      "time" : {
+        "start" : 1608243064410,
+        "stop" : 1608243065574,
+        "duration" : 1164
+      }
+    }, {
+      "uid" : "d5acb83c0392408d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608241047809,
+        "stop" : 1608241060572,
+        "duration" : 12763
+      }
+    }, {
+      "uid" : "103ea471532cfada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608240777898,
+        "stop" : 1608240779751,
+        "duration" : 1853
+      }
+    }, {
+      "uid" : "d9c59f308058a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608240586210,
+        "stop" : 1608240669315,
+        "duration" : 83105
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8340bdf79f259069.json",
+  "parameterValues" : [ ]
+}

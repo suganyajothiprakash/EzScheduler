@@ -1,0 +1,218 @@
+{
+  "uid" : "a4a0b5677f54e2b4",
+  "name" : "Admin checking Verified Doctor details (Negativescenarios)",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest.TC_11_Admin_VerifyDoctor_negativescenarios",
+  "historyId" : "5df6c89d619d12bedbe538fb1ce4f762",
+  "time" : {
+    "start" : 1611957033014,
+    "stop" : 1611957036587,
+    "duration" : 3573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611957008193,
+      "stop" : 1611957025817,
+      "duration" : 17624
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1611957025818,
+      "stop" : 1611957025818,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1611957025818,
+      "stop" : 1611957026118,
+      "duration" : 300
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1611957033004,
+      "stop" : 1611957033004,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611957225493,
+      "stop" : 1611957225613,
+      "duration" : 120
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611957036591,
+      "stop" : 1611957036591,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611957225614,
+      "stop" : 1611957228901,
+      "duration" : 3287
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_11_Admin_VerifyDoctor_negativescenarios"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Verifieddoctest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "17412@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f847bd546bfff57e",
+      "status" : "skipped",
+      "statusDetails" : "Method Verifieddoctest.TC_11_Admin_VerifyDoctor_negativescenarios()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Verifieddoctest@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611956991280,
+        "stop" : 1611956991280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b46dc8a40ae7133",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //*[@id=\\\"app-site\\\"]/div/div/div[3]/main/div/div/div/div/div/div[2]/div/div/div[1]/div/div/table/tbody/tr[1]/td[7]/a[1]/button because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\\\"app-site\\\"]/div/div/div[3]/main/div/div/div/div/div/div[2]/div/div/div[1]/div/div/table/tbody/tr[1]/td[7]/a[1]/button' is not a valid XPath expression.\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: b34ff6ab78b49cb67707ee6e11613cf0\n*** Element info: {Using=xpath, value=//*[@id=\\\"app-site\\\"]/div/div/div[3]/main/div/div/div/div/div/div[2]/div/div/div[1]/div/div/table/tbody/tr[1]/td[7]/a[1]/button}",
+      "time" : {
+        "start" : 1611956889716,
+        "stop" : 1611956893033,
+        "duration" : 3317
+      }
+    }, {
+      "uid" : "bde41a9e423b27f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611956688237,
+        "stop" : 1611956691350,
+        "duration" : 3113
+      }
+    }, {
+      "uid" : "db749a46420a9d67",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1]/div/div/table/tbody/tr[0]/td[7]/a[1]/button[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 05a132e99497059a09a364ab704e7b57\n*** Element info: {Using=xpath, value=//div[1]/div/div/table/tbody/tr[0]/td[7]/a[1]/button[1]}",
+      "time" : {
+        "start" : 1611956479316,
+        "stop" : 1611956484665,
+        "duration" : 5349
+      }
+    }, {
+      "uid" : "b84f581e1f4815d8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[1]/div/div/table/tbody/tr[0]/td[7]/a[1]/button[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 831ecb149ce947cbb24fd8f33c3b60e6\n*** Element info: {Using=xpath, value=//div[1]/div/div/table/tbody/tr[0]/td[7]/a[1]/button[1]}",
+      "time" : {
+        "start" : 1611956329073,
+        "stop" : 1611956333079,
+        "duration" : 4006
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4a0b5677f54e2b4.json",
+  "parameterValues" : [ ]
+}

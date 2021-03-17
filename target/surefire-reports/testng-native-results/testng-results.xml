@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="5" ignored="0" total="20" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1797952" started-at="2020-12-06T13:31:56Z" finished-at="2020-12-06T14:01:54Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1797952" started-at="2020-12-06T13:31:56Z" finished-at="2020-12-06T14:01:54Z">
+      <class name="sailotech.com.EzSchedulerAdminpages.AdminTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="beforeClass" is-config="true" duration-ms="56205" started-at="2020-12-06T14:00:49Z" finished-at="2020-12-06T14:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="startRecording" is-config="true" duration-ms="485" started-at="2020-12-06T14:01:45Z" finished-at="2020-12-06T14:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="TC_01_navigate_homepage_to_admin_login" duration-ms="2447" started-at="2020-12-06T14:01:45Z" description="Navigate_homepage_to_Admin_loginRegister" finished-at="2020-12-06T14:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_admin_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="screenShot" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:48Z" finished-at="2020-12-06T14:01:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_admin_login status=SUCCESS method=AdminTest.TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="TC_02_adminlogin()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="TC_02_adminlogin" duration-ms="2564" started-at="2020-12-06T14:01:48Z" description="Navigate_homepage_to_AdminLogin" depends-on-methods="sailotech.com.EzSchedulerAdminpages.AdminTest.TC_01_navigate_homepage_to_admin_login" finished-at="2020-12-06T14:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_adminlogin -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T14:01:50Z" finished-at="2020-12-06T14:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_adminlogin status=SUCCESS method=AdminTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-06T14:01:50Z" finished-at="2020-12-06T14:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzSchedulerAdminpages.AdminTest -->
+      <class name="sailotech.com.EzScheduler.PatientPages.PatientTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="beforeClass" is-config="true" duration-ms="20312" started-at="2020-12-06T13:41:50Z" finished-at="2020-12-06T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="startRecording" is-config="true" duration-ms="55" started-at="2020-12-06T13:42:10Z" finished-at="2020-12-06T13:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="TC_01_navigate_homepage_to_Patient_login()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="TC_01_navigate_homepage_to_Patient_login" duration-ms="11890" started-at="2020-12-06T13:42:10Z" description="Navigate_homepage_to_Patient_loginRegister" finished-at="2020-12-06T13:42:22Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (78366cd459df340825d9eed3a7befcdf)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 78366cd459df340825d9eed3a7befcdf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (78366cd459df340825d9eed3a7befcdf)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 78366cd459df340825d9eed3a7befcdf
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at sailotech.com.EzScheduler.PatientPages.PatientLogin.navigate_to_patient_login(PatientLogin.java:46)
+at sailotech.com.EzScheduler.PatientPages.PatientTest.TC_01_navigate_homepage_to_Patient_login(PatientTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_Patient_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="screenShot" is-config="true" duration-ms="394076" started-at="2020-12-06T13:42:22Z" finished-at="2020-12-06T13:48:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_Patient_login status=FAILURE method=PatientTest.TC_01_navigate_homepage_to_Patient_login()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="SKIP" signature="TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="TC_02_Patientlogin" duration-ms="0" started-at="2020-12-06T13:48:56Z" description="Navigate_homepage_to_PatientLogin" depends-on-methods="sailotech.com.EzScheduler.PatientPages.PatientTest.TC_01_navigate_homepage_to_Patient_login" finished-at="2020-12-06T13:48:56Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Patientlogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-12-06T13:48:56Z" finished-at="2020-12-06T13:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.PatientPages.PatientTest -->
+      <class name="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="beforeClass" is-config="true" duration-ms="24674" started-at="2020-12-06T13:48:56Z" finished-at="2020-12-06T13:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="startRecording" is-config="true" duration-ms="184" started-at="2020-12-06T13:49:21Z" finished-at="2020-12-06T13:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_01_navigate_homepage_to_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="TC_01_navigate_homepage_to_DoctorRegister" duration-ms="4039" started-at="2020-12-06T13:49:21Z" description="Navigate_homepage_to_PatientLoginRegister" finished-at="2020-12-06T13:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_DoctorRegister -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T13:49:25Z" finished-at="2020-12-06T13:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_DoctorRegister status=SUCCESS method=PatientRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="TC_02_DoctorRegister" duration-ms="12103" started-at="2020-12-06T13:49:25Z" description="Navigate_DoctorRegister" depends-on-methods="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister" finished-at="2020-12-06T13:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_DoctorRegister -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="screenShot" is-config="true" duration-ms="3" started-at="2020-12-06T13:49:37Z" finished-at="2020-12-06T13:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_DoctorRegister status=SUCCESS method=PatientRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest@69c335c4]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-12-06T13:49:37Z" finished-at="2020-12-06T13:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest -->
+      <class name="sailotech.com.AdminCredentialspage.AdminCredentialsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="beforeClass" is-config="true" duration-ms="17967" started-at="2020-12-06T13:31:56Z" finished-at="2020-12-06T13:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="startRecording" is-config="true" duration-ms="249" started-at="2020-12-06T13:32:14Z" finished-at="2020-12-06T13:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="TC_01_navigate_homepage_to_admin_login" duration-ms="19730" started-at="2020-12-06T13:32:14Z" description="Navigate_homepage_to_Admin_loginRegister" finished-at="2020-12-06T13:32:34Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (41844485ad6d5d975c89ea7ac4a4d034)] -> xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 41844485ad6d5d975c89ea7ac4a4d034]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (41844485ad6d5d975c89ea7ac4a4d034)] -> xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 41844485ad6d5d975c89ea7ac4a4d034
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at sailotech.com.AdminCredentialspage.AdminCredentials.navigate_to_Admin_login(AdminCredentials.java:50)
+at sailotech.com.AdminCredentialspage.AdminCredentialsTest.TC_01_navigate_homepage_to_admin_login(AdminCredentialsTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_admin_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="screenShot" is-config="true" duration-ms="1460" started-at="2020-12-06T13:32:34Z" finished-at="2020-12-06T13:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_admin_login status=FAILURE method=AdminCredentialsTest.TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="SKIP" signature="TC_02_adminlogin()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="TC_02_adminlogin" duration-ms="0" started-at="2020-12-06T13:38:08Z" description="Navigate_homepage_to_AdminLogin" depends-on-methods="sailotech.com.AdminCredentialspage.AdminCredentialsTest.TC_01_navigate_homepage_to_admin_login" finished-at="2020-12-06T13:38:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AdminCredentialsTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AdminCredentialsTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_adminlogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="afterClass" is-config="true" duration-ms="3" started-at="2020-12-06T13:38:08Z" finished-at="2020-12-06T13:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="stopRecording()[pri:0, instance:sailotech.com.AdminCredentialspage.AdminCredentialsTest@52518ee1]" name="stopRecording" is-config="true" duration-ms="3158" started-at="2020-12-06T14:01:50Z" finished-at="2020-12-06T14:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="FAIL" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.adminTests.AdminTest@17d837ab]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:53Z" finished-at="2020-12-06T14:01:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at sailotech.com.EzScheduler.adminPages.RepositoryClass.stopRecording(RepositoryClass.java:67)
+at sailotech.com.EzScheduler.adminTests.AdminTest.stopRecording(AdminTest.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzSchedulerAdminpages.AdminTest@7236213e]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+        <test-method status="SKIP" signature="stopRecording()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00]" name="stopRecording" is-config="true" duration-ms="0" started-at="2020-12-06T14:01:54Z" finished-at="2020-12-06T14:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecording -->
+      </class> <!-- sailotech.com.AdminCredentialspage.AdminCredentialsTest -->
+      <class name="sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="beforeClass" is-config="true" duration-ms="26779" started-at="2020-12-06T13:37:39Z" finished-at="2020-12-06T13:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="startRecording" is-config="true" duration-ms="63" started-at="2020-12-06T13:38:05Z" finished-at="2020-12-06T13:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_01_navigate_homepage_to_Doctor_login()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="TC_01_navigate_homepage_to_Doctor_login" duration-ms="2484" started-at="2020-12-06T13:38:05Z" description="Navigate_homepage_to_Doctor_loginRegister" finished-at="2020-12-06T13:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_Doctor_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T13:38:08Z" finished-at="2020-12-06T13:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_Doctor_login status=SUCCESS method=DoctorLoginTest.TC_01_navigate_homepage_to_Doctor_login()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="TC_02_DoctorLogin()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="TC_02_DoctorLogin" duration-ms="8155" started-at="2020-12-06T13:38:08Z" description="Navigate_homepage_to_DoctorLogin" depends-on-methods="sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest.TC_01_navigate_homepage_to_Doctor_login" finished-at="2020-12-06T13:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_DoctorLogin -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T13:38:16Z" finished-at="2020-12-06T13:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_DoctorLogin status=SUCCESS method=DoctorLoginTest.TC_02_DoctorLogin()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest@1a4564a2]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-06T13:38:16Z" finished-at="2020-12-06T13:38:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.DoctorLoginPages.DoctorLoginTest -->
+      <class name="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="beforeClass" is-config="true" duration-ms="53515" started-at="2020-12-06T13:40:17Z" finished-at="2020-12-06T13:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="startRecording" is-config="true" duration-ms="78" started-at="2020-12-06T13:41:10Z" finished-at="2020-12-06T13:41:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="PASS" signature="TC_01_navigate_homepage_to_Doctor_login()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="TC_01_navigate_homepage_to_Doctor_login" duration-ms="1973" started-at="2020-12-06T13:41:10Z" description="Navigate_homepage_to_Doctor_loginRegister" finished-at="2020-12-06T13:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_Doctor_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T13:41:12Z" finished-at="2020-12-06T13:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_Doctor_login status=SUCCESS method=GenerateSlotsTest.TC_01_navigate_homepage_to_Doctor_login()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="TC_02_DoctorLogin()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="TC_02_DoctorLogin" duration-ms="4623" started-at="2020-12-06T13:41:12Z" description="Navigate_homepage_to_DoctorLogin" depends-on-methods="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest.TC_01_navigate_homepage_to_Doctor_login" finished-at="2020-12-06T13:41:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_DoctorLogin -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="screenShot" is-config="true" duration-ms="0" started-at="2020-12-06T13:41:17Z" finished-at="2020-12-06T13:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_02_DoctorLogin status=SUCCESS method=GenerateSlotsTest.TC_02_DoctorLogin()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="TC_03_GenerateSlots" duration-ms="32663" started-at="2020-12-06T13:41:17Z" description="Navigate_GenerateSlots" depends-on-methods="sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest.TC_02_DoctorLogin" finished-at="2020-12-06T13:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_GenerateSlots -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="screenShot" is-config="true" duration-ms="1" started-at="2020-12-06T13:41:50Z" finished-at="2020-12-06T13:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_03_GenerateSlots status=SUCCESS method=GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4b8ac512]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-06T13:41:50Z" finished-at="2020-12-06T13:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest -->
+      <class name="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="beforeClass" is-config="true" duration-ms="22263" started-at="2020-12-06T13:38:16Z" finished-at="2020-12-06T13:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="startRecording" is-config="true" duration-ms="19" started-at="2020-12-06T13:38:38Z" finished-at="2020-12-06T13:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="TC_01_navigate_homepage_to_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="TC_01_navigate_homepage_to_DoctorRegister" duration-ms="17310" started-at="2020-12-06T13:38:38Z" description="Navigate_homepage_to_DoctorLoginRegister" finished-at="2020-12-06T13:38:56Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (5089e0bf357cb1593dd7c5b2143bb099)] -> xpath: //*[@id="app-site"]/div/div/div[3]/div/header/div/ul/li/div/div/div/div[1]/ul/li[2]/div/h5/a[2]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 5089e0bf357cb1593dd7c5b2143bb099]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (5089e0bf357cb1593dd7c5b2143bb099)] -> xpath: //*[@id="app-site"]/div/div/div[3]/div/header/div/ul/li/div/div/div/div[1]/ul/li[2]/div/h5/a[2]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 5089e0bf357cb1593dd7c5b2143bb099
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistration.navigate_homepage_to_doctor_register(DoctorRegistration.java:46)
+at sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister(DoctorRegistrationTest.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_DoctorRegister -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="screenShot" is-config="true" duration-ms="81011" started-at="2020-12-06T13:38:56Z" finished-at="2020-12-06T13:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_DoctorRegister status=FAILURE method=DoctorRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="SKIP" signature="TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="TC_02_DoctorRegister" duration-ms="0" started-at="2020-12-06T13:40:17Z" description="Navigate_DoctorRegister" depends-on-methods="sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest.TC_01_navigate_homepage_to_DoctorRegister" finished-at="2020-12-06T13:40:17Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_DoctorRegister -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest@157267db]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-12-06T13:40:17Z" finished-at="2020-12-06T13:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.DoctorRegistration.DoctorRegistrationTest -->
+      <class name="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="beforeClass" is-config="true" duration-ms="45150" started-at="2020-12-06T13:49:37Z" finished-at="2020-12-06T13:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="startRecording" is-config="true" duration-ms="415" started-at="2020-12-06T13:50:22Z" finished-at="2020-12-06T13:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="TC_01_navigate_homepage_to_Patient_login()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="TC_01_navigate_homepage_to_Patient_login" duration-ms="48177" started-at="2020-12-06T13:50:23Z" description="Navigate_homepage_to_Patient_loginRegister" finished-at="2020-12-06T13:51:11Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (ad7e3d1bdb8462b6441b3a1ece2b0259)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: ad7e3d1bdb8462b6441b3a1ece2b0259]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (ad7e3d1bdb8462b6441b3a1ece2b0259)] -> xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[1]/h5[1]/a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: ad7e3d1bdb8462b6441b3a1ece2b0259
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at sailotech.com.EzScheduler.PatientPages.PatientLogin.navigate_to_patient_login(PatientLogin.java:46)
+at sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_01_navigate_homepage_to_Patient_login(PatientScheduleAnAppTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_Patient_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="screenShot" is-config="true" duration-ms="577663" started-at="2020-12-06T13:51:11Z" finished-at="2020-12-06T14:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_Patient_login status=FAILURE method=PatientScheduleAnAppTest.TC_01_navigate_homepage_to_Patient_login()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="SKIP" signature="TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="TC_02_Patientlogin" duration-ms="0" started-at="2020-12-06T14:00:49Z" description="Navigate_homepage_to_PatientLogin" depends-on-methods="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_01_navigate_homepage_to_Patient_login" finished-at="2020-12-06T14:00:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Patientlogin -->
+        <test-method status="SKIP" signature="TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="TC_03_PatientScheduleAnApp" duration-ms="0" started-at="2020-12-06T14:00:49Z" description="patient_schedule_an_Appointment" depends-on-methods="sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_02_Patientlogin" finished-at="2020-12-06T14:00:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_PatientScheduleAnApp -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-12-06T14:00:49Z" finished-at="2020-12-06T14:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest -->
+      <class name="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="beforeClass" is-config="true" duration-ms="17943" started-at="2020-12-06T13:32:35Z" finished-at="2020-12-06T13:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startRecording()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="startRecording" is-config="true" duration-ms="24" started-at="2020-12-06T13:32:53Z" finished-at="2020-12-06T13:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecording -->
+        <test-method status="FAIL" signature="TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="TC_01_navigate_homepage_to_admin_login" duration-ms="12070" started-at="2020-12-06T13:32:53Z" description="Navigate_homepage_to_Admin_loginRegister" finished-at="2020-12-06T13:33:05Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (829971ac10908808664c57140c6041e2)] -> xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 829971ac10908808664c57140c6041e2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (829971ac10908808664c57140c6041e2)] -> xpath: //li[3]//div[1]//h5[1]//a[1]] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 829971ac10908808664c57140c6041e2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyDoctors.navigate_to_Admin_login(AdminVerifyDoctors.java:55)
+at sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest.TC_01_navigate_homepage_to_admin_login(AdminVerifyTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_navigate_homepage_to_admin_login -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="screenShot" is-config="true" duration-ms="273158" started-at="2020-12-06T13:33:05Z" finished-at="2020-12-06T13:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_01_navigate_homepage_to_admin_login status=FAILURE method=AdminVerifyTest.TC_01_navigate_homepage_to_admin_login()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="SKIP" signature="TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="TC_02_adminlogin" duration-ms="0" started-at="2020-12-06T13:38:08Z" description="Navigate_homepage_to_AdminLogin" depends-on-methods="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest.TC_01_navigate_homepage_to_admin_login" finished-at="2020-12-06T13:38:08Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AdminVerifyTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AdminVerifyTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_adminlogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest@fe38d1e]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-12-06T13:38:08Z" finished-at="2020-12-06T13:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

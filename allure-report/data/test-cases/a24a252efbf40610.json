@@ -1,0 +1,60 @@
+{
+  "uid" : "a24a252efbf40610",
+  "name" : "ReadingOTPfromConsumerMail",
+  "fullName" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail.ReadingOTPfromConsumerMail",
+  "historyId" : "22d44d34e380103fb195ab46ea5a40bb",
+  "time" : {
+    "start" : 1612993174595,
+    "stop" : 1612993178467,
+    "duration" : 3872
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReadingOTPfromConsumerMail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "4872@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a24a252efbf40610.json",
+  "parameterValues" : [ ]
+}

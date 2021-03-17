@@ -1,0 +1,334 @@
+{
+  "uid" : "8b2a44afda756313",
+  "name" : "Reading OTPs from consumer Email",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ConsumerRegistrationTest.TC_14_ConsumerCredentialsfrommail",
+  "historyId" : "e007a45af0c924c51557bc94d2e7405f",
+  "time" : {
+    "start" : 1612982800231,
+    "stop" : 1612982801309,
+    "duration" : 1078
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612982768807,
+      "stop" : 1612982786699,
+      "duration" : 17892
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1612982786701,
+      "stop" : 1612982786702,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1612982786702,
+      "stop" : 1612982786959,
+      "duration" : 257
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1612982800223,
+      "stop" : 1612982800223,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612982809526,
+      "stop" : 1612982809664,
+      "duration" : 138
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1612982809665,
+      "stop" : 1612982813265,
+      "duration" : 3600
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1612982801312,
+      "stop" : 1612982801312,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerRegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_14_ConsumerCredentialsfrommail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "24464@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eabf5b501c76b477",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612982130931,
+        "stop" : 1612982140358,
+        "duration" : 9427
+      }
+    }, {
+      "uid" : "f51309f8001c7957",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612981964747,
+        "stop" : 1612981969200,
+        "duration" : 4453
+      }
+    }, {
+      "uid" : "d1460ed2dd33e8d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612981829647,
+        "stop" : 1612981839558,
+        "duration" : 9911
+      }
+    }, {
+      "uid" : "5228ce248b40cc11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612981619002,
+        "stop" : 1612981628486,
+        "duration" : 9484
+      }
+    }, {
+      "uid" : "5ae7557818fdb47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612981381012,
+        "stop" : 1612981392328,
+        "duration" : 11316
+      }
+    }, {
+      "uid" : "89c56afe6b2c6f8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612479693886,
+        "stop" : 1612479704540,
+        "duration" : 10654
+      }
+    }, {
+      "uid" : "e2efaa2576df202a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612479311778,
+        "stop" : 1612479323821,
+        "duration" : 12043
+      }
+    }, {
+      "uid" : "57a4fade81bb40ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612197098480,
+        "stop" : 1612197109366,
+        "duration" : 10886
+      }
+    }, {
+      "uid" : "2164cf55b9434a19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611698149373,
+        "stop" : 1611698159305,
+        "duration" : 9932
+      }
+    }, {
+      "uid" : "b5e7f3140cb3f1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611698080384,
+        "stop" : 1611698090238,
+        "duration" : 9854
+      }
+    }, {
+      "uid" : "d42e4b9451dc7c01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697926549,
+        "stop" : 1611697935871,
+        "duration" : 9322
+      }
+    }, {
+      "uid" : "fb70a10e56a755a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697859691,
+        "stop" : 1611697869131,
+        "duration" : 9440
+      }
+    }, {
+      "uid" : "26c8ae93de10d892",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697761216,
+        "stop" : 1611697770053,
+        "duration" : 8837
+      }
+    }, {
+      "uid" : "1327ebbff490509",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697579010,
+        "stop" : 1611697587745,
+        "duration" : 8735
+      }
+    }, {
+      "uid" : "b31d681a5e051297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697261041,
+        "stop" : 1611697269513,
+        "duration" : 8472
+      }
+    }, {
+      "uid" : "d3daee5b74805378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697198766,
+        "stop" : 1611697208300,
+        "duration" : 9534
+      }
+    }, {
+      "uid" : "53c909f28556b4ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611697124048,
+        "stop" : 1611697132449,
+        "duration" : 8401
+      }
+    }, {
+      "uid" : "4c9757ab357b5c78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611696863523,
+        "stop" : 1611696872028,
+        "duration" : 8505
+      }
+    }, {
+      "uid" : "d671321df1ee3168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611696571540,
+        "stop" : 1611696580498,
+        "duration" : 8958
+      }
+    }, {
+      "uid" : "36c85f65c6f0904f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611696292116,
+        "stop" : 1611696301309,
+        "duration" : 9193
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b2a44afda756313.json",
+  "parameterValues" : [ ]
+}

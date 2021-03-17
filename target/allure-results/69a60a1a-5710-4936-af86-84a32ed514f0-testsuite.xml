@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607805804748" stop="1607805852482" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AdminCredentials : AdminCredentials</name>
+    <title>AdminCredentials : AdminCredentials</title>
+    <test-cases>
+        <test-case start="1607805821062" stop="1607805825686" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="2bcc86cc-e98e-4f23-80c9-60611047ca62-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminCredentials"/>
+                <label name="testGroup" value="AdminCredentials"/>
+                <label name="testClass" value="sailotech.com.AdminCredentialspage.AdminCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_18"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="36248@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607805825695" stop="1607805852430" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="6458b850-10eb-4258-9609-59d5b3fa9d78-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminCredentials"/>
+                <label name="testGroup" value="AdminCredentials"/>
+                <label name="testClass" value="sailotech.com.AdminCredentialspage.AdminCredentialsTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_19"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="36248@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

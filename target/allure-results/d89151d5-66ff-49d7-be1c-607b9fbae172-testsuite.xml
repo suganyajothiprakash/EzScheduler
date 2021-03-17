@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1615304960499" stop="1615305021445" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1615304978911" stop="1615304986975" status="passed">
+            <name>TC_05_ProviderLogin</name>
+            <description type="text">Navigate To Provider Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateEzHomePage" source="a84d82fa-16eb-45bd-ad80-aab284c9572f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"/>
+                <label name="testMethod" value="TC_05_ProviderLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29528@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615304986996" stop="1615305009405" status="passed">
+            <name>TC_06_To_GenerateSlots</name>
+            <description type="text">Provider Generating slots</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"/>
+                <label name="testMethod" value="TC_06_To_GenerateSlots"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29528@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1615305009426" stop="1615305013270" status="passed">
+            <name>TC_04_ProviderLogout</name>
+            <description type="text">Provider Logout from Ezscheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="c2f0c86f-b312-4cc4-9ba4-8be560c4e7d3-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test"/>
+                <label name="testMethod" value="TC_04_ProviderLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="29528@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

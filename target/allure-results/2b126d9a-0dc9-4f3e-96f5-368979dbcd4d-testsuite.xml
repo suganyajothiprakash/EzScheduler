@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607532978894" stop="1607533039944" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>PatientLogin : PatientLogin</name>
+    <title>PatientLogin : PatientLogin</title>
+    <test-cases>
+        <test-case start="1607533036322" stop="1607533037850" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="338ae8ec-6056-43a0-a2a0-ae02140c5394-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PatientPages.PatientTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="41344@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607533037856" stop="1607533039907" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="6396ffad-2bf7-44e6-aaaf-24e81de71851-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientLogin"/>
+                <label name="testGroup" value="PatientLogin"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PatientPages.PatientTest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="41344@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

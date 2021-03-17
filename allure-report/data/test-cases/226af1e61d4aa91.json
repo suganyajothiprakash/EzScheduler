@@ -1,0 +1,1630 @@
+{
+  "uid" : "226af1e61d4aa91",
+  "name" : "Navigate To Patient Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest.TC_17_ConsumerLogin",
+  "historyId" : "23fc8cebc6d1ca5721b44c58842054ed",
+  "time" : {
+    "start" : 1613149263597,
+    "stop" : 1613149274684,
+    "duration" : 11087
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613149133116,
+      "stop" : 1613149262968,
+      "duration" : 129852
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1613149262969,
+      "stop" : 1613149262969,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1613149262969,
+      "stop" : 1613149263231,
+      "duration" : 262
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613149263258,
+      "stop" : 1613149263259,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1613149274693,
+      "stop" : 1613149274693,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613149587003,
+      "stop" : 1613149591068,
+      "duration" : 4065
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1613149591068,
+      "stop" : 1613149595124,
+      "duration" : 4056
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_17_ConsumerLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerscheduleannAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "14196@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3abd84c4684871c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613148777346,
+        "stop" : 1613148788158,
+        "duration" : 10812
+      }
+    }, {
+      "uid" : "daf92bec06701502",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613148341263,
+        "stop" : 1613148352875,
+        "duration" : 11612
+      }
+    }, {
+      "uid" : "54cd50b50acf124a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613148080414,
+        "stop" : 1613148091752,
+        "duration" : 11338
+      }
+    }, {
+      "uid" : "6a1e194f5e8bdb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613147818835,
+        "stop" : 1613147829499,
+        "duration" : 10664
+      }
+    }, {
+      "uid" : "4e48cd04ded66a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613147428848,
+        "stop" : 1613147439491,
+        "duration" : 10643
+      }
+    }, {
+      "uid" : "ce208bc6dd14c74c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613147078089,
+        "stop" : 1613147088882,
+        "duration" : 10793
+      }
+    }, {
+      "uid" : "668e966d6bb8b12f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: f5c66cd32095711a8a39c3d47430c918\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1613146923387,
+        "stop" : 1613146937897,
+        "duration" : 14510
+      }
+    }, {
+      "uid" : "48f3a216494516d8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: 43e62e6fb4a2fc2685a77b97e8e91bff\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1613146839304,
+        "stop" : 1613146853923,
+        "duration" : 14619
+      }
+    }, {
+      "uid" : "5bbd46a6ce6d79a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613146589832,
+        "stop" : 1613146600966,
+        "duration" : 11134
+      }
+    }, {
+      "uid" : "b7f361b43114d8ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613146176047,
+        "stop" : 1613146186621,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "f22017abe56c28ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145954692,
+        "stop" : 1613145965564,
+        "duration" : 10872
+      }
+    }, {
+      "uid" : "d25f4c1545350754",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145533895,
+        "stop" : 1613145544572,
+        "duration" : 10677
+      }
+    }, {
+      "uid" : "ee3e1e8d02c864c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145265392,
+        "stop" : 1613145275984,
+        "duration" : 10592
+      }
+    }, {
+      "uid" : "8f530589652ceecf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613145082425,
+        "stop" : 1613145093308,
+        "duration" : 10883
+      }
+    }, {
+      "uid" : "a1990493d821d7f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613144853852,
+        "stop" : 1613144864907,
+        "duration" : 11055
+      }
+    }, {
+      "uid" : "3b5e143559ee4809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613144273661,
+        "stop" : 1613144284483,
+        "duration" : 10822
+      }
+    }, {
+      "uid" : "dc151695c41aa9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613144078286,
+        "stop" : 1613144088860,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "dad1fa4f0e6df7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613143950288,
+        "stop" : 1613143961121,
+        "duration" : 10833
+      }
+    }, {
+      "uid" : "611406e73e9ba6d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613143611210,
+        "stop" : 1613143622042,
+        "duration" : 10832
+      }
+    }, {
+      "uid" : "f0fd0d7be512802a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613143442445,
+        "stop" : 1613143453100,
+        "duration" : 10655
+      }
+    }, {
+      "uid" : "49d143146d7c5d34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613143307593,
+        "stop" : 1613143318281,
+        "duration" : 10688
+      }
+    }, {
+      "uid" : "e870f45f30f96e09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613143078510,
+        "stop" : 1613143089363,
+        "duration" : 10853
+      }
+    }, {
+      "uid" : "da3cf1ad002b6bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613083198592,
+        "stop" : 1613083208227,
+        "duration" : 9635
+      }
+    }, {
+      "uid" : "f2f9fca014597eba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613083007061,
+        "stop" : 1613083017003,
+        "duration" : 9942
+      }
+    }, {
+      "uid" : "5ca7c8d625de0e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613082573073,
+        "stop" : 1613082583547,
+        "duration" : 10474
+      }
+    }, {
+      "uid" : "6a4a9f89b618908",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613082444995,
+        "stop" : 1613082454901,
+        "duration" : 9906
+      }
+    }, {
+      "uid" : "17334f4ffff6b51f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613082297486,
+        "stop" : 1613082307146,
+        "duration" : 9660
+      }
+    }, {
+      "uid" : "9cd2568eaab77f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613082171077,
+        "stop" : 1613082180686,
+        "duration" : 9609
+      }
+    }, {
+      "uid" : "e5d980ea422b7bf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613082050796,
+        "stop" : 1613082060404,
+        "duration" : 9608
+      }
+    }, {
+      "uid" : "9af2c88d0678c27d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: d23cd4e5ef04ef1eff03087c89986032\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1613081957471,
+        "stop" : 1613081976038,
+        "duration" : 18567
+      }
+    }, {
+      "uid" : "76f3e7188556f786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613081722272,
+        "stop" : 1613081731951,
+        "duration" : 9679
+      }
+    }, {
+      "uid" : "737da1795e13eef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613081318686,
+        "stop" : 1613081328287,
+        "duration" : 9601
+      }
+    }, {
+      "uid" : "463fc6bf9dc462eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613080968261,
+        "stop" : 1613080977912,
+        "duration" : 9651
+      }
+    }, {
+      "uid" : "406f793223332671",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613080611304,
+        "stop" : 1613080620940,
+        "duration" : 9636
+      }
+    }, {
+      "uid" : "e74211e78dcc77f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613080445081,
+        "stop" : 1613080454692,
+        "duration" : 9611
+      }
+    }, {
+      "uid" : "e910dcc78d7bb432",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Consumer.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1613080321279,
+        "stop" : 1613080321422,
+        "duration" : 143
+      }
+    }, {
+      "uid" : "c4f35bd77010c73c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613080050887,
+        "stop" : 1613080060608,
+        "duration" : 9721
+      }
+    }, {
+      "uid" : "6198dd72a5012110",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: c0a3b6a68a27d089e6e7a5ebc43b2d0f\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1613079996564,
+        "stop" : 1613080015246,
+        "duration" : 18682
+      }
+    }, {
+      "uid" : "57a491efeb14a8ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613079623942,
+        "stop" : 1613079633536,
+        "duration" : 9594
+      }
+    }, {
+      "uid" : "f7c6ea442f75f4fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613078998384,
+        "stop" : 1613079008144,
+        "duration" : 9760
+      }
+    }, {
+      "uid" : "81dc4d8361b815ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613078799625,
+        "stop" : 1613078809158,
+        "duration" : 9533
+      }
+    }, {
+      "uid" : "3f27110b925c2b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613078670913,
+        "stop" : 1613078680579,
+        "duration" : 9666
+      }
+    }, {
+      "uid" : "fe5ba1c2e717e7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613078534077,
+        "stop" : 1613078543681,
+        "duration" : 9604
+      }
+    }, {
+      "uid" : "22b0b00e2c7b2537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613078151715,
+        "stop" : 1613078161326,
+        "duration" : 9611
+      }
+    }, {
+      "uid" : "86fe846d21efa466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613077972060,
+        "stop" : 1613077981770,
+        "duration" : 9710
+      }
+    }, {
+      "uid" : "953522a390eeed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613077697829,
+        "stop" : 1613077707568,
+        "duration" : 9739
+      }
+    }, {
+      "uid" : "286c65cdc10343a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613077542927,
+        "stop" : 1613077557040,
+        "duration" : 14113
+      }
+    }, {
+      "uid" : "200c8d7883a6468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613077181181,
+        "stop" : 1613077192106,
+        "duration" : 10925
+      }
+    }, {
+      "uid" : "90323ef5129368d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613076050950,
+        "stop" : 1613076061963,
+        "duration" : 11013
+      }
+    }, {
+      "uid" : "280c8168d9b6f3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613061142935,
+        "stop" : 1613061153688,
+        "duration" : 10753
+      }
+    }, {
+      "uid" : "7be868ff4b474c5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613060983282,
+        "stop" : 1613060994234,
+        "duration" : 10952
+      }
+    }, {
+      "uid" : "32ce1020f55ed8c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613060696797,
+        "stop" : 1613060707711,
+        "duration" : 10914
+      }
+    }, {
+      "uid" : "555c1e755cdd664e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612997164935,
+        "stop" : 1612997174733,
+        "duration" : 9798
+      }
+    }, {
+      "uid" : "fff6025dcbf89d70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612757886672,
+        "stop" : 1612757897292,
+        "duration" : 10620
+      }
+    }, {
+      "uid" : "f583fcf8b0564c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612757576359,
+        "stop" : 1612757587107,
+        "duration" : 10748
+      }
+    }, {
+      "uid" : "965e20e2a95f2969",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612757426798,
+        "stop" : 1612757437759,
+        "duration" : 10961
+      }
+    }, {
+      "uid" : "ef0c03253a45710c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612757304685,
+        "stop" : 1612757315429,
+        "duration" : 10744
+      }
+    }, {
+      "uid" : "ced8cbebd7c54b1",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Consumer.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612757253285,
+        "stop" : 1612757253514,
+        "duration" : 229
+      }
+    }, {
+      "uid" : "d80401bfbbb7c76f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612737471252,
+        "stop" : 1612737482175,
+        "duration" : 10923
+      }
+    }, {
+      "uid" : "938a4d9d107dcc12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612737103946,
+        "stop" : 1612737114853,
+        "duration" : 10907
+      }
+    }, {
+      "uid" : "7342f0b0d12a7a33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612736676581,
+        "stop" : 1612736687042,
+        "duration" : 10461
+      }
+    }, {
+      "uid" : "cba76b1639c0d5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612736486547,
+        "stop" : 1612736497375,
+        "duration" : 10828
+      }
+    }, {
+      "uid" : "cb99ba5a77624c0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612736316485,
+        "stop" : 1612736327171,
+        "duration" : 10686
+      }
+    }, {
+      "uid" : "9419192acf01505c",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Consumer.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612736277229,
+        "stop" : 1612736277415,
+        "duration" : 186
+      }
+    }, {
+      "uid" : "656c48cbc98bcfb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612736091272,
+        "stop" : 1612736101846,
+        "duration" : 10574
+      }
+    }, {
+      "uid" : "36e2cb496eeaa6af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612735949989,
+        "stop" : 1612735960638,
+        "duration" : 10649
+      }
+    }, {
+      "uid" : "1f5916e282a95b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612735243050,
+        "stop" : 1612735276741,
+        "duration" : 33691
+      }
+    }, {
+      "uid" : "35f4a87867418225",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612580630654,
+        "stop" : 1612580641362,
+        "duration" : 10708
+      }
+    }, {
+      "uid" : "ab2b18d8aafdb70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612580463607,
+        "stop" : 1612580474541,
+        "duration" : 10934
+      }
+    }, {
+      "uid" : "c88f4494251abc00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612580257766,
+        "stop" : 1612580268780,
+        "duration" : 11014
+      }
+    }, {
+      "uid" : "938420aefe002d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612579857516,
+        "stop" : 1612579868489,
+        "duration" : 10973
+      }
+    }, {
+      "uid" : "3a140a45bc2ab247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612579694317,
+        "stop" : 1612579705404,
+        "duration" : 11087
+      }
+    }, {
+      "uid" : "30e2130d299c3354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612563989072,
+        "stop" : 1612563999720,
+        "duration" : 10648
+      }
+    }, {
+      "uid" : "f6aca614ad449391",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612563579596,
+        "stop" : 1612563590132,
+        "duration" : 10536
+      }
+    }, {
+      "uid" : "adfc18b156c51c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612563447405,
+        "stop" : 1612563458008,
+        "duration" : 10603
+      }
+    }, {
+      "uid" : "d2cf43ee011bf19a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612563311642,
+        "stop" : 1612563321982,
+        "duration" : 10340
+      }
+    }, {
+      "uid" : "356101c0e243c8c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612563178375,
+        "stop" : 1612563188903,
+        "duration" : 10528
+      }
+    }, {
+      "uid" : "309b72580303a839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612562975705,
+        "stop" : 1612562986178,
+        "duration" : 10473
+      }
+    }, {
+      "uid" : "6d1edf6b76f06f19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612562847692,
+        "stop" : 1612562858101,
+        "duration" : 10409
+      }
+    }, {
+      "uid" : "7817df533cf91966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612562670697,
+        "stop" : 1612562681535,
+        "duration" : 10838
+      }
+    }, {
+      "uid" : "655bbcaa48f327ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612562102801,
+        "stop" : 1612562113360,
+        "duration" : 10559
+      }
+    }, {
+      "uid" : "1bcc27e85542a10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612561878642,
+        "stop" : 1612561889321,
+        "duration" : 10679
+      }
+    }, {
+      "uid" : "a6acad5d040d6d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612537921872,
+        "stop" : 1612537931750,
+        "duration" : 9878
+      }
+    }, {
+      "uid" : "f3b2d54cbfeebe7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612537231596,
+        "stop" : 1612537241286,
+        "duration" : 9690
+      }
+    }, {
+      "uid" : "95f776fc8d23a3c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612536817538,
+        "stop" : 1612536827258,
+        "duration" : 9720
+      }
+    }, {
+      "uid" : "a0e2b689c66e597f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612536629105,
+        "stop" : 1612536638935,
+        "duration" : 9830
+      }
+    }, {
+      "uid" : "7401f5c33922be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612536287190,
+        "stop" : 1612536297559,
+        "duration" : 10369
+      }
+    }, {
+      "uid" : "3eee855e66c1c623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612535924271,
+        "stop" : 1612535934230,
+        "duration" : 9959
+      }
+    }, {
+      "uid" : "d86d84763cfe86d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612482403623,
+        "stop" : 1612482414729,
+        "duration" : 11106
+      }
+    }, {
+      "uid" : "4e4987904f8465e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612481952591,
+        "stop" : 1612481963497,
+        "duration" : 10906
+      }
+    }, {
+      "uid" : "546559c77be4f697",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612481325207,
+        "stop" : 1612481336323,
+        "duration" : 11116
+      }
+    }, {
+      "uid" : "1d55842f5923079d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612474488061,
+        "stop" : 1612474498503,
+        "duration" : 10442
+      }
+    }, {
+      "uid" : "5f9ad24a9812814c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.146)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.146, webStorageEnabled: true}\nSession ID: c7cd7fc6a594aa81c23a484ecb378681\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1612474419143,
+        "stop" : 1612474438332,
+        "duration" : 19189
+      }
+    }, {
+      "uid" : "1f3bf0b937ffed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612474172578,
+        "stop" : 1612474182554,
+        "duration" : 9976
+      }
+    }, {
+      "uid" : "df8f4639f68eed64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612473940429,
+        "stop" : 1612473950502,
+        "duration" : 10073
+      }
+    }, {
+      "uid" : "c96266d6f2334a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612473490242,
+        "stop" : 1612473501089,
+        "duration" : 10847
+      }
+    }, {
+      "uid" : "b0f1777dc7f771c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612473118659,
+        "stop" : 1612473129656,
+        "duration" : 10997
+      }
+    }, {
+      "uid" : "2ebf3862ad4a03dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612472473562,
+        "stop" : 1612472484833,
+        "duration" : 11271
+      }
+    }, {
+      "uid" : "d1c6a33636bf1814",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612471805142,
+        "stop" : 1612471816353,
+        "duration" : 11211
+      }
+    }, {
+      "uid" : "4e03fe8f6bf854aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612467885574,
+        "stop" : 1612467903658,
+        "duration" : 18084
+      }
+    }, {
+      "uid" : "5b80c947411922e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612467531554,
+        "stop" : 1612467558196,
+        "duration" : 26642
+      }
+    }, {
+      "uid" : "6b6b05c30c1d7f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612467431805,
+        "stop" : 1612467442601,
+        "duration" : 10796
+      }
+    }, {
+      "uid" : "d9657a8c9a1ebf2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612467132904,
+        "stop" : 1612467144119,
+        "duration" : 11215
+      }
+    }, {
+      "uid" : "3c621a9114e92d78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612466699715,
+        "stop" : 1612466718996,
+        "duration" : 19281
+      }
+    }, {
+      "uid" : "8fa326c9910caa36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612466543692,
+        "stop" : 1612466554768,
+        "duration" : 11076
+      }
+    }, {
+      "uid" : "bfdbf99b0875cd4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612466299851,
+        "stop" : 1612466310832,
+        "duration" : 10981
+      }
+    }, {
+      "uid" : "f07a0ec92551e220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612466144311,
+        "stop" : 1612466155583,
+        "duration" : 11272
+      }
+    }, {
+      "uid" : "bc749df0e3fd0b7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612466007924,
+        "stop" : 1612466022515,
+        "duration" : 14591
+      }
+    }, {
+      "uid" : "131671aea6d54dc4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.146)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.146, webStorageEnabled: true}\nSession ID: a791879aff6bba8927b2e34cda53d1b4\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1612465952321,
+        "stop" : 1612465972007,
+        "duration" : 19686
+      }
+    }, {
+      "uid" : "574856fc638fd719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612460510463,
+        "stop" : 1612460521083,
+        "duration" : 10620
+      }
+    }, {
+      "uid" : "5a7317156654bb2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612460383024,
+        "stop" : 1612460393648,
+        "duration" : 10624
+      }
+    }, {
+      "uid" : "cb211865d13e93e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612460242121,
+        "stop" : 1612460252935,
+        "duration" : 10814
+      }
+    }, {
+      "uid" : "e1d0cefe2a2d4af8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612460053452,
+        "stop" : 1612460064073,
+        "duration" : 10621
+      }
+    }, {
+      "uid" : "215ebfb167c4b4d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612459916244,
+        "stop" : 1612459926905,
+        "duration" : 10661
+      }
+    }, {
+      "uid" : "8000fd2ad6f3bfe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612459717798,
+        "stop" : 1612459728362,
+        "duration" : 10564
+      }
+    }, {
+      "uid" : "5113f190dac2d1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612459301855,
+        "stop" : 1612459312349,
+        "duration" : 10494
+      }
+    }, {
+      "uid" : "670bb2c869a44557",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612459128093,
+        "stop" : 1612459138979,
+        "duration" : 10886
+      }
+    }, {
+      "uid" : "a181d9cb4910b478",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.146)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.146, webStorageEnabled: true}\nSession ID: e51321ea173345fc0676eac93f27de4e\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1612458858529,
+        "stop" : 1612458878082,
+        "duration" : 19553
+      }
+    }, {
+      "uid" : "8376a5fbc70cb426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612458436067,
+        "stop" : 1612458446668,
+        "duration" : 10601
+      }
+    }, {
+      "uid" : "573b8b4567062109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612458162147,
+        "stop" : 1612458172921,
+        "duration" : 10774
+      }
+    }, {
+      "uid" : "310ad718d03bf3d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612457788463,
+        "stop" : 1612457799170,
+        "duration" : 10707
+      }
+    }, {
+      "uid" : "f9b5eac7264034d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612457424878,
+        "stop" : 1612457435688,
+        "duration" : 10810
+      }
+    }, {
+      "uid" : "6c28a1c35c0a1f52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612456617445,
+        "stop" : 1612456628294,
+        "duration" : 10849
+      }
+    }, {
+      "uid" : "cbaab416d7878b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612456132531,
+        "stop" : 1612456143612,
+        "duration" : 11081
+      }
+    }, {
+      "uid" : "2f4171d113d46a5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612304297914,
+        "stop" : 1612304308693,
+        "duration" : 10779
+      }
+    }, {
+      "uid" : "94b1552e58fa006a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612304007193,
+        "stop" : 1612304017970,
+        "duration" : 10777
+      }
+    }, {
+      "uid" : "b4264848f8756e8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612303736618,
+        "stop" : 1612303747299,
+        "duration" : 10681
+      }
+    }, {
+      "uid" : "dcf563167acf0bd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612303445840,
+        "stop" : 1612303456365,
+        "duration" : 10525
+      }
+    }, {
+      "uid" : "d9dfc5d0dc00ca8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612303167382,
+        "stop" : 1612303178103,
+        "duration" : 10721
+      }
+    }, {
+      "uid" : "d11d3808c863172b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612302939947,
+        "stop" : 1612302950402,
+        "duration" : 10455
+      }
+    }, {
+      "uid" : "95cf851f11d0e590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612218234454,
+        "stop" : 1612218245228,
+        "duration" : 10774
+      }
+    }, {
+      "uid" : "15e73ead11419b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612218030452,
+        "stop" : 1612218041063,
+        "duration" : 10611
+      }
+    }, {
+      "uid" : "39924408da6fabc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217878946,
+        "stop" : 1612217889700,
+        "duration" : 10754
+      }
+    }, {
+      "uid" : "bbafeb4d6d2a0cda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217807197,
+        "stop" : 1612217818120,
+        "duration" : 10923
+      }
+    }, {
+      "uid" : "6dc8bf4501b8bb78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217715602,
+        "stop" : 1612217726945,
+        "duration" : 11343
+      }
+    }, {
+      "uid" : "c0f6ec803fc52619",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217584474,
+        "stop" : 1612217595542,
+        "duration" : 11068
+      }
+    }, {
+      "uid" : "f10d33e40e4453d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217504926,
+        "stop" : 1612217520731,
+        "duration" : 15805
+      }
+    }, {
+      "uid" : "9050f8aa00b3d699",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217408621,
+        "stop" : 1612217419087,
+        "duration" : 10466
+      }
+    }, {
+      "uid" : "c92d10172f30613c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612217273922,
+        "stop" : 1612217293879,
+        "duration" : 19957
+      }
+    }, {
+      "uid" : "d849dac4686f085",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612216763459,
+        "stop" : 1612216773575,
+        "duration" : 10116
+      }
+    }, {
+      "uid" : "57f5ddbd372de48e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.104)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}\nSession ID: d192fe981cd96d284ff5022ada52ab84\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1612216683541,
+        "stop" : 1612216702321,
+        "duration" : 18780
+      }
+    }, {
+      "uid" : "bb696294ccd03275",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612216455856,
+        "stop" : 1612216465561,
+        "duration" : 9705
+      }
+    }, {
+      "uid" : "a7a3815bb60554f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612216344498,
+        "stop" : 1612216354527,
+        "duration" : 10029
+      }
+    }, {
+      "uid" : "ec92ffca68e8e74f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215761514,
+        "stop" : 1612215771168,
+        "duration" : 9654
+      }
+    }, {
+      "uid" : "5fb64ac2b78c1d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215671340,
+        "stop" : 1612215681173,
+        "duration" : 9833
+      }
+    }, {
+      "uid" : "c7fffec3a7fbf0cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215477054,
+        "stop" : 1612215488684,
+        "duration" : 11630
+      }
+    }, {
+      "uid" : "826d349040a04d52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215309864,
+        "stop" : 1612215321990,
+        "duration" : 12126
+      }
+    }, {
+      "uid" : "8d02f898c0ea714d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215293123,
+        "stop" : 1612215360727,
+        "duration" : 67604
+      }
+    }, {
+      "uid" : "40ded207a7cdf94e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612215182497,
+        "stop" : 1612215192454,
+        "duration" : 9957
+      }
+    }, {
+      "uid" : "98ada98c44166987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612214646179,
+        "stop" : 1612214655985,
+        "duration" : 9806
+      }
+    }, {
+      "uid" : "46355391647fb12f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612214499156,
+        "stop" : 1612214572330,
+        "duration" : 73174
+      }
+    }, {
+      "uid" : "379c3a14980debb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612212712226,
+        "stop" : 1612212721818,
+        "duration" : 9592
+      }
+    }, {
+      "uid" : "8557a0a679119842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612212408666,
+        "stop" : 1612212418347,
+        "duration" : 9681
+      }
+    }, {
+      "uid" : "672d211e79abd58f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612212258583,
+        "stop" : 1612212268178,
+        "duration" : 9595
+      }
+    }, {
+      "uid" : "6e8f87a7268c9fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611775205712,
+        "stop" : 1611775216490,
+        "duration" : 10778
+      }
+    }, {
+      "uid" : "73507337549201bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611774960918,
+        "stop" : 1611774971283,
+        "duration" : 10365
+      }
+    }, {
+      "uid" : "d1c40eafb1a25a62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611774065495,
+        "stop" : 1611774075976,
+        "duration" : 10481
+      }
+    }, {
+      "uid" : "f1b3a6b7801de278",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611773936547,
+        "stop" : 1611773947001,
+        "duration" : 10454
+      }
+    }, {
+      "uid" : "20f75b308a777c46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611773257495,
+        "stop" : 1611773268040,
+        "duration" : 10545
+      }
+    }, {
+      "uid" : "c1a1c1042e2e54fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611772809572,
+        "stop" : 1611772819925,
+        "duration" : 10353
+      }
+    }, {
+      "uid" : "23b19ca9ece3e0b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611772606991,
+        "stop" : 1611772617522,
+        "duration" : 10531
+      }
+    }, {
+      "uid" : "fe14825ce18122e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611772383851,
+        "stop" : 1611772394519,
+        "duration" : 10668
+      }
+    }, {
+      "uid" : "3c174b5cadb6ce28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611771919614,
+        "stop" : 1611771930522,
+        "duration" : 10908
+      }
+    }, {
+      "uid" : "a5ed5a80d9f2d29c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611771736619,
+        "stop" : 1611771747282,
+        "duration" : 10663
+      }
+    }, {
+      "uid" : "702ac784b7833d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611771576500,
+        "stop" : 1611771587309,
+        "duration" : 10809
+      }
+    }, {
+      "uid" : "f415aba099f564dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611771489198,
+        "stop" : 1611771500070,
+        "duration" : 10872
+      }
+    }, {
+      "uid" : "c18829f47957c706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611760409285,
+        "stop" : 1611760418977,
+        "duration" : 9692
+      }
+    }, {
+      "uid" : "c46ea8bbfc6e14cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611759847397,
+        "stop" : 1611759857093,
+        "duration" : 9696
+      }
+    }, {
+      "uid" : "ff014dba76dd5db2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611759126997,
+        "stop" : 1611759136799,
+        "duration" : 9802
+      }
+    }, {
+      "uid" : "d8c67f304050947c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: ac52874c82ef6e06f7887995ded2088b\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1611759080017,
+        "stop" : 1611759098968,
+        "duration" : 18951
+      }
+    }, {
+      "uid" : "61a3b0430e1ec2e0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: e4c5be7c0f2ec8b3defc2cec26633192\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1611759006454,
+        "stop" : 1611759025473,
+        "duration" : 19019
+      }
+    }, {
+      "uid" : "ef604052f98ab1c7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 56c814d1b6b8523d9fa2b9e3991ad420\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1611758950058,
+        "stop" : 1611758969689,
+        "duration" : 19631
+      }
+    }, {
+      "uid" : "617d794a17ed5faa",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 33d0731b9e59dd8713b3faf67270f584\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1611758859120,
+        "stop" : 1611758878750,
+        "duration" : 19630
+      }
+    }, {
+      "uid" : "9d4d8e149f0ee58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611758526775,
+        "stop" : 1611758537321,
+        "duration" : 10546
+      }
+    }, {
+      "uid" : "f9c68621b7ff2849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611758247974,
+        "stop" : 1611758258905,
+        "duration" : 10931
+      }
+    }, {
+      "uid" : "41d378dfcceeaf98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611757932351,
+        "stop" : 1611757943243,
+        "duration" : 10892
+      }
+    }, {
+      "uid" : "8db417aeb5c53c38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611699353914,
+        "stop" : 1611699363415,
+        "duration" : 9501
+      }
+    }, {
+      "uid" : "fa5a79569eccc92e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611699238763,
+        "stop" : 1611699248419,
+        "duration" : 9656
+      }
+    }, {
+      "uid" : "d78b8312865461e0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 5aca25ec947cf2efff4d429e2e01f734\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1611699164935,
+        "stop" : 1611699183932,
+        "duration" : 18997
+      }
+    }, {
+      "uid" : "26a5ff7b225087cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611698998138,
+        "stop" : 1611699007669,
+        "duration" : 9531
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "226af1e61d4aa91.json",
+  "parameterValues" : [ ]
+}

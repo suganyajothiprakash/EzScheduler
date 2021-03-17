@@ -1,0 +1,199 @@
+{
+  "uid" : "cbf80209e246d3a3",
+  "name" : "DoctorLogout_from_DoctorPage",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest.TC_02_Doctor_Logout",
+  "historyId" : "7e67f68e03fd2d12fc32fa6e8dac2837",
+  "time" : {
+    "start" : 1610662645103,
+    "stop" : 1610662645103,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@6520625f] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@6520625f] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1610662555424,
+      "stop" : 1610662571316,
+      "duration" : 15892
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1610662571317,
+      "stop" : 1610662571472,
+      "duration" : 155
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1610662645110,
+      "stop" : 1610662649217,
+      "duration" : 4107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610662649218,
+      "stop" : 1610662649852,
+      "duration" : 634
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_Doctor_Logout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "25584@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb6ae24e4f5a9f8c",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@5c13534a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661563258,
+        "stop" : 1610661563258,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8af838fe7ad3e042",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@17d45cfb] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661505929,
+        "stop" : 1610661505929,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "10bc629039807f69",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@10f192d8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661399369,
+        "stop" : 1610661399369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24c1acae381fc685",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@1fb00a6d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661333465,
+        "stop" : 1610661333465,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e159379c3c92c16",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@3c205259] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661198040,
+        "stop" : 1610661198040,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1c65cdc90068262",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@25f73119] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610661131607,
+        "stop" : 1610661131607,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a5252273305533f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610563067333,
+        "stop" : 1610563071372,
+        "duration" : 4039
+      }
+    }, {
+      "uid" : "c686b04c4378599a",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrcancelappointmentstest.TC_02_Doctor_Logout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrcancelappointmentstest@3c205259] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610563013976,
+        "stop" : 1610563013976,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbf80209e246d3a3.json",
+  "parameterValues" : [ ]
+}

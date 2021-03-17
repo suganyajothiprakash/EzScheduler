@@ -1,0 +1,62 @@
+{
+  "uid" : "ffc21ef8ca8625a",
+  "name" : "TC01_ReadMail",
+  "fullName" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail.TC01_ReadMail",
+  "historyId" : "1c775e5f41ee0d8a86c6fdc26ef47cc2",
+  "time" : {
+    "start" : 1611073005793,
+    "stop" : 1611073014750,
+    "duration" : 8957
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_ReadMail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Implpages.Consumercredentialsfrommail"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "28436@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffc21ef8ca8625a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,618 @@
+{
+  "uid" : "6c159fae8b242aa7",
+  "name" : "Navigate_To_PatientLogin",
+  "fullName" : "com.sailotech.ezscheduler.login_testpages.Consumerlogintest.TC_02_PatientLogin",
+  "historyId" : "3a2e38f491bb1ce4777d259073586a51",
+  "time" : {
+    "start" : 1610336141422,
+    "stop" : 1610336156569,
+    "duration" : 15147
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1610336108093,
+      "stop" : 1610336136283,
+      "duration" : 28190
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1610336136284,
+      "stop" : 1610336136387,
+      "duration" : 103
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336247654,
+      "stop" : 1610336250661,
+      "duration" : 3007
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336250662,
+      "stop" : 1610336251243,
+      "duration" : 581
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336251244,
+      "stop" : 1610336251676,
+      "duration" : 432
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336251677,
+      "stop" : 1610336251983,
+      "duration" : 306
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336251983,
+      "stop" : 1610336252175,
+      "duration" : 192
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336252175,
+      "stop" : 1610336252438,
+      "duration" : 263
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336252438,
+      "stop" : 1610336252683,
+      "duration" : 245
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610336252683,
+      "stop" : 1610336253037,
+      "duration" : 354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1610336156574,
+      "stop" : 1610336156574,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1610336156578,
+      "stop" : 1610336166340,
+      "duration" : 9762
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.login_testpages.Consumerlogintest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.login_testpages.Consumerlogintest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_PatientLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.login_testpages.Consumerlogintest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "26900@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae9adb321b6127df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610315924783,
+        "stop" : 1610315942246,
+        "duration" : 17463
+      }
+    }, {
+      "uid" : "93238ba86d8ae11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610299256094,
+        "stop" : 1610299265504,
+        "duration" : 9410
+      }
+    }, {
+      "uid" : "3cea572e6648af26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610298713412,
+        "stop" : 1610298732180,
+        "duration" : 18768
+      }
+    }, {
+      "uid" : "da1af12615638b28",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@538fb761] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610157084203,
+        "stop" : 1610157084203,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "333cac0e940dfd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610147702326,
+        "stop" : 1610147723045,
+        "duration" : 20719
+      }
+    }, {
+      "uid" : "e02b611f444949ac",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5177187c8fa10b5c1f020020aabb0144",
+      "time" : {
+        "start" : 1610131186207,
+        "stop" : 1610131210599,
+        "duration" : 24392
+      }
+    }, {
+      "uid" : "e53adeeecad799d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610126774958,
+        "stop" : 1610126784817,
+        "duration" : 9859
+      }
+    }, {
+      "uid" : "f0843d32277fb599",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@2a9fd482] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610072113634,
+        "stop" : 1610072113634,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "91c1d494293b6419",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@77cd1f67] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610063987601,
+        "stop" : 1610063987601,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "341696af12df8628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610062366964,
+        "stop" : 1610062394710,
+        "duration" : 27746
+      }
+    }, {
+      "uid" : "bfdbb43cf6ecb076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610058803054,
+        "stop" : 1610058835917,
+        "duration" : 32863
+      }
+    }, {
+      "uid" : "dabc2162712c7b42",
+      "status" : "broken",
+      "statusDetails" : "no such session\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 93211871dfb2a31e2e2faa9064ec93d5\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1610054163837,
+        "stop" : 1610054170155,
+        "duration" : 6318
+      }
+    }, {
+      "uid" : "55734d9f3ff3eb98",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@662061e3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610054044130,
+        "stop" : 1610054044130,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5e751a2d1f03fe17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610050083085,
+        "stop" : 1610050091822,
+        "duration" : 8737
+      }
+    }, {
+      "uid" : "642b55eadad86667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610045935942,
+        "stop" : 1610045944942,
+        "duration" : 9000
+      }
+    }, {
+      "uid" : "250d8c7af2ae0e4e",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@4d305059] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610045568622,
+        "stop" : 1610045568623,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "11ba105a3d064ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610044111119,
+        "stop" : 1610044121201,
+        "duration" : 10082
+      }
+    }, {
+      "uid" : "21d8a26b82278302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610040601110,
+        "stop" : 1610040611023,
+        "duration" : 9913
+      }
+    }, {
+      "uid" : "3b87b10c25e377ed",
+      "status" : "failed",
+      "statusDetails" : "expected [jothiprakas] but found [jothiprakash]",
+      "time" : {
+        "start" : 1610040429557,
+        "stop" : 1610040438820,
+        "duration" : 9263
+      }
+    }, {
+      "uid" : "1f21da24813de0ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610040350795,
+        "stop" : 1610040360477,
+        "duration" : 9682
+      }
+    }, {
+      "uid" : "228ef92298df8dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610040253480,
+        "stop" : 1610040263374,
+        "duration" : 9894
+      }
+    }, {
+      "uid" : "bda79144048c320f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign-In')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: a44457a815af9f9cdac916709feae4b8\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign-In')]}",
+      "time" : {
+        "start" : 1610040190586,
+        "stop" : 1610040201869,
+        "duration" : 11283
+      }
+    }, {
+      "uid" : "45b79a39decb3670",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign-In')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 37d51ff0b5ff5ac9b54f9a5eec341d5a\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign-In')]}",
+      "time" : {
+        "start" : 1610040131954,
+        "stop" : 1610040143359,
+        "duration" : 11405
+      }
+    }, {
+      "uid" : "dd791c42d8b5323b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610040038525,
+        "stop" : 1610040048239,
+        "duration" : 9714
+      }
+    }, {
+      "uid" : "776282c196030800",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610039914159,
+        "stop" : 1610039924076,
+        "duration" : 9917
+      }
+    }, {
+      "uid" : "67347879d1747e54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610039798291,
+        "stop" : 1610039808016,
+        "duration" : 9725
+      }
+    }, {
+      "uid" : "91d131878a956110",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610037550426,
+        "stop" : 1610037560555,
+        "duration" : 10129
+      }
+    }, {
+      "uid" : "27994a040400c78d",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@4bc9389] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610037503308,
+        "stop" : 1610037503308,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8cde7c937798a5d",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@1f6ba47b] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610037411436,
+        "stop" : 1610037411437,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ec72916fa5e27dd",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@123e9094] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610037315222,
+        "stop" : 1610037315222,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14f1d9e63b5df4ba",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@3c4e17ea] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610037261707,
+        "stop" : 1610037261707,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e443e2e139fb21ba",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@662061e3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610037146604,
+        "stop" : 1610037146604,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5ebbcb29fa015b00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610036918422,
+        "stop" : 1610036924066,
+        "duration" : 5644
+      }
+    }, {
+      "uid" : "ff0fc764175dc4ba",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@123e9094] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610036863871,
+        "stop" : 1610036863872,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6c428c0d1c3d00b6",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@3c4e17ea] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610036815294,
+        "stop" : 1610036815294,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a42bf1f4f2eee3d3",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@123e9094] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610036711472,
+        "stop" : 1610036711472,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "75302f775be94537",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610036495276,
+        "stop" : 1610036502861,
+        "duration" : 7585
+      }
+    }, {
+      "uid" : "1a8e032da7c84443",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@1fdd5517] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610036367045,
+        "stop" : 1610036367045,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c0407d7512fd9c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609941462588,
+        "stop" : 1609941478265,
+        "duration" : 15677
+      }
+    }, {
+      "uid" : "af2c2eb3babd3396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609711798891,
+        "stop" : 1609711803194,
+        "duration" : 4303
+      }
+    }, {
+      "uid" : "9d2b30dd9bd42e74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609467858528,
+        "stop" : 1609467876775,
+        "duration" : 18247
+      }
+    }, {
+      "uid" : "1d36a18bf37b8f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609018415412,
+        "stop" : 1609018428027,
+        "duration" : 12615
+      }
+    }, {
+      "uid" : "79f7e95d66f87349",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerlogintest.TC_02_PatientLogin()[pri:0, instance:com.sailotech.ezscheduler.login_testpages.Consumerlogintest@7b364f47] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608992630088,
+        "stop" : 1608992630089,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c159fae8b242aa7.json",
+  "parameterValues" : [ ]
+}

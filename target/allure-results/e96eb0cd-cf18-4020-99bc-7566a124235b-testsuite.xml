@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1611154196347" stop="1611154262407" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1611154213538" stop="1611154244746" status="passed">
+            <name>TC_01_DoctorRegistration</name>
+            <description>DoctorRegistration</description>
+            <steps/>
+            <attachments>
+                <attachment title="DoctorRegister" source="24aa1ae9-95f5-46d4-a274-8c42dd2af6cf-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"/>
+                <label name="testMethod" value="TC_01_DoctorRegistration"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="1500@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611154245012" stop="1611154254295" status="passed">
+            <name>TC_05_Provider_LoginCredentials</name>
+            <description>ProviderRegistration_LoginCredentials</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"/>
+                <label name="testMethod" value="TC_05_Provider_LoginCredentials"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="1500@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611154254308" stop="1611154258130" status="passed">
+            <name>TC_11_DoctorLogout</name>
+            <description>To_Logout_from_DoctorPage</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="0085dbe4-29d0-43d2-9aaa-32e6f9fdf516-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"/>
+                <label name="testMethod" value="TC_11_DoctorLogout"/>
+                <label name="testId" value="TC_11"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="1500@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

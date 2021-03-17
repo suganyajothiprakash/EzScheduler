@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1610734599283" stop="1610734678874" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1610734617333" stop="1610734622587" status="passed">
+            <name>TC_01_Navigate_to_AdminLoginRegister</name>
+            <description type="text">Navigate_to_AdminloginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="0aae8ad7-ec29-4e8a-9c17-9d44e422e85c-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_01_Navigate_to_AdminLoginRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="12228@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610734622614" stop="1610734628397" status="passed">
+            <name>TC_02_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="d2f3e780-91d6-4678-9833-ff3f3469b986-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_02_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_04"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="12228@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610734628409" stop="1610734668871" status="passed">
+            <name>TC_07_Admin_VerifyDoctor_nagativescenarios</name>
+            <description type="text">Admin_CheckVerifiedDoctor</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="9dd963f0-6cde-4e1e-9199-d69db3b8ee88-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_07_Admin_VerifyDoctor_nagativescenarios"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="12228@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1610734668880" stop="1610734674016" status="passed">
+            <name>TC_06_AdminLogout</name>
+            <description type="text">To-Logout_from_Adminpage</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="660575a8-9615-415b-8710-4a3b8db9548b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverDoctornegativescenariostest"/>
+                <label name="testMethod" value="TC_06_AdminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="12228@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,452 @@
+{
+  "uid" : "c29bcbd29609f8c4",
+  "name" : "Provider Logout from Ezscheduler Website",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest.TC_04_ProviderLogout",
+  "historyId" : "e10aec5527d22635ac32f6ddf26dce50",
+  "time" : {
+    "start" : 1612978221280,
+    "stop" : 1612978221280,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@41538150] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@41538150] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612978170418,
+      "stop" : 1612978189209,
+      "duration" : 18791
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1612978189213,
+      "stop" : 1612978189469,
+      "duration" : 256
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1612978225633,
+      "stop" : 1612978226265,
+      "duration" : 632
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612978221288,
+      "stop" : 1612978225632,
+      "duration" : 4344
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_04_ProviderLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "13556@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "810b4f374d57c316",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@48b01607] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612977454494,
+        "stop" : 1612977454494,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5da289efe3df2f55",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@4f72078d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612977273504,
+        "stop" : 1612977273504,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89a49bc66bfd5468",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@4f72078d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612977171178,
+        "stop" : 1612977171178,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87cb72c79951d18d",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@7866a7a6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612976789852,
+        "stop" : 1612976789853,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cca3fa077d9cc697",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@2bf45b7c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612477739383,
+        "stop" : 1612477739383,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6bc0144587d7f58",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@7d3a2459] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612477255614,
+        "stop" : 1612477255614,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c81ded21c9570492",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@362e709e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612477124679,
+        "stop" : 1612477124679,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fefdcab4f08f2e68",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@6560f387] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612476390154,
+        "stop" : 1612476390154,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "697f8a3593abc35d",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@1e9f48d4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612476085815,
+        "stop" : 1612476085816,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4ec8ceb4cba72761",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@63614cdd] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612475930405,
+        "stop" : 1612475930405,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5943b19106949901",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@ec70725] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612475930283,
+        "stop" : 1612475930284,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1b92b558067e4ce1",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@3ed87b6e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612475524065,
+        "stop" : 1612475524066,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d726c99da862482e",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@28b4b10e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612206154490,
+        "stop" : 1612206154491,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7775185f8bf46404",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@30a5a58d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612204051647,
+        "stop" : 1612204051647,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7685a3aa1cae0dd2",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@52b49891] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203661851,
+        "stop" : 1612203661851,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f455254c7e5fa8bf",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@75973f7a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203510895,
+        "stop" : 1612203510895,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e36d3efeffa0eac",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@3d8e1fa6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203415393,
+        "stop" : 1612203415393,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dbd430a74aa2f89d",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@30a5a58d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203344087,
+        "stop" : 1612203344087,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bdb5f043507fba37",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@30eee098] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203264775,
+        "stop" : 1612203264776,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8d502dc6934f99e1",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@16eb93af] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203264607,
+        "stop" : 1612203264607,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "39abfe1ea9611e8f",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@1932ad2c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612203213831,
+        "stop" : 1612203213832,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "560101170c8fe08b",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@5440a3a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612202674255,
+        "stop" : 1612202674255,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "50379265449fce99",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@7940b729] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612202548417,
+        "stop" : 1612202548417,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44f3debadb57a265",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@7940b729] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612202422821,
+        "stop" : 1612202422821,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b38b33dcb2b6384",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@47bfde21] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612202017349,
+        "stop" : 1612202017350,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1c416a56d72fa296",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@2e76d0d3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201878465,
+        "stop" : 1612201878465,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8e8a3879ca638fb",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@30eee098] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201618680,
+        "stop" : 1612201618680,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a744521ecdc4985",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@75973f7a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201460515,
+        "stop" : 1612201460516,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "82dab91e869d89e1",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@5440a3a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201347937,
+        "stop" : 1612201347937,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65e1a1b0ccf6dfec",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@68dbe225] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201245619,
+        "stop" : 1612201245619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e69a20ca1f2adfa",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@145ef9e8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612201070588,
+        "stop" : 1612201070588,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "678a3a5fbb2591ab",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@18cb4ed1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612200716971,
+        "stop" : 1612200716971,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1f63ea9e20fe1be",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@24fb752f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612200481079,
+        "stop" : 1612200481079,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7bf783973a685dd0",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@52b49891] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612200362687,
+        "stop" : 1612200362687,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cecb0885b2b66bb5",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@5440a3a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612200222060,
+        "stop" : 1612200222061,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a9899990bd9ef23a",
+      "status" : "skipped",
+      "statusDetails" : "Method ProvidergenerateslotsTest.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest@1932ad2c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1612200145221,
+        "stop" : 1612200145221,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c29bcbd29609f8c4.json",
+  "parameterValues" : [ ]
+}

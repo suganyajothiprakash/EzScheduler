@@ -1,0 +1,495 @@
+{
+  "uid" : "f90905e4aa009533",
+  "name" : "Navigate_homepage_to_PatientLogin",
+  "fullName" : "sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest.TC_02_Patientlogin",
+  "historyId" : "152e955b7e456b1b3a1c7e5fe661d189",
+  "time" : {
+    "start" : 1608731419694,
+    "stop" : 1608731431667,
+    "duration" : 11973
+  },
+  "status" : "broken",
+  "statusMessage" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: a598a7636ab3afc96d3d4c3be0f15523",
+  "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: a598a7636ab3afc96d3d4c3be0f15523\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)\r\n\tat sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat sailotech.com.EzScheduler.PositiveImplementationPages.PatientLogin.PatientLogin(PatientLogin.java:80)\r\n\tat sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest.TC_02_Patientlogin(PatientScheduleAnAppTest.java:61)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608731431885,
+      "stop" : 1608731435192,
+      "duration" : 3307
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_Patientlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "12340@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7baf13037a297f93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608729201072,
+        "stop" : 1608729204649,
+        "duration" : 3577
+      }
+    }, {
+      "uid" : "704502f441902d38",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@1728d307] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608728840194,
+        "stop" : 1608728840194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f89be5e07a7e5307",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign-In')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 33dd8eea537f9346c03101221c7481e5\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign-In')]}",
+      "time" : {
+        "start" : 1608728163288,
+        "stop" : 1608728176704,
+        "duration" : 13416
+      }
+    }, {
+      "uid" : "90cabfb95fb4fdbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608696104423,
+        "stop" : 1608696107380,
+        "duration" : 2957
+      }
+    }, {
+      "uid" : "88304d3cd2648387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608694906072,
+        "stop" : 1608694916701,
+        "duration" : 10629
+      }
+    }, {
+      "uid" : "c4cc425ab378a790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608676960165,
+        "stop" : 1608676962770,
+        "duration" : 2605
+      }
+    }, {
+      "uid" : "15f62418741e5e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608676615387,
+        "stop" : 1608676618044,
+        "duration" : 2657
+      }
+    }, {
+      "uid" : "1b5ed479221596da",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@3397c8c0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608675532764,
+        "stop" : 1608675532765,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ede7efc26fc56639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608668132898,
+        "stop" : 1608668137407,
+        "duration" : 4509
+      }
+    }, {
+      "uid" : "d37e08652ca2f31e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608522209234,
+        "stop" : 1608522212529,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "b08bc794772834a5",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign-In')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: b43b96fd9823dd8889423df0c079ef86\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign-In')]}",
+      "time" : {
+        "start" : 1608507593245,
+        "stop" : 1608507607695,
+        "duration" : 14450
+      }
+    }, {
+      "uid" : "d609ca21666a6cb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608504503852,
+        "stop" : 1608504506104,
+        "duration" : 2252
+      }
+    }, {
+      "uid" : "a02e690aadde6e61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608503620491,
+        "stop" : 1608503622845,
+        "duration" : 2354
+      }
+    }, {
+      "uid" : "619e6ad7fd4913a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608503236467,
+        "stop" : 1608503241311,
+        "duration" : 4844
+      }
+    }, {
+      "uid" : "5e7b0456f19c42e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608439231476,
+        "stop" : 1608439235678,
+        "duration" : 4202
+      }
+    }, {
+      "uid" : "21b5937e08ecfa0f",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: d14116310f19d5393bc254178174a436",
+      "time" : {
+        "start" : 1608427127748,
+        "stop" : 1608427137395,
+        "duration" : 9647
+      }
+    }, {
+      "uid" : "ca55bf6c6e5f9e37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608426528023,
+        "stop" : 1608426532134,
+        "duration" : 4111
+      }
+    }, {
+      "uid" : "c18b63c49478acfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608425818826,
+        "stop" : 1608425823256,
+        "duration" : 4430
+      }
+    }, {
+      "uid" : "989d6ebab224de9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608425125828,
+        "stop" : 1608425130221,
+        "duration" : 4393
+      }
+    }, {
+      "uid" : "c6ea0f8a6038dc47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608424723192,
+        "stop" : 1608424726940,
+        "duration" : 3748
+      }
+    }, {
+      "uid" : "88f7a4089345e68f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608424231601,
+        "stop" : 1608424235677,
+        "duration" : 4076
+      }
+    }, {
+      "uid" : "10561880a59faca6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608424078120,
+        "stop" : 1608424082336,
+        "duration" : 4216
+      }
+    }, {
+      "uid" : "afae6503285d4031",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@7ae75ba6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608423972482,
+        "stop" : 1608423972482,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d96e4c1d64b1a4a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608423872683,
+        "stop" : 1608423876912,
+        "duration" : 4229
+      }
+    }, {
+      "uid" : "dc07ece85699e5b2",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@4964d801] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608423801116,
+        "stop" : 1608423801116,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d0187224eb21da2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608417332019,
+        "stop" : 1608417336087,
+        "duration" : 4068
+      }
+    }, {
+      "uid" : "89761c947abc437c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608417178596,
+        "stop" : 1608417183113,
+        "duration" : 4517
+      }
+    }, {
+      "uid" : "dc88dc54af6f4a85",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@4964d801] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608417031599,
+        "stop" : 1608417031599,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5fd9b1dd33cb50c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608416771726,
+        "stop" : 1608416775661,
+        "duration" : 3935
+      }
+    }, {
+      "uid" : "a6736aec83bbdbb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608416604952,
+        "stop" : 1608416609774,
+        "duration" : 4822
+      }
+    }, {
+      "uid" : "8268a6dc3e82b8d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608352308430,
+        "stop" : 1608352312636,
+        "duration" : 4206
+      }
+    }, {
+      "uid" : "523e8951821f4a7a",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@4964d801] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608352254978,
+        "stop" : 1608352254978,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5fce3cee8ebbc5b",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\PatientJ.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1608352154312,
+        "stop" : 1608352154347,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "5e4bb63691359888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608351848862,
+        "stop" : 1608351853097,
+        "duration" : 4235
+      }
+    }, {
+      "uid" : "1bb5891b48b9bcd8",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@263f6e96] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608351770560,
+        "stop" : 1608351770560,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3d14e55188405483",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(text(),'Sign-In')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: ab3f2498e723d9ec19ae2b1238034062\n*** Element info: {Using=xpath, value=//span[contains(text(),'Sign-In')]}",
+      "time" : {
+        "start" : 1608348633220,
+        "stop" : 1608348646317,
+        "duration" : 13097
+      }
+    }, {
+      "uid" : "8392c76883f2ef1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608336123080,
+        "stop" : 1608336125389,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "ebed09793617209d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608319114928,
+        "stop" : 1608319125953,
+        "duration" : 11025
+      }
+    }, {
+      "uid" : "f75f66d083a7edf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608317094408,
+        "stop" : 1608317098048,
+        "duration" : 3640
+      }
+    }, {
+      "uid" : "cda8fec028544e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608316904574,
+        "stop" : 1608316908197,
+        "duration" : 3623
+      }
+    }, {
+      "uid" : "7fce1d5a023633d8",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@2caa9666] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608316864892,
+        "stop" : 1608316864892,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4640f7ec8056bab4",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@b307030] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608316805420,
+        "stop" : 1608316805421,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4f543f7b402ab203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608315696582,
+        "stop" : 1608315705578,
+        "duration" : 8996
+      }
+    }, {
+      "uid" : "ad60f066a33cbab1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608247411351,
+        "stop" : 1608247415744,
+        "duration" : 4393
+      }
+    }, {
+      "uid" : "dfa0cffabeec82f2",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1608244372311,
+        "stop" : 1608244374889,
+        "duration" : 2578
+      }
+    }, {
+      "uid" : "113ec81acc4b25c5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1608243018885,
+        "stop" : 1608243021725,
+        "duration" : 2840
+      }
+    }, {
+      "uid" : "6a0c384c5b157017",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1608242696365,
+        "stop" : 1608242699221,
+        "duration" : 2856
+      }
+    }, {
+      "uid" : "176f641d45a3cf34",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest@49741e80] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608242128839,
+        "stop" : 1608242128840,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "38db522870f2bdab",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1608241666041,
+        "stop" : 1608241667800,
+        "duration" : 1759
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f90905e4aa009533.json",
+  "parameterValues" : [ ]
+}

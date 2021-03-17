@@ -1,0 +1,177 @@
+{
+  "uid" : "aa6fcec632ee750a",
+  "name" : "DoctorRegistration",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest.TC_01_DoctorRegistration",
+  "historyId" : "b42cad79268a273a24ae8cad9d2ea95",
+  "time" : {
+    "start" : 1611154213578,
+    "stop" : 1611154244753,
+    "duration" : 31175
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611154196402,
+      "stop" : 1611154213112,
+      "duration" : 16710
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611154213113,
+      "stop" : 1611154213375,
+      "duration" : 262
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611154262249,
+      "stop" : 1611154262370,
+      "duration" : 121
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611154244993,
+      "stop" : 1611154244993,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611154258137,
+      "stop" : 1611154262249,
+      "duration" : 4112
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01_DoctorRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProviderRegistrationCredentialstest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "1500@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1cf06e0f065367ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611153982428,
+        "stop" : 1611154013795,
+        "duration" : 31367
+      }
+    }, {
+      "uid" : "b72b4cf53d2177b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611096696915,
+        "stop" : 1611096728179,
+        "duration" : 31264
+      }
+    }, {
+      "uid" : "3df74e2316679bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611096512533,
+        "stop" : 1611096537185,
+        "duration" : 24652
+      }
+    }, {
+      "uid" : "d4bc11d7a3c4cc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611096262489,
+        "stop" : 1611096293929,
+        "duration" : 31440
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa6fcec632ee750a.json",
+  "parameterValues" : [ ]
+}

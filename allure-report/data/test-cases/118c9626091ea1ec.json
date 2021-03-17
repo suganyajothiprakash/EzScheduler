@@ -1,0 +1,168 @@
+{
+  "uid" : "118c9626091ea1ec",
+  "name" : "DoctorRegistration",
+  "fullName" : "com.sailotech.ezscheduler.testpages.Providerrregistrationtest.TC_02_DoctorRegister",
+  "historyId" : "1bbed701033e26e8cef434589c03eb42",
+  "time" : {
+    "start" : 1608954142061,
+    "stop" : 1608954195268,
+    "duration" : 53207
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608954119425,
+      "stop" : 1608954137688,
+      "duration" : 18263
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608954137690,
+      "stop" : 1608954138016,
+      "duration" : 326
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608954195289,
+      "stop" : 1608954195290,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608954195300,
+      "stop" : 1608954195300,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1608954195301,
+      "stop" : 1608954199525,
+      "duration" : 4224
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.testpages.Providerrregistrationtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.testpages.Providerrregistrationtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_DoctorRegister"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.testpages.Providerrregistrationtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "21900@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b84ff090fe5e8596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608844226800,
+        "stop" : 1608844285547,
+        "duration" : 58747
+      }
+    }, {
+      "uid" : "7033297464eb6e3c",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_02_DoctorRegister()[pri:0, instance:com.sailotech.ezscheduler.testpages.Providerrregistrationtest@78a34c47] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608844165363,
+        "stop" : 1608844165363,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "433dc2e41aefd1f8",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_02_DoctorRegister()[pri:0, instance:com.sailotech.ezscheduler.testpages.Providerrregistrationtest@77648321] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608844104374,
+        "stop" : 1608844104375,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "118c9626091ea1ec.json",
+  "parameterValues" : [ ]
+}

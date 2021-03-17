@@ -1,0 +1,240 @@
+{
+  "uid" : "82167060d05bead5",
+  "name" : "Navigate to consumer Login/Register page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ConsumerOTPTest.TC_12_ConsumerRegistration",
+  "historyId" : "5d69da00c60d260ff28442fca81b5ffc",
+  "time" : {
+    "start" : 1612994136376,
+    "stop" : 1612994148276,
+    "duration" : 11900
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612994119793,
+      "stop" : 1612994135901,
+      "duration" : 16108
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1612994135902,
+      "stop" : 1612994135902,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1612994135903,
+      "stop" : 1612994136087,
+      "duration" : 184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1612994136106,
+      "stop" : 1612994136106,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612994165713,
+      "stop" : 1612994170032,
+      "duration" : 4319
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1612994170033,
+      "stop" : 1612994173100,
+      "duration" : 3067
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1612994148283,
+      "stop" : 1612994148283,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_12_ConsumerRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ConsumerOTPTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "4212@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "457f03e8ae7d7bd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612994044227,
+        "stop" : 1612994063836,
+        "duration" : 19609
+      }
+    }, {
+      "uid" : "9afb5c5851e8bcdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612993901962,
+        "stop" : 1612993935244,
+        "duration" : 33282
+      }
+    }, {
+      "uid" : "2a38e59f6fde6fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612993787912,
+        "stop" : 1612993799842,
+        "duration" : 11930
+      }
+    }, {
+      "uid" : "d3301dcc82809027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612993686842,
+        "stop" : 1612993700344,
+        "duration" : 13502
+      }
+    }, {
+      "uid" : "2ec97118e67fcf13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612985341806,
+        "stop" : 1612985354922,
+        "duration" : 13116
+      }
+    }, {
+      "uid" : "32247ff5a5a49ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612982665901,
+        "stop" : 1612982678928,
+        "duration" : 13027
+      }
+    }, {
+      "uid" : "f2ed761ae5179807",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\\\"app-site\\\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1611695935443,
+        "stop" : 1611695947956,
+        "duration" : 12513
+      }
+    }, {
+      "uid" : "adbd144546e60a9d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //header/div[1]/ul[1]/li[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/div[1]/h5[1]/a[2] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 0395fd13ac34ff6675ca083c57646ff5",
+      "time" : {
+        "start" : 1611695856180,
+        "stop" : 1611695876446,
+        "duration" : 20266
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82167060d05bead5.json",
+  "parameterValues" : [ ]
+}

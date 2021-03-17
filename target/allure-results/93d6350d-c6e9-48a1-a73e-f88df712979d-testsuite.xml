@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1611244769621" stop="1611244914822" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1611244786243" stop="1611244886487" status="passed">
+            <name>TC_01_ProviderRegistration</name>
+            <description type="text">Provider Registering in EzScheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="DoctorRegister" source="2cf2973e-33d3-4f8c-82ec-7ad3718c8d2e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"/>
+                <label name="testMethod" value="TC_01_ProviderRegistration"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25028@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611244886514" stop="1611244890281" status="passed">
+            <name>TC_02_Providercredentials_frommail</name>
+            <description type="text">Reading Provider Credentials from mail</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"/>
+                <label name="testMethod" value="TC_02_Providercredentials_frommail"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25028@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611244890287" stop="1611244907080" status="passed">
+            <name>TC_03_Provider_LoginCredentials</name>
+            <description type="text">After Admin Verfied , the provider Receives Login credentials from Ezscheduler Team</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"/>
+                <label name="testMethod" value="TC_03_Provider_LoginCredentials"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25028@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611244907088" stop="1611244910499" status="passed">
+            <name>TC_04_ProviderLogout</name>
+            <description type="text">Provider Logout from Ezscheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="1a58381c-cb5f-4b1c-af0d-58dff690c62c-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"/>
+                <label name="testMethod" value="TC_04_ProviderLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25028@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

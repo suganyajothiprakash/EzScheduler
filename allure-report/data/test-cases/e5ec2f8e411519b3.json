@@ -1,0 +1,448 @@
+{
+  "uid" : "e5ec2f8e411519b3",
+  "name" : "Navigate To Provider Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest.TC_05_ProviderLogin",
+  "historyId" : "ed7162575706974a870c44f57f65e2ac",
+  "time" : {
+    "start" : 1612978189591,
+    "stop" : 1612978201267,
+    "duration" : 11676
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612978170418,
+      "stop" : 1612978189209,
+      "duration" : 18791
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1612978189213,
+      "stop" : 1612978189469,
+      "duration" : 256
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1612978225633,
+      "stop" : 1612978226265,
+      "duration" : 632
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1612978201510,
+      "stop" : 1612978201510,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612978221288,
+      "stop" : 1612978225632,
+      "duration" : 4344
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_05_ProviderLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.ProvidergenerateslotsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "13556@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d41680a8c24c272b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612977422866,
+        "stop" : 1612977434523,
+        "duration" : 11657
+      }
+    }, {
+      "uid" : "b4233785f2d04668",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612977201558,
+        "stop" : 1612977213426,
+        "duration" : 11868
+      }
+    }, {
+      "uid" : "40a154b49b04123",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612976902028,
+        "stop" : 1612976913741,
+        "duration" : 11713
+      }
+    }, {
+      "uid" : "6b402ed60fd0a79",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]\"}\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.150, webStorageEnabled: true}\nSession ID: f56cf3120a6da5d70ae46fa397bfe482\n*** Element info: {Using=xpath, value=//body/div[@id='app-site']/div[1]/div[1]/div[3]/main[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/fieldset[1]/div[1]/div[1]/div[1]/div[1]/input[1]}",
+      "time" : {
+        "start" : 1612976769119,
+        "stop" : 1612976788437,
+        "duration" : 19318
+      }
+    }, {
+      "uid" : "f8232591a5f0b159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612477699638,
+        "stop" : 1612477711379,
+        "duration" : 11741
+      }
+    }, {
+      "uid" : "f36214784880b4ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612477222529,
+        "stop" : 1612477234539,
+        "duration" : 12010
+      }
+    }, {
+      "uid" : "5cb1730f7ad01ed",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Provider.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612477123295,
+        "stop" : 1612477123388,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "47f18b4adb82c06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612476322280,
+        "stop" : 1612476332813,
+        "duration" : 10533
+      }
+    }, {
+      "uid" : "e54de7ca1c40ca7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612476048497,
+        "stop" : 1612476059117,
+        "duration" : 10620
+      }
+    }, {
+      "uid" : "d6e63d0aad53cc89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612475878132,
+        "stop" : 1612475894335,
+        "duration" : 16203
+      }
+    }, {
+      "uid" : "24a868bb2c867f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612475757825,
+        "stop" : 1612475768783,
+        "duration" : 10958
+      }
+    }, {
+      "uid" : "2ce98be0c3c29991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612475231958,
+        "stop" : 1612475242977,
+        "duration" : 11019
+      }
+    }, {
+      "uid" : "d51eff79adcd478f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612205550695,
+        "stop" : 1612205590672,
+        "duration" : 39977
+      }
+    }, {
+      "uid" : "f531242fe9a1bb0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612204020365,
+        "stop" : 1612204031897,
+        "duration" : 11532
+      }
+    }, {
+      "uid" : "cd2059cb0a45b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612203629923,
+        "stop" : 1612203641926,
+        "duration" : 12003
+      }
+    }, {
+      "uid" : "f5fde4cef7775551",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612203479261,
+        "stop" : 1612203491015,
+        "duration" : 11754
+      }
+    }, {
+      "uid" : "7bdac00b5241bc4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612203384227,
+        "stop" : 1612203395753,
+        "duration" : 11526
+      }
+    }, {
+      "uid" : "c98562768eaefcda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612203314584,
+        "stop" : 1612203325373,
+        "duration" : 10789
+      }
+    }, {
+      "uid" : "3d8cab8ba26ba6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612203178685,
+        "stop" : 1612203191469,
+        "duration" : 12784
+      }
+    }, {
+      "uid" : "6d3666c00aaecaed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612202921683,
+        "stop" : 1612202933436,
+        "duration" : 11753
+      }
+    }, {
+      "uid" : "ecd35a682c740bb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612202830987,
+        "stop" : 1612202842511,
+        "duration" : 11524
+      }
+    }, {
+      "uid" : "fdf7c9ba827a97d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612202615789,
+        "stop" : 1612202627503,
+        "duration" : 11714
+      }
+    }, {
+      "uid" : "3409d89695d0d995",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612202516817,
+        "stop" : 1612202528642,
+        "duration" : 11825
+      }
+    }, {
+      "uid" : "f8455b98d00d6684",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612202388245,
+        "stop" : 1612202399926,
+        "duration" : 11681
+      }
+    }, {
+      "uid" : "1e237edbfaf8b447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201986251,
+        "stop" : 1612201997797,
+        "duration" : 11546
+      }
+    }, {
+      "uid" : "4fc7f7c153cc5c70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201847267,
+        "stop" : 1612201858566,
+        "duration" : 11299
+      }
+    }, {
+      "uid" : "46965633105fed0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201587063,
+        "stop" : 1612201598836,
+        "duration" : 11773
+      }
+    }, {
+      "uid" : "f92ca4626965fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201428869,
+        "stop" : 1612201440353,
+        "duration" : 11484
+      }
+    }, {
+      "uid" : "1bdf1fb87d31cdb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201318336,
+        "stop" : 1612201329003,
+        "duration" : 10667
+      }
+    }, {
+      "uid" : "2feff21113686413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201216165,
+        "stop" : 1612201226653,
+        "duration" : 10488
+      }
+    }, {
+      "uid" : "176f572a81eaa5ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612201041223,
+        "stop" : 1612201051728,
+        "duration" : 10505
+      }
+    }, {
+      "uid" : "e4fa9fed82862566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612200687528,
+        "stop" : 1612200698119,
+        "duration" : 10591
+      }
+    }, {
+      "uid" : "64ed3a65289e5bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612200451756,
+        "stop" : 1612200462292,
+        "duration" : 10536
+      }
+    }, {
+      "uid" : "d491b0517ebf4a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612200332863,
+        "stop" : 1612200343930,
+        "duration" : 11067
+      }
+    }, {
+      "uid" : "87cc5185722ac68a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612200203088,
+        "stop" : 1612200213729,
+        "duration" : 10641
+      }
+    }, {
+      "uid" : "537f992ca5c01749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612200125381,
+        "stop" : 1612200136829,
+        "duration" : 11448
+      }
+    }, {
+      "uid" : "7c7f151cac06e65f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612199715938,
+        "stop" : 1612199727486,
+        "duration" : 11548
+      }
+    }, {
+      "uid" : "f973ffe937806fea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612198893834,
+        "stop" : 1612198905828,
+        "duration" : 11994
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5ec2f8e411519b3.json",
+  "parameterValues" : [ ]
+}

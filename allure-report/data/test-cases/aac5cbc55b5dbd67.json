@@ -1,0 +1,381 @@
+{
+  "uid" : "aac5cbc55b5dbd67",
+  "name" : "Navigate to Admin Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.AdminVerifieddoctorsTest1.TC_08_Navigate_to_AdminLogin",
+  "historyId" : "769b0514c2adc02361259120cefc0a15",
+  "time" : {
+    "start" : 1611609051746,
+    "stop" : 1611609056925,
+    "duration" : 5179
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611609033921,
+      "stop" : 1611609050893,
+      "duration" : 16972
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1611609050895,
+      "stop" : 1611609050895,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1611609050895,
+      "stop" : 1611609051265,
+      "duration" : 370
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1611609051297,
+      "stop" : 1611609051297,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611609056937,
+      "stop" : 1611609056937,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1611609108702,
+      "stop" : 1611609108703,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611609108703,
+      "stop" : 1611609112794,
+      "duration" : 4091
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611609112794,
+      "stop" : 1611609115928,
+      "duration" : 3134
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminVerifieddoctorsTest1"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminVerifieddoctorsTest1"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08_Navigate_to_AdminLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminVerifieddoctorsTest1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "31620@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "971d3a747ec64c6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 7852528dfb130394c0f5cf26680f1da7",
+      "time" : {
+        "start" : 1611608963748,
+        "stop" : 1611608977830,
+        "duration" : 14082
+      }
+    }, {
+      "uid" : "c9d3658f9c30bf9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611608808364,
+        "stop" : 1611608814693,
+        "duration" : 6329
+      }
+    }, {
+      "uid" : "10be4bd3e82b245c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611608724924,
+        "stop" : 1611608731007,
+        "duration" : 6083
+      }
+    }, {
+      "uid" : "f2ad662d14460e37",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611608616522,
+        "stop" : 1611608616732,
+        "duration" : 210
+      }
+    }, {
+      "uid" : "56e4374920053f6",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611608406664,
+        "stop" : 1611608406877,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "2fbf1bc20d3ec5df",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611608295741,
+        "stop" : 1611608295902,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "95d4aa5d02f4e529",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611608134492,
+        "stop" : 1611608134625,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "13212ab2a707d74d",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1611607276029,
+        "stop" : 1611607276232,
+        "duration" : 203
+      }
+    }, {
+      "uid" : "cd7395e9e5fee8b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591880915,
+        "stop" : 1611591885912,
+        "duration" : 4997
+      }
+    }, {
+      "uid" : "25ba4a1a13c2f9be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591725745,
+        "stop" : 1611591731813,
+        "duration" : 6068
+      }
+    }, {
+      "uid" : "bdf8d5c2823d3c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591420372,
+        "stop" : 1611591426551,
+        "duration" : 6179
+      }
+    }, {
+      "uid" : "1219eac5c144d606",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591338643,
+        "stop" : 1611591344930,
+        "duration" : 6287
+      }
+    }, {
+      "uid" : "43f7e0c472a2683b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591206333,
+        "stop" : 1611591212352,
+        "duration" : 6019
+      }
+    }, {
+      "uid" : "577ea9707789718e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611591018354,
+        "stop" : 1611591024375,
+        "duration" : 6021
+      }
+    }, {
+      "uid" : "1c14a9d8dc41afb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590936914,
+        "stop" : 1611590942845,
+        "duration" : 5931
+      }
+    }, {
+      "uid" : "75ed9cdfa87be685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590871614,
+        "stop" : 1611590883999,
+        "duration" : 12385
+      }
+    }, {
+      "uid" : "af52ca3fdf7724b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590768191,
+        "stop" : 1611590775543,
+        "duration" : 7352
+      }
+    }, {
+      "uid" : "cf9b325b40d21f97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590609866,
+        "stop" : 1611590616274,
+        "duration" : 6408
+      }
+    }, {
+      "uid" : "9594b235411b2538",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590530051,
+        "stop" : 1611590536148,
+        "duration" : 6097
+      }
+    }, {
+      "uid" : "e3fdac8613d6494c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590376327,
+        "stop" : 1611590382539,
+        "duration" : 6212
+      }
+    }, {
+      "uid" : "35a4373b92790437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590281578,
+        "stop" : 1611590287946,
+        "duration" : 6368
+      }
+    }, {
+      "uid" : "18fa36df955d4e94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611590197366,
+        "stop" : 1611590203711,
+        "duration" : 6345
+      }
+    }, {
+      "uid" : "8d6bc7443e439a38",
+      "status" : "broken",
+      "statusDetails" : "org.apache.poi.openxml4j.exceptions.InvalidFormatException: Package should contain a content type part [M1.13]",
+      "time" : {
+        "start" : 1611590140421,
+        "stop" : 1611590140751,
+        "duration" : 330
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aac5cbc55b5dbd67.json",
+  "parameterValues" : [ ]
+}

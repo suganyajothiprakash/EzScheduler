@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608695708695" stop="1608696499337" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SmokeTest : SmokeTest</name>
+    <title>SmokeTest : SmokeTest</title>
+    <test-cases>
+        <test-case start="1608695727291" stop="1608695730784" status="passed">
+            <name>TC_01_navigate_homepage_to_DoctorRegister</name>
+            <description type="text">Navigate_homepage_to_DoctorLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="0db233bc-a385-4428-9fdf-7bb4591a265e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695730818" stop="1608695754365" status="passed">
+            <name>TC_02_DoctorRegister</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorRegistrationTest"/>
+                <label name="testMethod" value="TC_02_DoctorRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695770201" stop="1608695771982" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="674e6e34-a66e-4bb9-ae4a-50483316ca3d-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695772011" stop="1608695774139" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="114c87bc-62ca-4b24-a073-fa0c631e8d98-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_04"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695791740" stop="1608695793420" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="ae1afc2c-2de1-4f07-a6e6-08798e2a2a25-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695793431" stop="1608695824277" status="broken">
+            <name>TC_02_adminverifyDoctor</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <failure>
+                <message>StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: f53e10350204bee130fbedd1742997e0</message>
+                <stack-trace>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: f53e10350204bee130fbedd1742997e0&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)&#13;
+	at sailotech.com.EzScheduler.PositiveImplementationPages.AdminVerifyDoctors.AdminverifyDoctor(AdminVerifyDoctors.java:286)&#13;
+	at sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest.TC_02_adminverifyDoctor(AdminVerifyTest.java:61)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:505)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;
+	at org.testng.TestNG.run(TestNG.java:1017)&#13;
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_02_adminverifyDoctor"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695825298" stop="1608695825300" status="canceled">
+            <name>TC_02_adminLogout</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:425)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:186)&#13;
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:61)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)&#13;
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1063)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:505)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;
+	at org.testng.TestNG.run(TestNG.java:1017)&#13;
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_02_adminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695866954" stop="1608695868741" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="20893a95-00c5-4400-a31d-c3fa01cba19f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorLoginTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695868755" stop="1608695871506" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="9d1dfbe3-c2c6-4342-8f5c-3faeff22aa91-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorLoginTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_08"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695890165" stop="1608695892120" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="2949b80b-d7bf-4275-a86e-1a3b74f079bf-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695892128" stop="1608695897478" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="ba3e27c3-55c0-40fa-a4d3-0dfb1aec4119-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_09"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695897490" stop="1608695994566" status="passed">
+            <name>TC_03_GenerateSlots</name>
+            <description type="text">Navigate_GenerateSlots</description>
+            <steps/>
+            <attachments>
+                <attachment title="ToGenerateSlots" source="c31e1021-9e76-4f5d-910f-c8272669587a-attachment.png" type="image/png"/>
+                <attachment title="ToGenerateSlots" source="17477001-86fd-45b8-af4a-1cfbba6fa7e3-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_03_GenerateSlots"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_10"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608695994583" stop="1608695999505" status="passed">
+            <name>TC_04_Doctor_Logout</name>
+            <description type="text">Navigate_homepage_to_DoctorLogout</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="8b58b501-e0fb-43ab-9f52-e61f43e2fb2b-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.DoctorGenerateSlotsTest"/>
+                <label name="testMethod" value="TC_04_Doctor_Logout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_07"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696018188" stop="1608696022480" status="passed">
+            <name>TC_01_navigate_homepage_to_PatientRegister</name>
+            <description type="text">Navigate_homepage_to_PatientLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="6ab426ba-8e6f-47c8-84a6-e52edfe64c47-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientRegistrationTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_11"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696022492" stop="1608696035524" status="passed">
+            <name>TC_02_PatientRegister</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="1aa8482e-5516-4ece-aa6e-be6af35c1a12-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientRegistrationTest"/>
+                <label name="testMethod" value="TC_02_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_12"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696070972" stop="1608696074003" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="02868679-29c0-4a1d-b677-d53605f0d799-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_13"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696074021" stop="1608696081462" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="75139b56-5df9-4e40-a7be-ec367a853ada-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientLoginTest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_14"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696102054" stop="1608696104413" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="c53360e6-10c7-4ac9-808a-35de20273624-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_15"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696104425" stop="1608696107382" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="26176912-a87c-4b1f-a254-fe5f09c11989-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_16"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696107392" stop="1608696187019" status="passed">
+            <name>TC_03_PatientScheduleAnApp</name>
+            <description type="text">patient_schedule_an_Appointment</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="dd3ba1f0-c33a-4e58-9f6a-11f51be729c5-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_03_PatientScheduleAnApp"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_17"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696187038" stop="1608696192178" status="passed">
+            <name>TC_03_PatientLogout</name>
+            <description type="text">patientLogout</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="10a3f59b-2a2c-4915-96c6-2ae6cead0ac0-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.PatientScheduleAnAppTest"/>
+                <label name="testMethod" value="TC_03_PatientLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_17"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696237253" stop="1608696248832" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="5b87be5a-7ba6-4d75-80b9-0e54300e9479-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_18"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696248855" stop="1608696262643" status="broken">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <failure>
+                <message>NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign In')]"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: aea636863a32852e8bcec37c9bdbff2a
+*** Element info: {Using=xpath, value=//span[contains(text(),'Sign In')]}</message>
+                <stack-trace>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign In')]"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\sukki\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: aea636863a32852e8bcec37c9bdbff2a
+*** Element info: {Using=xpath, value=//span[contains(text(),'Sign In')]}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy17.getText(Unknown Source)&#13;
+	at sailotech.com.EzScheduler.NegativeImplementationPages.AdminLoginCredentials.Adminlogin(AdminLoginCredentials.java:81)&#13;
+	at sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest.TC_02_adminlogin(AdminLoginCredentialsTest.java:62)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:505)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1049)&#13;
+	at org.testng.TestNG.run(TestNG.java:1017)&#13;
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_19"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696322754" stop="1608696325062" status="passed">
+            <name>TC_01_navigate_homepage_to_Doctor_login</name>
+            <description type="text">Navigate_homepage_to_Doctor_loginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="b2fcfbda-dc09-4adc-bcf0-cc6385a7e410-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.DoctorLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Doctor_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_21"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696325155" stop="1608696354989" status="passed">
+            <name>TC_02_DoctorLogin</name>
+            <description type="text">Navigate_homepage_to_DoctorLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateDoctorLogin" source="081bb182-c85c-4133-a1a4-033f664fb875-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.DoctorLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_DoctorLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_22"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696386839" stop="1608696396886" status="passed">
+            <name>TC_01_navigate_homepage_to_Patient_login</name>
+            <description type="text">Navigate_homepage_to_Patient_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="415f5277-597b-4baf-887a-d8131b7164f4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.PatientLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_Patient_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_23"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608696396901" stop="1608696491971" status="passed">
+            <name>TC_02_Patientlogin</name>
+            <description type="text">Navigate_homepage_to_PatientLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigatepatientLogin" source="0d896572-d474-4349-ab05-942e6d601768-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="SmokeTest"/>
+                <label name="testGroup" value="SmokeTest"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.PatientLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_Patientlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_24"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25580@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

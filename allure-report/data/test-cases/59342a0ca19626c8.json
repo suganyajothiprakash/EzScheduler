@@ -1,0 +1,325 @@
+{
+  "uid" : "59342a0ca19626c8",
+  "name" : "ReadingOTP_fromConsumerMail",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest.ConsumerCredentialsfrommail",
+  "historyId" : "919b6d6ab37c1f7c1b5423fe3ea49fc8",
+  "time" : {
+    "start" : 1611003653826,
+    "stop" : 1611003663003,
+    "duration" : 9177
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611003617162,
+      "stop" : 1611003633932,
+      "duration" : 16770
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611003633932,
+      "stop" : 1611003634230,
+      "duration" : 298
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611003663009,
+      "stop" : 1611003667073,
+      "duration" : 4064
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611003663006,
+      "stop" : 1611003663006,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611003667074,
+      "stop" : 1611003667724,
+      "duration" : 650
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ConsumerCredentialsfrommail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "132@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec3b706186a2c57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003541433,
+        "stop" : 1611003550383,
+        "duration" : 8950
+      }
+    }, {
+      "uid" : "760ad813a5487df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003432320,
+        "stop" : 1611003441151,
+        "duration" : 8831
+      }
+    }, {
+      "uid" : "5f1a35bf1425644f",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@eb1e868] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611003380120,
+        "stop" : 1611003380121,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "db1f6f1c70020802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003239766,
+        "stop" : 1611003248563,
+        "duration" : 8797
+      }
+    }, {
+      "uid" : "f41b0c2ff4774934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003121015,
+        "stop" : 1611003132899,
+        "duration" : 11884
+      }
+    }, {
+      "uid" : "528a4a75aa90e954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610989926730,
+        "stop" : 1610989936428,
+        "duration" : 9698
+      }
+    }, {
+      "uid" : "42153a936dc648fb",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@24482a4f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610989553146,
+        "stop" : 1610989553146,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ca0af3292d05b091",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@1fdd5517] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610989479826,
+        "stop" : 1610989479826,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "162917d33fea4e7",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@27107a97] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610989429775,
+        "stop" : 1610989429776,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "72f18c835bf8b578",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@5b29d699] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610989352339,
+        "stop" : 1610989352339,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5dabb89a41580625",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@15c96f24] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610989223398,
+        "stop" : 1610989223398,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e64db10925b1b31d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610988832159,
+        "stop" : 1610988843778,
+        "duration" : 11619
+      }
+    }, {
+      "uid" : "7d12d3a13cd675ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610737371695,
+        "stop" : 1610737385867,
+        "duration" : 14172
+      }
+    }, {
+      "uid" : "71530b48c59ce7dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610736284061,
+        "stop" : 1610736312821,
+        "duration" : 28760
+      }
+    }, {
+      "uid" : "38c1254e88f6c13a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610729403224,
+        "stop" : 1610729412355,
+        "duration" : 9131
+      }
+    }, {
+      "uid" : "b5a6ff44c33a7622",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.ConsumerCredentialsfrommail()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@73b10975] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610729350748,
+        "stop" : 1610729350748,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b13bc12d5243961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610728904673,
+        "stop" : 1610728913271,
+        "duration" : 8598
+      }
+    }, {
+      "uid" : "9f5f5b6651c88276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610728800518,
+        "stop" : 1610728821798,
+        "duration" : 21280
+      }
+    }, {
+      "uid" : "83f6e0bc62212a2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610723940666,
+        "stop" : 1610723968844,
+        "duration" : 28178
+      }
+    }, {
+      "uid" : "bdc3f6ba18277ef3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610665017800,
+        "stop" : 1610665024358,
+        "duration" : 6558
+      }
+    }, {
+      "uid" : "993a9e48c96de61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610664339309,
+        "stop" : 1610664345670,
+        "duration" : 6361
+      }
+    }, {
+      "uid" : "175491224d6f16ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610664205819,
+        "stop" : 1610664212467,
+        "duration" : 6648
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59342a0ca19626c8.json",
+  "parameterValues" : [ ]
+}

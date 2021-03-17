@@ -1,0 +1,102 @@
+{
+  "uid" : "2888b3e2f75f795f",
+  "name" : "TC01_ReadMail",
+  "fullName" : "com.sailotech.ezscheduler.readingmail.Providercredentialsfrommail.TC01_ReadMail",
+  "historyId" : "a0c3f4520b699c8cbdf7f187fa11245",
+  "time" : {
+    "start" : 1610667842985,
+    "stop" : 1610667883933,
+    "duration" : 40948
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.readingmail.Providercredentialsfrommail"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.readingmail.Providercredentialsfrommail"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC01_ReadMail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.readingmail.Providercredentialsfrommail"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "23304@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3c5a2cbb11f83a6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610667631767,
+        "stop" : 1610667638300,
+        "duration" : 6533
+      }
+    }, {
+      "uid" : "3fa3c1d5ba67ff1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610660861205,
+        "stop" : 1610660866098,
+        "duration" : 4893
+      }
+    }, {
+      "uid" : "3b85c93a5531202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610660788060,
+        "stop" : 1610660792348,
+        "duration" : 4288
+      }
+    }, {
+      "uid" : "d6dbfc39976840fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610660516135,
+        "stop" : 1610660521837,
+        "duration" : 5702
+      }
+    }, {
+      "uid" : "fc16f4e9765a76be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610046801439,
+        "stop" : 1610046809028,
+        "duration" : 7589
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2888b3e2f75f795f.json",
+  "parameterValues" : [ ]
+}

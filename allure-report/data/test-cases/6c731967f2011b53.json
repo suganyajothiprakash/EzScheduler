@@ -1,0 +1,584 @@
+{
+  "uid" : "6c731967f2011b53",
+  "name" : "Navigate_homepage_to_PatientLogin",
+  "fullName" : "sailotech.com.EzScheduler.PatientPages.PatientTest.TC_02_Patientlogin",
+  "historyId" : "9d75200592930b99a9d002dca8acf93b",
+  "time" : {
+    "start" : 1607869154605,
+    "stop" : 1607869166211,
+    "duration" : 11606
+  },
+  "status" : "broken",
+  "statusMessage" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 2979ece81449d8c769e9648aca4567f1",
+  "statusTrace" : "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 2979ece81449d8c769e9648aca4567f1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)\r\n\tat sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat sailotech.com.EzScheduler.PatientPages.PatientLogin.PatientLogin(PatientLogin.java:103)\r\n\tat sailotech.com.EzScheduler.PatientPages.PatientTest.TC_02_Patientlogin(PatientTest.java:69)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607869113348,
+      "stop" : 1607869143628,
+      "duration" : 30280
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607869143629,
+      "stop" : 1607869144297,
+      "duration" : 668
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607869166219,
+      "stop" : 1607869167328,
+      "duration" : 1109
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870192912,
+      "stop" : 1607870201419,
+      "duration" : 8507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870201420,
+      "stop" : 1607870207512,
+      "duration" : 6092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870207513,
+      "stop" : 1607870210001,
+      "duration" : 2488
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870210002,
+      "stop" : 1607870216627,
+      "duration" : 6625
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870216628,
+      "stop" : 1607870218464,
+      "duration" : 1836
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870218464,
+      "stop" : 1607870219518,
+      "duration" : 1054
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870219518,
+      "stop" : 1607870220444,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607869167332,
+      "stop" : 1607869167332,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PatientPages.PatientTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PatientPages.PatientTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_Patientlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PatientPages.PatientTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "5488@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "172efbf67de34131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607838653357,
+        "stop" : 1607838664132,
+        "duration" : 10775
+      }
+    }, {
+      "uid" : "30fbd4323b96b001",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@1516f497] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607805737995,
+        "stop" : 1607805737995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c0125cd67224e6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607792487291,
+        "stop" : 1607792498706,
+        "duration" : 11415
+      }
+    }, {
+      "uid" : "fa6c8645d0cd8d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607788440373,
+        "stop" : 1607788444016,
+        "duration" : 3643
+      }
+    }, {
+      "uid" : "707190fd1904213a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607712491731,
+        "stop" : 1607712493956,
+        "duration" : 2225
+      }
+    }, {
+      "uid" : "2190984e0fff6451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607705235782,
+        "stop" : 1607705253849,
+        "duration" : 18067
+      }
+    }, {
+      "uid" : "a03b7a818252fbc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607615231691,
+        "stop" : 1607615236305,
+        "duration" : 4614
+      }
+    }, {
+      "uid" : "407072ff44fd809a",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@3dad8bde] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607615174859,
+        "stop" : 1607615174859,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e124f3367f75b36a",
+      "status" : "failed",
+      "statusDetails" : "expected [Sign-In] but found []",
+      "time" : {
+        "start" : 1607615081403,
+        "stop" : 1607615085090,
+        "duration" : 3687
+      }
+    }, {
+      "uid" : "95e07b3c377b3d3d",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@7f2542f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607615026006,
+        "stop" : 1607615026006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db5a8bdcfe5dc537",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@4700963e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607614904272,
+        "stop" : 1607614904272,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1948fb0ad770f99",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@15b882a0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607566464145,
+        "stop" : 1607566464145,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c15222ee11b20163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607544880114,
+        "stop" : 1607544882222,
+        "duration" : 2108
+      }
+    }, {
+      "uid" : "dd730bf4be3f238b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607533037855,
+        "stop" : 1607533039903,
+        "duration" : 2048
+      }
+    }, {
+      "uid" : "8b6e93a577281b6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607527163568,
+        "stop" : 1607527165535,
+        "duration" : 1967
+      }
+    }, {
+      "uid" : "e7c141a7e6dd64d2",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@5ace902e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607526076298,
+        "stop" : 1607526076299,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "56575cfe2513c81f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607524336195,
+        "stop" : 1607524338534,
+        "duration" : 2339
+      }
+    }, {
+      "uid" : "aa23912b80f334d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607486815911,
+        "stop" : 1607486818017,
+        "duration" : 2106
+      }
+    }, {
+      "uid" : "564b480432938e0c",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@51a65f56] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607480071089,
+        "stop" : 1607480071089,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd6d0efb7ea74ae4",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@408a0e92] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607476673133,
+        "stop" : 1607476673133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "831239a487e01624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607386545195,
+        "stop" : 1607386548781,
+        "duration" : 3586
+      }
+    }, {
+      "uid" : "46bd5ac381df4cd4",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@3dad8bde] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607386450027,
+        "stop" : 1607386450027,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7f8108ac64e497c",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@153d14e3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607386407147,
+        "stop" : 1607386407147,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e4db8d02d79cf230",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@6b6606d1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607385933398,
+        "stop" : 1607385933398,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1b1033169c17b02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607384383736,
+        "stop" : 1607384387657,
+        "duration" : 3921
+      }
+    }, {
+      "uid" : "c78fd57bd629b9d3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607381751104,
+        "stop" : 1607381754129,
+        "duration" : 3025
+      }
+    }, {
+      "uid" : "3583cf8412114416",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@3fa50a24] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607265833321,
+        "stop" : 1607265833322,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f755cd840a2ee41f",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@58922a00] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607262536546,
+        "stop" : 1607262536547,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a68cbec4ef7414bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607128424554,
+        "stop" : 1607128428609,
+        "duration" : 4055
+      }
+    }, {
+      "uid" : "8f50f692599d51d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607119563868,
+        "stop" : 1607119566065,
+        "duration" : 2197
+      }
+    }, {
+      "uid" : "40b50cef105bdd30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607116639682,
+        "stop" : 1607116642157,
+        "duration" : 2475
+      }
+    }, {
+      "uid" : "26fc525c1fce3177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607115546946,
+        "stop" : 1607115549936,
+        "duration" : 2990
+      }
+    }, {
+      "uid" : "eeec579fb4b41db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607031723603,
+        "stop" : 1607031728103,
+        "duration" : 4500
+      }
+    }, {
+      "uid" : "900cf2d867a73d94",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@71f437d7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607029462832,
+        "stop" : 1607029462833,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b666607798ad3c89",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@6dd7af2f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028270194,
+        "stop" : 1607028270194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c86c18c4a9dd2267",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@5b697993] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028148543,
+        "stop" : 1607028148543,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b22575e22b0309a",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@eb66b47] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028117437,
+        "stop" : 1607028117437,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8ec4c01f5aeaf3dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606924299643,
+        "stop" : 1606924303729,
+        "duration" : 4086
+      }
+    }, {
+      "uid" : "f57bcfea2436c906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606922690028,
+        "stop" : 1606922696774,
+        "duration" : 6746
+      }
+    }, {
+      "uid" : "a48ce04aef78a54c",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientTest.TC_02_Patientlogin()[pri:0, instance:sailotech.com.EzScheduler.PatientPages.PatientTest@4accc3de] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1606868183476,
+        "stop" : 1606868183476,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6c731967f2011b53.json",
+  "parameterValues" : [ ]
+}

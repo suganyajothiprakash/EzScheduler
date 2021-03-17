@@ -1,0 +1,259 @@
+{
+  "uid" : "ad572b1abdb155fe",
+  "name" : "Navigate_homepage_to_AdminLogin",
+  "fullName" : "sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest.TC_02_adminlogin",
+  "historyId" : "4dcd71b112057d49a3a83ef828a33bb7",
+  "time" : {
+    "start" : 1608731034881,
+    "stop" : 1608731037206,
+    "duration" : 2325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608731037210,
+      "stop" : 1608731037210,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_adminlogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "12340@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3a00bbdc6a48784",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminLoginTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest@2fc7c36a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608727824435,
+        "stop" : 1608727824435,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78b138af7282adfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608695771995,
+        "stop" : 1608695774137,
+        "duration" : 2142
+      }
+    }, {
+      "uid" : "5a81474400759893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608694638695,
+        "stop" : 1608694641142,
+        "duration" : 2447
+      }
+    }, {
+      "uid" : "1f8da8dd2e0293af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608675206051,
+        "stop" : 1608675208178,
+        "duration" : 2127
+      }
+    }, {
+      "uid" : "bfd8bbed0001ba97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608667848707,
+        "stop" : 1608667851476,
+        "duration" : 2769
+      }
+    }, {
+      "uid" : "40a6a9fdfc8532f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608521861215,
+        "stop" : 1608521863814,
+        "duration" : 2599
+      }
+    }, {
+      "uid" : "d9a45a2579fd8b1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608507221450,
+        "stop" : 1608507223720,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "fdb8cfb0267a1312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608505881726,
+        "stop" : 1608505885383,
+        "duration" : 3657
+      }
+    }, {
+      "uid" : "af86bd23527e0309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608505648444,
+        "stop" : 1608505652186,
+        "duration" : 3742
+      }
+    }, {
+      "uid" : "4568075ddef09cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608426819778,
+        "stop" : 1608426821976,
+        "duration" : 2198
+      }
+    }, {
+      "uid" : "4939fdfcc6972dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608348303877,
+        "stop" : 1608348306079,
+        "duration" : 2202
+      }
+    }, {
+      "uid" : "f24ef7e68b8bbcaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608335016167,
+        "stop" : 1608335021047,
+        "duration" : 4880
+      }
+    }, {
+      "uid" : "1220c35513f89b04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608331207251,
+        "stop" : 1608331211297,
+        "duration" : 4046
+      }
+    }, {
+      "uid" : "c4940ce92253d83d",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminLoginTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest@74832504] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608329090578,
+        "stop" : 1608329090579,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2c035a86b847ebb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608318785753,
+        "stop" : 1608318788298,
+        "duration" : 2545
+      }
+    }, {
+      "uid" : "3f4495e7f83ea120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608315302340,
+        "stop" : 1608315304716,
+        "duration" : 2376
+      }
+    }, {
+      "uid" : "ea10ca62c458e55b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608240210029,
+        "stop" : 1608240213202,
+        "duration" : 3173
+      }
+    }, {
+      "uid" : "3d2eee834b077ccf",
+      "status" : "broken",
+      "statusDetails" : "Unexpected result for screenshot command: null",
+      "time" : {
+        "start" : 1608240027906,
+        "stop" : 1608240131689,
+        "duration" : 103783
+      }
+    }, {
+      "uid" : "82d50d9fa5420159",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminLoginTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest@440d2d64] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608239919352,
+        "stop" : 1608239919352,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "492ee09b76c0d10a",
+      "status" : "skipped",
+      "statusDetails" : "Method AdminLoginTest.TC_02_adminlogin()[pri:0, instance:sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest@cce92b5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608239841264,
+        "stop" : 1608239841264,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8886682f38197ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608239324736,
+        "stop" : 1608239327931,
+        "duration" : 3195
+      }
+    }, {
+      "uid" : "a8eb5463d9cc165c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608221537331,
+        "stop" : 1608221543342,
+        "duration" : 6011
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad572b1abdb155fe.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,720 @@
+{
+  "uid" : "dfd7c5dc2cd04fc5",
+  "name" : "patient_schedule_an_Appointment",
+  "fullName" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp",
+  "historyId" : "cbbe7ad446febe3674e104c84073097b",
+  "time" : {
+    "start" : 1607869211517,
+    "stop" : 1607870003183,
+    "duration" : 791666
+  },
+  "status" : "broken",
+  "statusMessage" : "Unexpected result for screenshot command: null",
+  "statusTrace" : "java.lang.RuntimeException: Unexpected result for screenshot command: null\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)\r\n\tat sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppointment.EzHomePage(PatientScheduleAnAppointment.java:40)\r\n\tat sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppointment.patient_schedule_an_appointment(PatientScheduleAnAppointment.java:741)\r\n\tat sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp(PatientScheduleAnAppTest.java:95)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607869167332,
+      "stop" : 1607869203014,
+      "duration" : 35682
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607869203017,
+      "stop" : 1607869203460,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870192912,
+      "stop" : 1607870201419,
+      "duration" : 8507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870201420,
+      "stop" : 1607870207512,
+      "duration" : 6092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870207513,
+      "stop" : 1607870210001,
+      "duration" : 2488
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870210002,
+      "stop" : 1607870216627,
+      "duration" : 6625
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870216628,
+      "stop" : 1607870218464,
+      "duration" : 1836
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870218464,
+      "stop" : 1607870219518,
+      "duration" : 1054
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870219518,
+      "stop" : 1607870220444,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607870003197,
+      "stop" : 1607870003258,
+      "duration" : 61
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607870003261,
+      "stop" : 1607870003261,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03_PatientScheduleAnApp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "5488@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "94939d5a3ba9427e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607838698297,
+        "stop" : 1607838735767,
+        "duration" : 37470
+      }
+    }, {
+      "uid" : "1f2805b3796251a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607837557896,
+        "stop" : 1607837627268,
+        "duration" : 69372
+      }
+    }, {
+      "uid" : "d47efde05fc954c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607837117464,
+        "stop" : 1607837181083,
+        "duration" : 63619
+      }
+    }, {
+      "uid" : "1e71490b719e4aaf",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6e4bccc] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607837075223,
+        "stop" : 1607837075223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93c30215b933bc3d",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@2dc77962] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607837000712,
+        "stop" : 1607837000712,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34f6057d0beae697",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 11e2223e1519ab7d713cc5d5c3be512b\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607836766079,
+        "stop" : 1607836807810,
+        "duration" : 41731
+      }
+    }, {
+      "uid" : "23a27ccb13b19aa6",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@2d568cff] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607836554562,
+        "stop" : 1607836554562,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c459dc93de66bbbf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 43ad6418fa39e34f9cba1adf3e3ead3e\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607835951246,
+        "stop" : 1607836074422,
+        "duration" : 123176
+      }
+    }, {
+      "uid" : "cfbe213e03b05918",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@36696821] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607835817123,
+        "stop" : 1607835817124,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b72961e3292e9f4a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir2...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: f5032628efe8c48042205adb060b371e\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607805761507,
+        "stop" : 1607805803713,
+        "duration" : 42206
+      }
+    }, {
+      "uid" : "c68effb33a8e788",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607792546015,
+        "stop" : 1607792590198,
+        "duration" : 44183
+      }
+    }, {
+      "uid" : "1e6720b9019d306a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607788517716,
+        "stop" : 1607788599634,
+        "duration" : 81918
+      }
+    }, {
+      "uid" : "297533c17a994cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607787181829,
+        "stop" : 1607787253257,
+        "duration" : 71428
+      }
+    }, {
+      "uid" : "cc7209017006419f",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@b307030] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607787079546,
+        "stop" : 1607787079546,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b6abf384874551",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 4dfc19ab2845b1d5795d99d336afa4fa\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607786868053,
+        "stop" : 1607786906096,
+        "duration" : 38043
+      }
+    }, {
+      "uid" : "93047dde4613b526",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@2e895acb] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607713099433,
+        "stop" : 1607713099433,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73e198e0de66bcd0",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@2df40273] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607705328192,
+        "stop" : 1607705328193,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8887f389a9c672",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@727e61ed] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607619632412,
+        "stop" : 1607619632412,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "162c783ceb48e9e4",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@74901d7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607619274664,
+        "stop" : 1607619274664,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b852e7431a937935",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 456cd9ff5ee8305bbc1dfcacddeb784b\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607617815228,
+        "stop" : 1607617886607,
+        "duration" : 71379
+      }
+    }, {
+      "uid" : "ab7e8a569e26fd4b",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@5edaa572] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607617565305,
+        "stop" : 1607617565306,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bf96163152fe37a4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 001fbaf1dc8edb923e2a665ec749eb81\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607617295070,
+        "stop" : 1607617336722,
+        "duration" : 41652
+      }
+    }, {
+      "uid" : "311e4db875f7f70a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'MuiTab-wrapper') and contains(text(),'All Appointments')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 86e665ee7790490edcd27e35ef7415a0\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'MuiTab-wrapper') and contains(text(),'All Appointments')]}",
+      "time" : {
+        "start" : 1607617108870,
+        "stop" : 1607617121696,
+        "duration" : 12826
+      }
+    }, {
+      "uid" : "218b09f3b3e2aa01",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6ade4ac6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607566515313,
+        "stop" : 1607566515313,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "773dfb555d11b46a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: f2092a4e94c842fb0f26a91d2fceb928\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607544918511,
+        "stop" : 1607544956118,
+        "duration" : 37607
+      }
+    }, {
+      "uid" : "58a925722a1ae84c",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@39f5eba4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607533645593,
+        "stop" : 1607533645593,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb5ee197f2fa6a0e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: dd9b956866e0eee0d1f21af3ded6c628\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607527282787,
+        "stop" : 1607527320257,
+        "duration" : 37470
+      }
+    }, {
+      "uid" : "397f5ebeb7d6653c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 803f9fbaa5f78d57dad32e57f139000b\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607526103250,
+        "stop" : 1607526146222,
+        "duration" : 42972
+      }
+    }, {
+      "uid" : "d6cc4ff5f568e47f",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@27b7913] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607525138262,
+        "stop" : 1607525138262,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c0cb46ee255ff261",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@8d5b303] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607480078230,
+        "stop" : 1607480078230,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d074dff5a6a875f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 0374826826d9566739f3acca6fcb6ca5\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607476738493,
+        "stop" : 1607476795715,
+        "duration" : 57222
+      }
+    }, {
+      "uid" : "a6130b62b7ec840b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607443009385,
+        "stop" : 1607443076919,
+        "duration" : 67534
+      }
+    }, {
+      "uid" : "20e6a3ff2749631",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\Appointment.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607442943166,
+        "stop" : 1607442943194,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "172a4a207c8bcdf5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607442665324,
+        "stop" : 1607442733488,
+        "duration" : 68164
+      }
+    }, {
+      "uid" : "8bcb11ee79882592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607442481681,
+        "stop" : 1607442512160,
+        "duration" : 30479
+      }
+    }, {
+      "uid" : "b1e3eca3d1e11c55",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607442211612,
+        "stop" : 1607442279429,
+        "duration" : 67817
+      }
+    }, {
+      "uid" : "6947ccbf632e052c",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\Appointment (2).xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607442080072,
+        "stop" : 1607442080080,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "53368a8f5a6affea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607440858678,
+        "stop" : 1607440929760,
+        "duration" : 71082
+      }
+    }, {
+      "uid" : "c82c6c971f6e69a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607440704972,
+        "stop" : 1607440736298,
+        "duration" : 31326
+      }
+    }, {
+      "uid" : "2091bc87888b4685",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: cc309508338d33aec0adbed4967c7df9\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607440506429,
+        "stop" : 1607440542698,
+        "duration" : 36269
+      }
+    }, {
+      "uid" : "9ef51bebb8cf864",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 77ced9413167a989e14705933673d23e\n*** Element info: {Using=xpath, value=//*[@id=0]/div/div[3]/div/div/div[6]/span/b/i}",
+      "time" : {
+        "start" : 1607439792138,
+        "stop" : 1607439829650,
+        "duration" : 37512
+      }
+    }, {
+      "uid" : "700f9e1fb4fd6563",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6f09cb98] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607263249055,
+        "stop" : 1607263249056,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "22f9e33f5326e202",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@49c72fb7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607129642370,
+        "stop" : 1607129642370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d80c141c1f023979",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607127001553,
+        "stop" : 1607127016752,
+        "duration" : 15199
+      }
+    }, {
+      "uid" : "b5ff2c4df526a46b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607116700106,
+        "stop" : 1607116713780,
+        "duration" : 13674
+      }
+    }, {
+      "uid" : "9d663923b0d9574",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607032304403,
+        "stop" : 1607032317869,
+        "duration" : 13466
+      }
+    }, {
+      "uid" : "a8d5255dd43fd352",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@6c75c5e8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028270222,
+        "stop" : 1607028270222,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1737bf6b36061ee0",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@280f061e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028148582,
+        "stop" : 1607028148583,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "67fa2f1181d97209",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@23c61c1b] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028117471,
+        "stop" : 1607028117471,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8ae69c9d39146a67",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1606925156835,
+        "stop" : 1606925174782,
+        "duration" : 17947
+      }
+    }, {
+      "uid" : "b8bd99ee065662df",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@1a23136f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1606923337175,
+        "stop" : 1606923337175,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8b0b4011d67294a",
+      "status" : "skipped",
+      "statusDetails" : "Method PatientScheduleAnAppTest.TC_03_PatientScheduleAnApp()[pri:0, instance:sailotech.com.EzScheduler.patientScheduleAnAppointmentPage.PatientScheduleAnAppTest@23a78d2e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1606868808506,
+        "stop" : 1606868808506,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36538e02911804a0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1606699542617,
+        "stop" : 1606699556233,
+        "duration" : 13616
+      }
+    }, {
+      "uid" : "25c5e2d0a8d7bec2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body//div//div//div//div//div//div//div//div//div//div//div//div[1]//div[1]//div[1]//div[1]//div[1]//input[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1606699450453,
+        "stop" : 1606699464090,
+        "duration" : 13637
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dfd7c5dc2cd04fc5.json",
+  "parameterValues" : [ ]
+}

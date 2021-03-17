@@ -1,0 +1,239 @@
+{
+  "uid" : "e1fdb9783b1dfff",
+  "name" : "Navigate to Admin Login page",
+  "fullName" : "com.sailotech.testautomation.ezscheduler.tests.Admincreateprovider_test.TC_08_Navigate_to_AdminLogin",
+  "historyId" : "94a5b2c26232444b16c8fc99248212cd",
+  "time" : {
+    "start" : 1613659977818,
+    "stop" : 1613659984617,
+    "duration" : 6799
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613659977380,
+      "stop" : 1613659977381,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1613659984634,
+      "stop" : 1613659984634,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Admincreateprovider_test"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Admincreateprovider_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08_Navigate_to_AdminLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Admincreateprovider_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "22096@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "765c81f04ac1db34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613659739283,
+        "stop" : 1613659745991,
+        "duration" : 6708
+      }
+    }, {
+      "uid" : "e8d0c19fc191d380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613659664427,
+        "stop" : 1613659670140,
+        "duration" : 5713
+      }
+    }, {
+      "uid" : "e2cb8229d7748c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613659572151,
+        "stop" : 1613659578999,
+        "duration" : 6848
+      }
+    }, {
+      "uid" : "4a62db32d591c7cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613659501970,
+        "stop" : 1613659507653,
+        "duration" : 5683
+      }
+    }, {
+      "uid" : "d4dcf4b2aab0f0e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613577600651,
+        "stop" : 1613577607134,
+        "duration" : 6483
+      }
+    }, {
+      "uid" : "c937af41310afad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613577526899,
+        "stop" : 1613577533617,
+        "duration" : 6718
+      }
+    }, {
+      "uid" : "bb1148758d593f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613577226242,
+        "stop" : 1613577233393,
+        "duration" : 7151
+      }
+    }, {
+      "uid" : "77ba7bc2a389677b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613577137126,
+        "stop" : 1613577143719,
+        "duration" : 6593
+      }
+    }, {
+      "uid" : "8f9ce3204ebd6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613577045711,
+        "stop" : 1613577052672,
+        "duration" : 6961
+      }
+    }, {
+      "uid" : "51560cb8f86f4b71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576915589,
+        "stop" : 1613576922238,
+        "duration" : 6649
+      }
+    }, {
+      "uid" : "7c9c402477bccc43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576786314,
+        "stop" : 1613576791515,
+        "duration" : 5201
+      }
+    }, {
+      "uid" : "1e3f14eb56f6628f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576690320,
+        "stop" : 1613576695566,
+        "duration" : 5246
+      }
+    }, {
+      "uid" : "28a58edb08774137",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576624462,
+        "stop" : 1613576631202,
+        "duration" : 6740
+      }
+    }, {
+      "uid" : "ce99e61dfde686b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576266388,
+        "stop" : 1613576273541,
+        "duration" : 7153
+      }
+    }, {
+      "uid" : "307b28a35ce1bbcb",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1613576234598,
+        "stop" : 1613576234791,
+        "duration" : 193
+      }
+    }, {
+      "uid" : "1740449f00a82bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613576127633,
+        "stop" : 1613576134494,
+        "duration" : 6861
+      }
+    }, {
+      "uid" : "fdae8665ab065226",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613575984258,
+        "stop" : 1613575989959,
+        "duration" : 5701
+      }
+    }, {
+      "uid" : "3da367fb520877ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613575920972,
+        "stop" : 1613575928117,
+        "duration" : 7145
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1fdb9783b1dfff.json",
+  "parameterValues" : [ ]
+}

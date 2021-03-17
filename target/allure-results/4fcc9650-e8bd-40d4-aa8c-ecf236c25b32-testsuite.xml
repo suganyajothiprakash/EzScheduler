@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1611239292264" stop="1611239444962" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1611239310185" stop="1611239315805" status="passed">
+            <name>TC_05_Navigate_to_AdminLogin</name>
+            <description type="text">Navigate to AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="4aa9b900-ad02-4a7a-b68c-6b954f71d48f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_05_Navigate_to_AdminLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="Admin Login"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="34156@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611239315998" stop="1611239414667" status="passed">
+            <name>TC_06_AdminVerifyDoctor</name>
+            <description type="text">After Registration Admin is Verifying Unverified Doctors</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="0cafc066-f50d-4a63-81cf-024544edc7eb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_06_AdminVerifyDoctor"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="AdminVerify_UnverifiedDoctors"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="34156@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1611239414686" stop="1611239439883" status="passed">
+            <name>TC_07_AdminLogout</name>
+            <description type="text">To Logout from Adminpage</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="ae54aaec-9b0f-4074-8b2e-ae36531c1175-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.ezscheduler.Testpages.AdminverifyUnverifiedDoctortest"/>
+                <label name="testMethod" value="TC_07_AdminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="Admin Logout"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="34156@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,164 @@
+{
+  "uid" : "835d6cb549f5b1ca",
+  "name" : "Navigate_DoctorRegister",
+  "fullName" : "sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest.TC_02_DoctorRegister",
+  "historyId" : "48fb91f6e77cc4e0d4728c1952fa1eee",
+  "time" : {
+    "start" : 1608076894978,
+    "stop" : 1608076894978,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@35bcf3a6] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@35bcf3a6] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608075638815,
+      "stop" : 1608075662365,
+      "duration" : 23550
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608075662366,
+      "stop" : 1608075662838,
+      "duration" : 472
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608076894982,
+      "stop" : 1608076894982,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_DoctorRegister"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "15768@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "123e712c3f47f4d5",
+      "status" : "skipped",
+      "statusDetails" : "Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@6d43c881] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608074899195,
+        "stop" : 1608074899196,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7d5ee3395a338542",
+      "status" : "skipped",
+      "statusDetails" : "Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@6d43c881] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608074874263,
+        "stop" : 1608074874263,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "306a34e31879ac55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608063618218,
+        "stop" : 1608063641091,
+        "duration" : 22873
+      }
+    }, {
+      "uid" : "44fdd2ac90aa1295",
+      "status" : "skipped",
+      "statusDetails" : "Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@577b2c5f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608044241664,
+        "stop" : 1608044241664,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "14181fcdc89c7006",
+      "status" : "skipped",
+      "statusDetails" : "Method DoctorRegistrationTest.TC_02_DoctorRegister()[pri:0, instance:sailotech.com.EzScheduler.TestPages.DoctorRegistrationTest@44a25dc7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608039681987,
+        "stop" : 1608039681987,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cf9a356c8608957c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608000846519,
+        "stop" : 1608000894357,
+        "duration" : 47838
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "835d6cb549f5b1ca.json",
+  "parameterValues" : [ ]
+}

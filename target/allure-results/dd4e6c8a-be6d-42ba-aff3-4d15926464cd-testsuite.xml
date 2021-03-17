@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1614805430890" stop="1614805486041" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1614805447430" stop="1614805459241" status="passed">
+            <name>TC_13_ConsumerRegistration</name>
+            <description type="text">Consumer Registering in EzScheduler Website</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="97602c8c-7adb-4b24-b3b8-d8bec2644c2f-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Consumerregistration_test"/>
+                <label name="testMethod" value="TC_13_ConsumerRegistration"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_13"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25680@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1614805459266" stop="1614805469603" status="passed">
+            <name>TC_14_ConsumerCredentialsfrommail</name>
+            <description type="text">Reading OTP from consumer Email</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Consumerregistration_test"/>
+                <label name="testMethod" value="TC_14_ConsumerCredentialsfrommail"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_14"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25680@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1614805469612" stop="1614805478281" status="passed">
+            <name>TC_15_Consumer_OTP</name>
+            <description type="text">Entering OTP in that OTP field and verifing that OTP</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Consumerregistration_test"/>
+                <label name="testMethod" value="TC_15_Consumer_OTP"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_15"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="25680@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

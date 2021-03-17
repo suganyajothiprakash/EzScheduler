@@ -1,0 +1,282 @@
+{
+  "uid" : "de1fe47076b97423",
+  "name" : "Provider Logout from Ezscheduler Website",
+  "fullName" : "com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test.TC_04_ProviderLogout",
+  "historyId" : "fe0cda879c4fc852d785d00421841722",
+  "time" : {
+    "start" : 1613591123901,
+    "stop" : 1613591126730,
+    "duration" : 2829
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1613591045924,
+      "stop" : 1613591062655,
+      "duration" : 16731
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1613591062656,
+      "stop" : 1613591062656,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1613591062656,
+      "stop" : 1613591062830,
+      "duration" : 174
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613591123888,
+      "stop" : 1613591123888,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1613591130829,
+      "stop" : 1613591133930,
+      "duration" : 3101
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1613591126736,
+      "stop" : 1613591130829,
+      "duration" : 4093
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1613591126733,
+      "stop" : 1613591126733,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_04_ProviderLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "42364@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c246d6303f3906b8",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@7ee02968] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613590807483,
+        "stop" : 1613590807483,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6aa86a646d6c259f",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@3c8dea0b] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613590250627,
+        "stop" : 1613590250627,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5d6a1d325e1791d4",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@23d12a3a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613590043220,
+        "stop" : 1613590043220,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ed337bf2dd1f0cc6",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@64a7ad02] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613589915533,
+        "stop" : 1613589915533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7e15d3120f5c5725",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@a4dcede] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613589824081,
+        "stop" : 1613589824082,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "976056d1dc2c1a0d",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@3f3f554f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613589716080,
+        "stop" : 1613589716080,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e9c129b6a3f158b3",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@23d12a3a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588933413,
+        "stop" : 1613588933414,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "88f72c20f615f52f",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@64a7ad02] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588598222,
+        "stop" : 1613588598222,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7f0840ebfe97b67",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588510006,
+        "stop" : 1613588510006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b20e5eab761fba9f",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@3f3f554f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588423462,
+        "stop" : 1613588423462,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b355663262ea0f25",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@2c731a16] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588283733,
+        "stop" : 1613588283733,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c5b6ecbed2ce8353",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistration_test.TC_04_ProviderLogout()[pri:0, instance:com.sailotech.testautomation.ezscheduler.tests.Providerrregistration_test@7ee02968] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1613588142049,
+        "stop" : 1613588142049,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de1fe47076b97423.json",
+  "parameterValues" : [ ]
+}

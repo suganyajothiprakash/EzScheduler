@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1607544810783" stop="1607544859589" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>PatientRegistration : PatientRegistration</name>
+    <title>PatientRegistration : PatientRegistration</title>
+    <test-cases>
+        <test-case start="1607544847224" stop="1607544850193" status="passed">
+            <name>TC_01_navigate_homepage_to_PatientRegister</name>
+            <description type="text">Navigate_homepage_to_PatientLoginRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="4a53ddd4-1878-49cd-9b8e-0bfe8bec626a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientRegistration"/>
+                <label name="testGroup" value="PatientRegistration"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_01"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="53680@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1607544850229" stop="1607544859572" status="passed">
+            <name>TC_02_PatientRegister</name>
+            <description type="text">Navigate_DoctorRegister</description>
+            <steps/>
+            <attachments>
+                <attachment title="PatientRegister" source="1347c26d-d84b-4e6b-8529-0544f8620541-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="PatientRegistration"/>
+                <label name="testGroup" value="PatientRegistration"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PatientRegistration.PatientRegistrationTest"/>
+                <label name="testMethod" value="TC_02_PatientRegister"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_02"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="53680@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

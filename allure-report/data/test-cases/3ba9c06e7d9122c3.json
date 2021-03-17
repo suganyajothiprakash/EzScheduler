@@ -1,0 +1,471 @@
+{
+  "uid" : "3ba9c06e7d9122c3",
+  "name" : "patientLogout_from_patientpage",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest.TC_03_PatientLogout",
+  "historyId" : "7273d2f4f47978a30bf6fbd6b0991880",
+  "time" : {
+    "start" : 1611085488193,
+    "stop" : 1611085488193,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6de4071b] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6de4071b] depends on not successfully finished methods\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611083291821,
+      "stop" : 1611083311333,
+      "duration" : 19512
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611083311334,
+      "stop" : 1611083311347,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611085490472,
+      "stop" : 1611085493038,
+      "duration" : 2566
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611085493039,
+      "stop" : 1611085494120,
+      "duration" : 1081
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611085494120,
+      "stop" : 1611085495045,
+      "duration" : 925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611085488198,
+      "stop" : 1611085490471,
+      "duration" : 2273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03_PatientLogout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PatientLogin"
+  }, {
+    "name" : "suite",
+    "value" : "PatientLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "20988@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87f8545303c9779b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610988713821,
+        "stop" : 1610988717045,
+        "duration" : 3224
+      }
+    }, {
+      "uid" : "57cd159193dde1ec",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[starts-with(@class,'nav-text') and contains(text(),'Logout')]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610737611208,
+        "stop" : 1610737619552,
+        "duration" : 8344
+      }
+    }, {
+      "uid" : "ae6ddc161e8a6f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610736469850,
+        "stop" : 1610736473561,
+        "duration" : 3711
+      }
+    }, {
+      "uid" : "825a6ca1e1521832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610723654072,
+        "stop" : 1610723665354,
+        "duration" : 11282
+      }
+    }, {
+      "uid" : "73824150eed11b50",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@1c24639e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610723473423,
+        "stop" : 1610723473423,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5da905dd0b259be5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610723389505,
+        "stop" : 1610723392723,
+        "duration" : 3218
+      }
+    }, {
+      "uid" : "91b0938cc129aae4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610723003677,
+        "stop" : 1610723008948,
+        "duration" : 5271
+      }
+    }, {
+      "uid" : "56b10cba8a1e7d28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610722653131,
+        "stop" : 1610722656845,
+        "duration" : 3714
+      }
+    }, {
+      "uid" : "43c9287e9a455437",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss644\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 50461994d1b9d00fb6af39c8dc7a5c9a",
+      "time" : {
+        "start" : 1610722216238,
+        "stop" : 1610722217433,
+        "duration" : 1195
+      }
+    }, {
+      "uid" : "ead361d0d8c41243",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@5a110e7d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610722123167,
+        "stop" : 1610722123167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ff550960eb03cee",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss669\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 921a2421f5d457f45b1d46058ff2a0bb",
+      "time" : {
+        "start" : 1610721924161,
+        "stop" : 1610721925312,
+        "duration" : 1151
+      }
+    }, {
+      "uid" : "d51f89bbd21ea27b",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss649\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: c28aabd31db16fc944b1a83a840c4b80",
+      "time" : {
+        "start" : 1610721742959,
+        "stop" : 1610721744096,
+        "duration" : 1137
+      }
+    }, {
+      "uid" : "42f6fed55b5dbc56",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@4c678a1f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610721289606,
+        "stop" : 1610721289606,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5de431e6768f3938",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@4c678a1f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610668519582,
+        "stop" : 1610668519582,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94ae3ec638c44550",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@151f1734] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610665147315,
+        "stop" : 1610665147315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "120bcafa433f071d",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6ac0fd1d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610663087213,
+        "stop" : 1610663087214,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "101d43d216dc0e4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610578375331,
+        "stop" : 1610578378780,
+        "duration" : 3449
+      }
+    }, {
+      "uid" : "66215bfc79e7943b",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@5f596a1a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610577063408,
+        "stop" : 1610577063408,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "534c9e20c4011014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610576020395,
+        "stop" : 1610576037077,
+        "duration" : 16682
+      }
+    }, {
+      "uid" : "a4fb9711fef3bc3a",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@4c678a1f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610575776592,
+        "stop" : 1610575776592,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ac6e7f6d0c0e6ed",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6046fba0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610575492495,
+        "stop" : 1610575492495,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c979569719278c3d",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6413eeb7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610575189495,
+        "stop" : 1610575189495,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f94428abe29f906",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@47d7e4b6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610574891157,
+        "stop" : 1610574891157,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c749749b98d9df85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610574413277,
+        "stop" : 1610574417253,
+        "duration" : 3976
+      }
+    }, {
+      "uid" : "e439e3bc0fe60a3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610564584582,
+        "stop" : 1610564588217,
+        "duration" : 3635
+      }
+    }, {
+      "uid" : "e961af50e90460e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610556328148,
+        "stop" : 1610556333743,
+        "duration" : 5595
+      }
+    }, {
+      "uid" : "5a21279af316637",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@47fbf95e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610556286076,
+        "stop" : 1610556286076,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "938721f9d46d21",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@58189132] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610548362860,
+        "stop" : 1610548362860,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d45942079ebc1506",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@712213ed] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610548258478,
+        "stop" : 1610548258478,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ae511cd48ead85d",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@69d2c460] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610548085526,
+        "stop" : 1610548085526,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c20c0a64970dcbc",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@712213ed] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610492492685,
+        "stop" : 1610492492685,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd2e9ffb64220b42",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@1c15a6aa] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610489019533,
+        "stop" : 1610489019533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99862748645c7cd3",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@6ce8bf64] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610488946000,
+        "stop" : 1610488946000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dfb50b50def85198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610488125547,
+        "stop" : 1610488129570,
+        "duration" : 4023
+      }
+    }, {
+      "uid" : "74f5562de951fead",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientLogout()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerscheduleanapptest@2305aad0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610488024576,
+        "stop" : 1610488024576,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c8977d1d6117eec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610383103022,
+        "stop" : 1610383107863,
+        "duration" : 4841
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ba9c06e7d9122c3.json",
+  "parameterValues" : [ ]
+}

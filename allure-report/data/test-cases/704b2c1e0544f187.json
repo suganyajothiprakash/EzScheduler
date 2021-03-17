@@ -1,0 +1,186 @@
+{
+  "uid" : "704b2c1e0544f187",
+  "name" : "patient_schedule_an_Appointment",
+  "fullName" : "com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest.TC_03_PatientScheduleAnApp",
+  "historyId" : "47670839cd3f61a64f529e1f32a4cd18",
+  "time" : {
+    "start" : 1608844670705,
+    "stop" : 1608844726728,
+    "duration" : 56023
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608844594683,
+      "stop" : 1608844626325,
+      "duration" : 31642
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608844626326,
+      "stop" : 1608844627139,
+      "duration" : 813
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608844726740,
+      "stop" : 1608844726741,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1608844732357,
+      "stop" : 1608844738012,
+      "duration" : 5655
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608844732350,
+      "stop" : 1608844732351,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03_PatientScheduleAnApp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "12268@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9c13198e1038fee",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientScheduleAnApp()[pri:0, instance:com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest@749ffdc7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608844569469,
+        "stop" : 1608844569469,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1e097e3c37023693",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientScheduleAnApp()[pri:0, instance:com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest@36ce9eaf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608844411856,
+        "stop" : 1608844411856,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ada5ca0fecf9a04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608750103849,
+        "stop" : 1608750160502,
+        "duration" : 56653
+      }
+    }, {
+      "uid" : "8275489e246dafbe",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientScheduleAnApp()[pri:0, instance:com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest@1728d307] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608750037183,
+        "stop" : 1608750037183,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9a104f45821e99fc",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerscheduleanapptest.TC_03_PatientScheduleAnApp()[pri:0, instance:com.sailotech.ezscheduler.testpages.Consumerscheduleanapptest@67afc9b6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608749961544,
+        "stop" : 1608749961544,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "704b2c1e0544f187.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,424 @@
+{
+  "uid" : "e6b5cdace1eaa697",
+  "name" : "ProviderRegistration_LoginCredentials",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Providerrregistrationtest.TC_05_Provider_LoginCredentials",
+  "historyId" : "7d68db69bb8e44a611c8a4360e734412",
+  "time" : {
+    "start" : 1611153836732,
+    "stop" : 1611153842973,
+    "duration" : 6241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611153754710,
+      "stop" : 1611153772161,
+      "duration" : 17451
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611153772162,
+      "stop" : 1611153772389,
+      "duration" : 227
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9b68912897ec9be",
+      "name" : "Registration_ProviderLoginCredentials",
+      "source" : "f9b68912897ec9be.png",
+      "type" : "image/png",
+      "size" : 56930
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611153847333,
+      "stop" : 1611153847509,
+      "duration" : 176
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611153842982,
+      "stop" : 1611153847332,
+      "duration" : 4350
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611153842979,
+      "stop" : 1611153842979,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_05_Provider_LoginCredentials"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Providerrregistrationtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "17352@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4c5fcf1e06f663f",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@6c4e486e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611153744361,
+        "stop" : 1611153744361,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d59d6584121cf1d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611153566499,
+        "stop" : 1611153572743,
+        "duration" : 6244
+      }
+    }, {
+      "uid" : "4e1be953e66ca80c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div/p/a' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1611153466857,
+        "stop" : 1611153481116,
+        "duration" : 14259
+      }
+    }, {
+      "uid" : "dfcaa71a92ef67c0",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1611153392819,
+        "stop" : 1611153397898,
+        "duration" : 5079
+      }
+    }, {
+      "uid" : "a554217050196057",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1611097356653,
+        "stop" : 1611097361727,
+        "duration" : 5074
+      }
+    }, {
+      "uid" : "cc95f2704ce2f3d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611097107418,
+        "stop" : 1611097113676,
+        "duration" : 6258
+      }
+    }, {
+      "uid" : "710505f06ccda14b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611094635381,
+        "stop" : 1611094635780,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "5816b7fa3c946820",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@43b7bd5a] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611094462174,
+        "stop" : 1611094462174,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7571f8ddb36ea6a4",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@1e0c898c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611094312208,
+        "stop" : 1611094312208,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c1759eb09c550eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611094025134,
+        "stop" : 1611094030197,
+        "duration" : 5063
+      }
+    }, {
+      "uid" : "f3db74e4abe941b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611093718698,
+        "stop" : 1611093723763,
+        "duration" : 5065
+      }
+    }, {
+      "uid" : "3c084928c0590182",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611088482808,
+        "stop" : 1611088487836,
+        "duration" : 5028
+      }
+    }, {
+      "uid" : "d2c7039430c24357",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@27107a97] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611088341376,
+        "stop" : 1611088341376,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1d942f919788663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611087913765,
+        "stop" : 1611087918832,
+        "duration" : 5067
+      }
+    }, {
+      "uid" : "b9db5eb2a5019c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611087682812,
+        "stop" : 1611087687859,
+        "duration" : 5047
+      }
+    }, {
+      "uid" : "7d511af9b7dcd061",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@3f2d2f22] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611087617410,
+        "stop" : 1611087617411,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ae843794fc9c176a",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@2dd46693] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611087523635,
+        "stop" : 1611087523636,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8d5fc9f75583a3f5",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@4bc9389] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611087462672,
+        "stop" : 1611087462673,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "50523843135bd148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611086107417,
+        "stop" : 1611086112457,
+        "duration" : 5040
+      }
+    }, {
+      "uid" : "a6e75e7ab114a597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611085967348,
+        "stop" : 1611085972381,
+        "duration" : 5033
+      }
+    }, {
+      "uid" : "a9b1e086ebaa8c04",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@3f2d2f22] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611085754096,
+        "stop" : 1611085754096,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e84f1509c8f8b5ae",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@2dd46693] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611085491952,
+        "stop" : 1611085491952,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba784f4f16829617",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@296949c8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611082616229,
+        "stop" : 1611082616230,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3134d8de479f9269",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@4425b6ed] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611082431354,
+        "stop" : 1611082431355,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8c390c7de8791359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611009412374,
+        "stop" : 1611009417439,
+        "duration" : 5065
+      }
+    }, {
+      "uid" : "3f82daddb758dac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611008409286,
+        "stop" : 1611008414340,
+        "duration" : 5054
+      }
+    }, {
+      "uid" : "3d430a4f3781d1a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611007413414,
+        "stop" : 1611007418473,
+        "duration" : 5059
+      }
+    }, {
+      "uid" : "e3534fe3d1a5f696",
+      "status" : "broken",
+      "statusDetails" : "null\\inputFiles\\Provider.xlsx (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1611007244486,
+        "stop" : 1611007244506,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "d930d2a98657c369",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@5b29d699] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611007106709,
+        "stop" : 1611007106709,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "79e600270373741",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@3f2d2f22] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611007027766,
+        "stop" : 1611007027766,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "320023461afcd897",
+      "status" : "skipped",
+      "statusDetails" : "Method Providerrregistrationtest.TC_05_Provider_LoginCredentials()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Providerrregistrationtest@eb1e868] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1611006957398,
+        "stop" : 1611006957398,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6b5cdace1eaa697.json",
+  "parameterValues" : [ ]
+}

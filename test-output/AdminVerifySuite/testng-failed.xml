@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AdminVerifySuite]">
+  <test thread-count="5" name="AdminVerifySuite(failed)">
+    <classes>
+      <class name="sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest">
+        <methods>
+          <include name="TC_01_navigate_homepage_to_admin_login"/>
+          <include name="beforeClass"/>
+          <include name="stopRecording"/>
+          <include name="TC_02_adminlogin"/>
+          <include name="screenShot"/>
+          <include name="startRecording"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sailotech.com.EzScheduler.AdminVerifyDoctor.AdminVerifyTest -->
+    </classes>
+  </test> <!-- AdminVerifySuite(failed) -->
+</suite> <!-- Failed suite [AdminVerifySuite] -->

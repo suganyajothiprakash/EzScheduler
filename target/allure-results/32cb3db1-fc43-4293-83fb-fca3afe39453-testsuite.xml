@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1608240155359" stop="1608240314267" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AdminSuite : AdminSuite</name>
+    <title>AdminSuite : AdminSuite</title>
+    <test-cases>
+        <test-case start="1608240172510" stop="1608240209847" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="5e1f4ceb-9b3c-436a-9e96-cae07458b2ab-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_03"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240210025" stop="1608240213202" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="1b67802f-5277-4de3-9141-ea52c12204d2-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminLoginTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_04"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240229864" stop="1608240231513" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="a91ed440-491d-4a31-9bef-826686821ec9-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_05"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240231522" stop="1608240266383" status="passed">
+            <name>TC_02_adminverifyDoctor</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="fcd3952d-6c78-41be-a2d7-5f75930e32b4-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_02_adminverifyDoctor"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240266391" stop="1608240270213" status="passed">
+            <name>TC_02_adminLogout</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="57523698-28ac-47dc-b465-f8453c414693-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.PositiveTestPages.AdminVerifyTest"/>
+                <label name="testMethod" value="TC_02_adminLogout"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_06"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240286388" stop="1608240291168" status="passed">
+            <name>TC_01_navigate_homepage_to_admin_login</name>
+            <description type="text">Navigate_homepage_to_Admin_loginRegister </description>
+            <steps/>
+            <attachments>
+                <attachment title="EzHomePage" source="e7cde4ef-9132-437f-9e24-26cad46e3231-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_01_navigate_homepage_to_admin_login"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_18"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1608240291178" stop="1608240313832" status="passed">
+            <name>TC_02_adminlogin</name>
+            <description type="text">Navigate_homepage_to_AdminLogin</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateAdminLogin" source="40ba2520-bea7-41f9-9e50-20836dbfd3f0-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="AdminSuite"/>
+                <label name="testGroup" value="AdminSuite"/>
+                <label name="testClass" value="sailotech.com.EzScheduler.NegativeTestPages.AdminLoginCredentialsTest"/>
+                <label name="testMethod" value="TC_02_adminlogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_19"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="21012@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

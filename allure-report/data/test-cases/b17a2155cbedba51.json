@@ -1,0 +1,1243 @@
+{
+  "uid" : "b17a2155cbedba51",
+  "name" : "Navigate to Admin Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.AdminUnverfiedtest.TC_08_Navigate_to_AdminLogin",
+  "historyId" : "c2a251aeabfb025c8de1f0a99a68200f",
+  "time" : {
+    "start" : 1611956256486,
+    "stop" : 1611956261928,
+    "duration" : 5442
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611956237502,
+      "stop" : 1611956255788,
+      "duration" : 18286
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1611956255790,
+      "stop" : 1611956255790,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1611956255790,
+      "stop" : 1611956256111,
+      "duration" : 321
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1611956256139,
+      "stop" : 1611956256139,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611956261963,
+      "stop" : 1611956261963,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611956275649,
+      "stop" : 1611956279777,
+      "duration" : 4128
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminUnverfiedtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminUnverfiedtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08_Navigate_to_AdminLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.AdminUnverfiedtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "16268@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d313a9ac6683f594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611955028021,
+        "stop" : 1611955033794,
+        "duration" : 5773
+      }
+    }, {
+      "uid" : "d065759d528f724b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611954959199,
+        "stop" : 1611954964868,
+        "duration" : 5669
+      }
+    }, {
+      "uid" : "5e79293bea1d5468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611954860894,
+        "stop" : 1611954866436,
+        "duration" : 5542
+      }
+    }, {
+      "uid" : "778a44d2a3966561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611948313384,
+        "stop" : 1611948319194,
+        "duration" : 5810
+      }
+    }, {
+      "uid" : "be52ab3426fad855",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611942498407,
+        "stop" : 1611942503083,
+        "duration" : 4676
+      }
+    }, {
+      "uid" : "9c265f662e5b462c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611942162527,
+        "stop" : 1611942166973,
+        "duration" : 4446
+      }
+    }, {
+      "uid" : "f3a53f5ef2fb2323",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611941606032,
+        "stop" : 1611941610905,
+        "duration" : 4873
+      }
+    }, {
+      "uid" : "bd83446f408d7aaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611938751725,
+        "stop" : 1611938757232,
+        "duration" : 5507
+      }
+    }, {
+      "uid" : "c485226a864abc3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611938669010,
+        "stop" : 1611938674424,
+        "duration" : 5414
+      }
+    }, {
+      "uid" : "e5d03636afa675a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611938511763,
+        "stop" : 1611938517489,
+        "duration" : 5726
+      }
+    }, {
+      "uid" : "6532b632aa2bba72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611938141669,
+        "stop" : 1611938146798,
+        "duration" : 5129
+      }
+    }, {
+      "uid" : "c21e887e419baf8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611937615639,
+        "stop" : 1611937621309,
+        "duration" : 5670
+      }
+    }, {
+      "uid" : "259bc0f116b52e7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611937420855,
+        "stop" : 1611937426660,
+        "duration" : 5805
+      }
+    }, {
+      "uid" : "3422252ce78e3c5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611936796646,
+        "stop" : 1611936802092,
+        "duration" : 5446
+      }
+    }, {
+      "uid" : "9dd6d8472a8e4edd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611936645459,
+        "stop" : 1611936650905,
+        "duration" : 5446
+      }
+    }, {
+      "uid" : "ac1dc6294620898a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611936592797,
+        "stop" : 1611936600906,
+        "duration" : 8109
+      }
+    }, {
+      "uid" : "fb887202c8abca34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611936443407,
+        "stop" : 1611936449381,
+        "duration" : 5974
+      }
+    }, {
+      "uid" : "73c4c7be7bb81703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611936040776,
+        "stop" : 1611936046870,
+        "duration" : 6094
+      }
+    }, {
+      "uid" : "c3ee579f9c2ab021",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611935738247,
+        "stop" : 1611935744087,
+        "duration" : 5840
+      }
+    }, {
+      "uid" : "498310219a901b10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611935477041,
+        "stop" : 1611935482518,
+        "duration" : 5477
+      }
+    }, {
+      "uid" : "1755b1a03cbbd3ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611935228593,
+        "stop" : 1611935234740,
+        "duration" : 6147
+      }
+    }, {
+      "uid" : "a347a6af9432aff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611935035782,
+        "stop" : 1611935041476,
+        "duration" : 5694
+      }
+    }, {
+      "uid" : "1b3a776c8974bb1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611934564395,
+        "stop" : 1611934569153,
+        "duration" : 4758
+      }
+    }, {
+      "uid" : "65bb4f11dc3d68da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611934076716,
+        "stop" : 1611934082507,
+        "duration" : 5791
+      }
+    }, {
+      "uid" : "e0df899f7747b6bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611933619810,
+        "stop" : 1611933625458,
+        "duration" : 5648
+      }
+    }, {
+      "uid" : "552a0ddf7822130a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611933261641,
+        "stop" : 1611933271001,
+        "duration" : 9360
+      }
+    }, {
+      "uid" : "fd1534187808e6df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611933183773,
+        "stop" : 1611933193480,
+        "duration" : 9707
+      }
+    }, {
+      "uid" : "a2c84d9a08e2bba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611933125624,
+        "stop" : 1611933132128,
+        "duration" : 6504
+      }
+    }, {
+      "uid" : "eeca83dccae02062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611932816566,
+        "stop" : 1611932823464,
+        "duration" : 6898
+      }
+    }, {
+      "uid" : "26308f511ebd874a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611932500837,
+        "stop" : 1611932507518,
+        "duration" : 6681
+      }
+    }, {
+      "uid" : "37ce188f3beb7e5c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: fb8758a3826072acd966e140806435ea",
+      "time" : {
+        "start" : 1611931558173,
+        "stop" : 1611931571773,
+        "duration" : 13600
+      }
+    }, {
+      "uid" : "acfd2b3201405d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611931325736,
+        "stop" : 1611931332091,
+        "duration" : 6355
+      }
+    }, {
+      "uid" : "4e0129ebd44bb419",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611931160533,
+        "stop" : 1611931182251,
+        "duration" : 21718
+      }
+    }, {
+      "uid" : "75f6d90a4e3d8aa3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611931077461,
+        "stop" : 1611931084356,
+        "duration" : 6895
+      }
+    }, {
+      "uid" : "f7ec18c097c40a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611930476353,
+        "stop" : 1611930482808,
+        "duration" : 6455
+      }
+    }, {
+      "uid" : "2deb939dcf571c20",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 735a4b09d1fba1de416361f66d36b6ad",
+      "time" : {
+        "start" : 1611930371807,
+        "stop" : 1611930385154,
+        "duration" : 13347
+      }
+    }, {
+      "uid" : "73d9c08c2b834486",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611929987297,
+        "stop" : 1611929993711,
+        "duration" : 6414
+      }
+    }, {
+      "uid" : "28972144d6fb713e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 5ad4d9ae281531699a3ba24f7abfc746",
+      "time" : {
+        "start" : 1611929922499,
+        "stop" : 1611929936933,
+        "duration" : 14434
+      }
+    }, {
+      "uid" : "4a450b11db536612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611929664378,
+        "stop" : 1611929670911,
+        "duration" : 6533
+      }
+    }, {
+      "uid" : "17e094d228834934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611929593504,
+        "stop" : 1611929600170,
+        "duration" : 6666
+      }
+    }, {
+      "uid" : "2d1957682584f28d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611884427079,
+        "stop" : 1611884433751,
+        "duration" : 6672
+      }
+    }, {
+      "uid" : "826dee3d04e70147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611884265155,
+        "stop" : 1611884271873,
+        "duration" : 6718
+      }
+    }, {
+      "uid" : "5318c379a8339385",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611883197202,
+        "stop" : 1611883203953,
+        "duration" : 6751
+      }
+    }, {
+      "uid" : "8f21aef3f8d4999d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611883029601,
+        "stop" : 1611883036333,
+        "duration" : 6732
+      }
+    }, {
+      "uid" : "13f5d994ed22cf19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611882770962,
+        "stop" : 1611882777545,
+        "duration" : 6583
+      }
+    }, {
+      "uid" : "8fae6a56e1c519a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611882409581,
+        "stop" : 1611882416184,
+        "duration" : 6603
+      }
+    }, {
+      "uid" : "3ea5a6e72938a8d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611882271135,
+        "stop" : 1611882277769,
+        "duration" : 6634
+      }
+    }, {
+      "uid" : "9c13a74ec9cfe06d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611882092476,
+        "stop" : 1611882098909,
+        "duration" : 6433
+      }
+    }, {
+      "uid" : "9f7b3a80086536d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611881054283,
+        "stop" : 1611881060866,
+        "duration" : 6583
+      }
+    }, {
+      "uid" : "c11b402815dd3635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880995535,
+        "stop" : 1611881002017,
+        "duration" : 6482
+      }
+    }, {
+      "uid" : "b5087bc5b68f79ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880899860,
+        "stop" : 1611880906276,
+        "duration" : 6416
+      }
+    }, {
+      "uid" : "86dc938bf99aba27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880717819,
+        "stop" : 1611880723371,
+        "duration" : 5552
+      }
+    }, {
+      "uid" : "fa06679ab73aee37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880465944,
+        "stop" : 1611880472339,
+        "duration" : 6395
+      }
+    }, {
+      "uid" : "84b9c4f99949b5db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880347302,
+        "stop" : 1611880353555,
+        "duration" : 6253
+      }
+    }, {
+      "uid" : "5a94abb1ad036a79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880274719,
+        "stop" : 1611880281235,
+        "duration" : 6516
+      }
+    }, {
+      "uid" : "267802b10f296434",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 8f61b464f0b8d7de903f8600db07e456",
+      "time" : {
+        "start" : 1611880225766,
+        "stop" : 1611880238979,
+        "duration" : 13213
+      }
+    }, {
+      "uid" : "8ec22dea0f82fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611880161229,
+        "stop" : 1611880173733,
+        "duration" : 12504
+      }
+    }, {
+      "uid" : "c080472a7273e5f6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 793b57e3d37e5b87a1bc77201213bc60",
+      "time" : {
+        "start" : 1611880116945,
+        "stop" : 1611880130234,
+        "duration" : 13289
+      }
+    }, {
+      "uid" : "6c5c33bff1403329",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: c91b0f6e60c4b040baa4064a07d72c07",
+      "time" : {
+        "start" : 1611880069154,
+        "stop" : 1611880078762,
+        "duration" : 9608
+      }
+    }, {
+      "uid" : "6bf7ec7a3bf9df90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879982021,
+        "stop" : 1611879988668,
+        "duration" : 6647
+      }
+    }, {
+      "uid" : "3f8703319b04ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879858852,
+        "stop" : 1611879865250,
+        "duration" : 6398
+      }
+    }, {
+      "uid" : "d0ecdcea01407a4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879793607,
+        "stop" : 1611879800045,
+        "duration" : 6438
+      }
+    }, {
+      "uid" : "9deb02258708377e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879686737,
+        "stop" : 1611879693312,
+        "duration" : 6575
+      }
+    }, {
+      "uid" : "e0737097f78ae816",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879570321,
+        "stop" : 1611879576646,
+        "duration" : 6325
+      }
+    }, {
+      "uid" : "5ebf9293f6352e7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879487518,
+        "stop" : 1611879494049,
+        "duration" : 6531
+      }
+    }, {
+      "uid" : "a14fca2743671e24",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 735cf5d5aea75f8b94498c43a111f5d3",
+      "time" : {
+        "start" : 1611879440891,
+        "stop" : 1611879454106,
+        "duration" : 13215
+      }
+    }, {
+      "uid" : "23dc02b448cc7621",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 65cbdb1ae4e40e0806abeeed3de58fc1",
+      "time" : {
+        "start" : 1611879394702,
+        "stop" : 1611879407886,
+        "duration" : 13184
+      }
+    }, {
+      "uid" : "cfa4f764d05c905e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879335399,
+        "stop" : 1611879346680,
+        "duration" : 11281
+      }
+    }, {
+      "uid" : "8477dee2fa7b8106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879260300,
+        "stop" : 1611879267046,
+        "duration" : 6746
+      }
+    }, {
+      "uid" : "bee4f0461db48e31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879100092,
+        "stop" : 1611879106672,
+        "duration" : 6580
+      }
+    }, {
+      "uid" : "fdd99eb09ea12059",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611879026819,
+        "stop" : 1611879039057,
+        "duration" : 12238
+      }
+    }, {
+      "uid" : "72fb9ebe833dfb12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872827243,
+        "stop" : 1611872832846,
+        "duration" : 5603
+      }
+    }, {
+      "uid" : "fb77c35b549658db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872694185,
+        "stop" : 1611872699816,
+        "duration" : 5631
+      }
+    }, {
+      "uid" : "d626e3b79ae0be6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872561830,
+        "stop" : 1611872576891,
+        "duration" : 15061
+      }
+    }, {
+      "uid" : "5ec20695375fa6ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872427537,
+        "stop" : 1611872433155,
+        "duration" : 5618
+      }
+    }, {
+      "uid" : "9fc198a59e6393a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872330920,
+        "stop" : 1611872335626,
+        "duration" : 4706
+      }
+    }, {
+      "uid" : "41d4a40f5b0bbd55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872172213,
+        "stop" : 1611872177712,
+        "duration" : 5499
+      }
+    }, {
+      "uid" : "499a9b2868ba847a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611872112877,
+        "stop" : 1611872119104,
+        "duration" : 6227
+      }
+    }, {
+      "uid" : "4b8df49760b309bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611871965654,
+        "stop" : 1611871980158,
+        "duration" : 14504
+      }
+    }, {
+      "uid" : "8083d04743963af1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611871878881,
+        "stop" : 1611871884677,
+        "duration" : 5796
+      }
+    }, {
+      "uid" : "31e002b68a637d40",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: a1ebf124f4c3999db607fe68e35993ed",
+      "time" : {
+        "start" : 1611871824436,
+        "stop" : 1611871837066,
+        "duration" : 12630
+      }
+    }, {
+      "uid" : "28b11b78b139b1a5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 1a8b72b26a6e5bf9f074f0c659c9d419",
+      "time" : {
+        "start" : 1611871766939,
+        "stop" : 1611871779708,
+        "duration" : 12769
+      }
+    }, {
+      "uid" : "6e0a74cce1f13d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611871687331,
+        "stop" : 1611871693213,
+        "duration" : 5882
+      }
+    }, {
+      "uid" : "bcbb046220fca78a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611870321421,
+        "stop" : 1611870327186,
+        "duration" : 5765
+      }
+    }, {
+      "uid" : "a43a3bdfe8cb633d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611870177821,
+        "stop" : 1611870183514,
+        "duration" : 5693
+      }
+    }, {
+      "uid" : "600355e14374a1b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611870012034,
+        "stop" : 1611870017679,
+        "duration" : 5645
+      }
+    }, {
+      "uid" : "a243448bc90c8876",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: f8327732bdf9a2fe33d3ad126f2fe793",
+      "time" : {
+        "start" : 1611869967789,
+        "stop" : 1611869980380,
+        "duration" : 12591
+      }
+    }, {
+      "uid" : "448ab718e1f904fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611869629592,
+        "stop" : 1611869645114,
+        "duration" : 15522
+      }
+    }, {
+      "uid" : "725e422f3834aa75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611869331111,
+        "stop" : 1611869337251,
+        "duration" : 6140
+      }
+    }, {
+      "uid" : "f0f4e0011439dc32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611869256572,
+        "stop" : 1611869262536,
+        "duration" : 5964
+      }
+    }, {
+      "uid" : "8f9fcb4993b6ad9e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: eb5e7ad86b85b6fed5204f987834c1da",
+      "time" : {
+        "start" : 1611868214385,
+        "stop" : 1611868227385,
+        "duration" : 13000
+      }
+    }, {
+      "uid" : "fc38bd0d8ba39eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611868098793,
+        "stop" : 1611868104580,
+        "duration" : 5787
+      }
+    }, {
+      "uid" : "b3a83f1f5ed03b54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611867777386,
+        "stop" : 1611867783274,
+        "duration" : 5888
+      }
+    }, {
+      "uid" : "d7bbe72d43be5fd0",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 26cfe0bdde488ae6463adfc7632852a6",
+      "time" : {
+        "start" : 1611867732562,
+        "stop" : 1611867745453,
+        "duration" : 12891
+      }
+    }, {
+      "uid" : "5b912af666262e95",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: ca1f2a54700dc9f1fdb69492388c5ac1",
+      "time" : {
+        "start" : 1611867652354,
+        "stop" : 1611867667407,
+        "duration" : 15053
+      }
+    }, {
+      "uid" : "d559120ff1bfd7d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611867479945,
+        "stop" : 1611867485483,
+        "duration" : 5538
+      }
+    }, {
+      "uid" : "2f629911f8ca23aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611867230105,
+        "stop" : 1611867235748,
+        "duration" : 5643
+      }
+    }, {
+      "uid" : "1d2693c8ac331153",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 03c2188eaa25e8854524c197bf55aa76",
+      "time" : {
+        "start" : 1611867170594,
+        "stop" : 1611867185464,
+        "duration" : 14870
+      }
+    }, {
+      "uid" : "8c7e2cb4feb9696b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 938046683a2219e385b73cfba2327318",
+      "time" : {
+        "start" : 1611853484016,
+        "stop" : 1611853498478,
+        "duration" : 14462
+      }
+    }, {
+      "uid" : "f4205d5f03553fe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611850337529,
+        "stop" : 1611850342573,
+        "duration" : 5044
+      }
+    }, {
+      "uid" : "1ba659198bcbfc30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611847196484,
+        "stop" : 1611847202923,
+        "duration" : 6439
+      }
+    }, {
+      "uid" : "2f335efcc319f599",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611847092743,
+        "stop" : 1611847097881,
+        "duration" : 5138
+      }
+    }, {
+      "uid" : "44e26efc023470ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846516957,
+        "stop" : 1611846523907,
+        "duration" : 6950
+      }
+    }, {
+      "uid" : "baee183fe6c595e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846367745,
+        "stop" : 1611846374197,
+        "duration" : 6452
+      }
+    }, {
+      "uid" : "4f59df35fff39152",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846257948,
+        "stop" : 1611846264787,
+        "duration" : 6839
+      }
+    }, {
+      "uid" : "d574cb6208353c26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846065587,
+        "stop" : 1611846072048,
+        "duration" : 6461
+      }
+    }, {
+      "uid" : "d791640270ffffa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845881913,
+        "stop" : 1611845888475,
+        "duration" : 6562
+      }
+    }, {
+      "uid" : "15ad895ade77258b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845640863,
+        "stop" : 1611845646829,
+        "duration" : 5966
+      }
+    }, {
+      "uid" : "7ef5ea452acf2b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845540197,
+        "stop" : 1611845546258,
+        "duration" : 6061
+      }
+    }, {
+      "uid" : "2be7ef05de3b2fd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845487964,
+        "stop" : 1611845494497,
+        "duration" : 6533
+      }
+    }, {
+      "uid" : "3d411fadebff3b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845370363,
+        "stop" : 1611845380604,
+        "duration" : 10241
+      }
+    }, {
+      "uid" : "f73045d49c1167cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845043083,
+        "stop" : 1611845048987,
+        "duration" : 5904
+      }
+    }, {
+      "uid" : "d6c9f4f25ec9894a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611844848214,
+        "stop" : 1611844855410,
+        "duration" : 7196
+      }
+    }, {
+      "uid" : "2fd23b0097cc4c43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611844609139,
+        "stop" : 1611844615494,
+        "duration" : 6355
+      }
+    }, {
+      "uid" : "275384feb67298a5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 0715bde9814279cf1b3f6d09cf9b87c8",
+      "time" : {
+        "start" : 1611844507077,
+        "stop" : 1611844521036,
+        "duration" : 13959
+      }
+    }, {
+      "uid" : "8a7e8e40c9547950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611844153110,
+        "stop" : 1611844158919,
+        "duration" : 5809
+      }
+    }, {
+      "uid" : "a5ff720f43fae9e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611844031790,
+        "stop" : 1611844038004,
+        "duration" : 6214
+      }
+    }, {
+      "uid" : "90c1b861655e0a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611843821843,
+        "stop" : 1611843827631,
+        "duration" : 5788
+      }
+    }, {
+      "uid" : "98c407f5edaff8ff",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 4b9ece6045fb0f5625a48244b549a1ee",
+      "time" : {
+        "start" : 1611843694272,
+        "stop" : 1611843707869,
+        "duration" : 13597
+      }
+    }, {
+      "uid" : "cda22be4a926fe85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611843556461,
+        "stop" : 1611843561915,
+        "duration" : 5454
+      }
+    }, {
+      "uid" : "5859fb49dfd6112f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611842783920,
+        "stop" : 1611842789590,
+        "duration" : 5670
+      }
+    }, {
+      "uid" : "7dc5745b978f30f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611842588067,
+        "stop" : 1611842593424,
+        "duration" : 5357
+      }
+    }, {
+      "uid" : "478a4b32f8cb1fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611842182867,
+        "stop" : 1611842189962,
+        "duration" : 7095
+      }
+    }, {
+      "uid" : "5370f88bc0140771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611841782882,
+        "stop" : 1611841788810,
+        "duration" : 5928
+      }
+    }, {
+      "uid" : "f7089bb7f123fa7d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 60e73b9e166aa9d3e78e7f4f67b625f5",
+      "time" : {
+        "start" : 1611841043360,
+        "stop" : 1611841056577,
+        "duration" : 13217
+      }
+    }, {
+      "uid" : "c371c61f2cddb25b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611840984789,
+        "stop" : 1611840991431,
+        "duration" : 6642
+      }
+    }, {
+      "uid" : "8cedb9a9853acccf",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=87.0.4280.141)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 8bac0b2846eb03eadf552002170af729\n*** Element info: {Using=xpath, value=//span[@class='app-notification-menu']}",
+      "time" : {
+        "start" : 1611840939124,
+        "stop" : 1611840956416,
+        "duration" : 17292
+      }
+    }, {
+      "uid" : "d628d97965e5a516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611787278614,
+        "stop" : 1611787285164,
+        "duration" : 6550
+      }
+    }, {
+      "uid" : "cefc067bbe30d30f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611786507209,
+        "stop" : 1611786511945,
+        "duration" : 4736
+      }
+    }, {
+      "uid" : "eeec1763bf41b85d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611784590457,
+        "stop" : 1611784595899,
+        "duration" : 5442
+      }
+    }, {
+      "uid" : "61e52fbb4980d981",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //li[3]//div[1]//h5[1]//a[1] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.141, webStorageEnabled: true}\nSession ID: 0f21e899f7dc3ad943355038a1e118be",
+      "time" : {
+        "start" : 1611784510532,
+        "stop" : 1611784523108,
+        "duration" : 12576
+      }
+    }, {
+      "uid" : "8fd44e25d8d48932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611784407601,
+        "stop" : 1611784413364,
+        "duration" : 5763
+      }
+    }, {
+      "uid" : "a56220e08c6d6569",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611784132822,
+        "stop" : 1611784148074,
+        "duration" : 15252
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b17a2155cbedba51.json",
+  "parameterValues" : [ ]
+}

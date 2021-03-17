@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test">
+        <methods>
+          <include name="screenShot"/>
+          <include name="afterClass"/>
+          <include name="TC_05_ProviderLogin"/>
+          <include name="TC_06_To_GenerateSlots"/>
+          <include name="TC_04_ProviderLogout"/>
+          <include name="setUp"/>
+          <include name="display"/>
+          <include name="stopRecording"/>
+          <include name="screenRecord"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.sailotech.testautomation.ezscheduler.tests.Providergenerateslots_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

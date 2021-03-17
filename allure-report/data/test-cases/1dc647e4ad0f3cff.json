@@ -1,0 +1,249 @@
+{
+  "uid" : "1dc647e4ad0f3cff",
+  "name" : "PatientRegistration",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest.TC_02_PatientRegistration",
+  "historyId" : "35beaef9d1131a5afec4a9c9308b41af",
+  "time" : {
+    "start" : 1610729392204,
+    "stop" : 1610729403047,
+    "duration" : 10843
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1610729376181,
+      "stop" : 1610729391942,
+      "duration" : 15761
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1610729391942,
+      "stop" : 1610729392101,
+      "duration" : 159
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1610729412361,
+      "stop" : 1610729412505,
+      "duration" : 144
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1610729403209,
+      "stop" : 1610729403209,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1610729412505,
+      "stop" : 1610729413099,
+      "duration" : 594
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_02_PatientRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "11696@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9c20fb693b28df96",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610729289947,
+        "stop" : 1610729315700,
+        "duration" : 25753
+      }
+    }, {
+      "uid" : "665f605d11e839dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610728877966,
+        "stop" : 1610728904431,
+        "duration" : 26465
+      }
+    }, {
+      "uid" : "2ce6d83f96d7db4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610728788948,
+        "stop" : 1610728800334,
+        "duration" : 11386
+      }
+    }, {
+      "uid" : "b354fad3b749ef2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610723968856,
+        "stop" : 1610723978021,
+        "duration" : 9165
+      }
+    }, {
+      "uid" : "e6c2e0b635c8197a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610665024372,
+        "stop" : 1610665033503,
+        "duration" : 9131
+      }
+    }, {
+      "uid" : "2cd9d7d67d690d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610664345682,
+        "stop" : 1610664354866,
+        "duration" : 9184
+      }
+    }, {
+      "uid" : "17cd71828ff3288a",
+      "status" : "skipped",
+      "statusDetails" : "Method Consumerregistrationtest.TC_02_PatientRegistration()[pri:0, instance:com.sailotech.ezscheduler.Testpages.Consumerregistrationtest@12aa2cca] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1610664212484,
+        "stop" : 1610664212484,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dedb0b57a16b2816",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610578186904,
+        "stop" : 1610578197983,
+        "duration" : 11079
+      }
+    }, {
+      "uid" : "2c64ffadb1df44e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610576937215,
+        "stop" : 1610576948335,
+        "duration" : 11120
+      }
+    }, {
+      "uid" : "cd58f1b30d9723f3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610576853825,
+        "stop" : 1610576869995,
+        "duration" : 16170
+      }
+    }, {
+      "uid" : "f0751cb821284709",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610576631818,
+        "stop" : 1610576643198,
+        "duration" : 11380
+      }
+    }, {
+      "uid" : "259e063f183cf6a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610564667465,
+        "stop" : 1610564678643,
+        "duration" : 11178
+      }
+    }, {
+      "uid" : "2afa85d4ea090300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610382888256,
+        "stop" : 1610382899546,
+        "duration" : 11290
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1dc647e4ad0f3cff.json",
+  "parameterValues" : [ ]
+}

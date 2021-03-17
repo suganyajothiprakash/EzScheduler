@@ -1,0 +1,1846 @@
+{
+  "uid" : "376d60bdff87dad2",
+  "name" : "Navigate_GenerateSlots",
+  "fullName" : "sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest.TC_03_GenerateSlots",
+  "historyId" : "d3ff33ae2aa5094773b9ed9f144e2017",
+  "time" : {
+    "start" : 1607869075222,
+    "stop" : 1607869075326,
+    "duration" : 104
+  },
+  "status" : "broken",
+  "statusMessage" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)",
+  "statusTrace" : "java.io.FileNotFoundException: C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)\r\n\tat java.io.FileInputStream.open0(Native Method)\r\n\tat java.io.FileInputStream.open(FileInputStream.java:195)\r\n\tat java.io.FileInputStream.<init>(FileInputStream.java:138)\r\n\tat java.io.FileInputStream.<init>(FileInputStream.java:93)\r\n\tat sailotech.com.EzScheduler.GenerateSlots.GenerateSlots.GenerateSlots(GenerateSlots.java:57)\r\n\tat sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest.TC_03_GenerateSlots(GenerateSlotsTest.java:89)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1607869034951,
+      "stop" : 1607869062957,
+      "duration" : 28006
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1607869063001,
+      "stop" : 1607869063386,
+      "duration" : 385
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870192912,
+      "stop" : 1607870201419,
+      "duration" : 8507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870201420,
+      "stop" : 1607870207512,
+      "duration" : 6092
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870207513,
+      "stop" : 1607870210001,
+      "duration" : 2488
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870210002,
+      "stop" : 1607870216627,
+      "duration" : 6625
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870216628,
+      "stop" : 1607870218464,
+      "duration" : 1836
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870218464,
+      "stop" : 1607870219518,
+      "duration" : 1054
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1607870219518,
+      "stop" : 1607870220444,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1607869075380,
+      "stop" : 1607869077862,
+      "duration" : 2482
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1607869077864,
+      "stop" : 1607869077864,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03_GenerateSlots"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "suite",
+    "value" : "SmokeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "5488@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "924358e50a56029a",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@39cf7f3c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607838547262,
+        "stop" : 1607838547263,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bd686c19f83b563e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607835410718,
+        "stop" : 1607835484305,
+        "duration" : 73587
+      }
+    }, {
+      "uid" : "615f33e4a3769ae7",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@112a50a1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607835362699,
+        "stop" : 1607835362699,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b345a1dd9f4096d6",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@22f7bf36] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607835308727,
+        "stop" : 1607835308727,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e13e6a3760bcb56d",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@457d3f54] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607810786590,
+        "stop" : 1607810786591,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "68bf42478c18ba6",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6bfc5296] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607804982719,
+        "stop" : 1607804982720,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7be984f4c00f6db3",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4a4979bf] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607792368764,
+        "stop" : 1607792368764,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d50ab44a6df5d36",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@58c48a23] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607788363129,
+        "stop" : 1607788363129,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a28bc432f1446951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607786715677,
+        "stop" : 1607786789250,
+        "duration" : 73573
+      }
+    }, {
+      "uid" : "8e8df6008c48954a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 129a2d948e7383a232cd7f1a1fa06fe8\n*** Element info: {Using=xpath, value=//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b}",
+      "time" : {
+        "start" : 1607786576719,
+        "stop" : 1607786596380,
+        "duration" : 19661
+      }
+    }, {
+      "uid" : "c0f38d58c57b275e",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@41a3c6f5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607786453825,
+        "stop" : 1607786453825,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68eeae7ff5f72b2e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 0c083df731df5e401bf5fe6a81727e09\n*** Element info: {Using=xpath, value=//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div}",
+      "time" : {
+        "start" : 1607786338603,
+        "stop" : 1607786376778,
+        "duration" : 38175
+      }
+    }, {
+      "uid" : "fce1282a67ab9d8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607786093870,
+        "stop" : 1607786168460,
+        "duration" : 74590
+      }
+    }, {
+      "uid" : "e23338f87704352c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607785900240,
+        "stop" : 1607785973716,
+        "duration" : 73476
+      }
+    }, {
+      "uid" : "db2562fb8e2754b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607730913577,
+        "stop" : 1607734785853,
+        "duration" : 3872276
+      }
+    }, {
+      "uid" : "e83f8eebcad4e56c",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@3f31892e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607730842730,
+        "stop" : 1607730842731,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "93d301f954c536cb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"11\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 41c0c7b13accb6bc1cc2eb4267ceee94\n*** Element info: {Using=link text, value=11}",
+      "time" : {
+        "start" : 1607730646652,
+        "stop" : 1607730676101,
+        "duration" : 29449
+      }
+    }, {
+      "uid" : "ee29a4ce0da167b6",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"11\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 9697703d45e871d69f41c53e05121226\n*** Element info: {Using=link text, value=11}",
+      "time" : {
+        "start" : 1607730400122,
+        "stop" : 1607730429069,
+        "duration" : 28947
+      }
+    }, {
+      "uid" : "28a3993addda2f6e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"11\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 3517816974392a61a6535c3379750d04\n*** Element info: {Using=link text, value=11}",
+      "time" : {
+        "start" : 1607730248707,
+        "stop" : 1607730329795,
+        "duration" : 81088
+      }
+    }, {
+      "uid" : "ba36e87aeefa33f5",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4a3404fa] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607730087547,
+        "stop" : 1607730087547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6f8f3e3abe163b66",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@3fb42ec7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607711315188,
+        "stop" : 1607711315189,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "872c9c91b2a8aa92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607704997324,
+        "stop" : 1607705110399,
+        "duration" : 113075
+      }
+    }, {
+      "uid" : "bb956b19cd3f2720",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607704159565,
+        "stop" : 1607704234349,
+        "duration" : 74784
+      }
+    }, {
+      "uid" : "dcb80b5eeca3f488",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607703648477,
+        "stop" : 1607703648522,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "ac85c65e39b75a2c",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@35e3f3b8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607701235456,
+        "stop" : 1607701235456,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c239e87e47f88bf1",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6c3884f5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607698572260,
+        "stop" : 1607698572260,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46a2ef47f5b25bd5",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@469bd719] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607640337698,
+        "stop" : 1607640337698,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "79090c1ee8ca1ca4",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@18d14de3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607636602920,
+        "stop" : 1607636602920,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "877535fde91fc3bf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 68ac28e0ddd10e0ed7aacd5aeddf7ad5\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607636060914,
+        "stop" : 1607636103613,
+        "duration" : 42699
+      }
+    }, {
+      "uid" : "8ee1dc375f4d5018",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@13bf5fd] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607635974454,
+        "stop" : 1607635974454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "117fd1c84b6932fe",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607635874083,
+        "stop" : 1607635874092,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "3e6fe1884fbce4eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607635609853,
+        "stop" : 1607635678906,
+        "duration" : 69053
+      }
+    }, {
+      "uid" : "cbe04e6a9af182a5",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@469bd719] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607635505749,
+        "stop" : 1607635505749,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "291a7d3b44865576",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@469bd719] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607635416012,
+        "stop" : 1607635416012,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d63549bf2f14f1e5",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 4b43de2bdb70fcc3264dd39a3b5fd273\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607635406845,
+        "stop" : 1607635413047,
+        "duration" : 6202
+      }
+    }, {
+      "uid" : "ca3a39cc15f15271",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@c247b02] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607635092587,
+        "stop" : 1607635092588,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "40f8c02656c72dde",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@26c1244c] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607634808806,
+        "stop" : 1607634808806,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f23b9cf64d42f0c9",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6a26eee6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607634721818,
+        "stop" : 1607634721818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ea8ef0d285925553",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@76c85485] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607634566991,
+        "stop" : 1607634566991,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "579d9ba23ff79e4f",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@498bfeec] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607630382197,
+        "stop" : 1607630382198,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "95ae62d8c6e7751e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607615443520,
+        "stop" : 1607615512781,
+        "duration" : 69261
+      }
+    }, {
+      "uid" : "c633be255488ecd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607558880694,
+        "stop" : 1607558959243,
+        "duration" : 78549
+      }
+    }, {
+      "uid" : "a9329acc95080bf7",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@1dbfbd94] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607544810655,
+        "stop" : 1607544810656,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b2b7c26daaf9328f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607543199841,
+        "stop" : 1607543271578,
+        "duration" : 71737
+      }
+    }, {
+      "uid" : "184a61d9ce61041e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607543033909,
+        "stop" : 1607543069751,
+        "duration" : 35842
+      }
+    }, {
+      "uid" : "4fa116c5f7d47d7b",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607542912204,
+        "stop" : 1607542912214,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "ab31af42161d925c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607542710110,
+        "stop" : 1607542785576,
+        "duration" : 75466
+      }
+    }, {
+      "uid" : "c560bf3d3dc0b064",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@48ba37dc] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607542644154,
+        "stop" : 1607542644155,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "51fbdbacdfafef59",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 546adfdd717e52b47c02a6539bac337a\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607542194727,
+        "stop" : 1607542200976,
+        "duration" : 6249
+      }
+    }, {
+      "uid" : "e17b4636c38eda69",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 9399eed72211da5a8dde6b6443585769\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607542089962,
+        "stop" : 1607542131198,
+        "duration" : 41236
+      }
+    }, {
+      "uid" : "6bd89cefee2433f3",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"14\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: e73d015f9f3e8cd29ed18d89633581ca\n*** Element info: {Using=link text, value=14}",
+      "time" : {
+        "start" : 1607541886643,
+        "stop" : 1607541950381,
+        "duration" : 63738
+      }
+    }, {
+      "uid" : "d12abeaa346bf99d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: de1c0d5ebb5ea9097c5654603bd132f2\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607541779900,
+        "stop" : 1607541787033,
+        "duration" : 7133
+      }
+    }, {
+      "uid" : "47a47f12b0e38154",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 6eea282e12bb836e5f8be70d1bd73dd2\n*** Element info: {Using=xpath, value=//span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]}",
+      "time" : {
+        "start" : 1607540844444,
+        "stop" : 1607540850706,
+        "duration" : 6262
+      }
+    }, {
+      "uid" : "376da14dc79740b6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607540575223,
+        "stop" : 1607540624953,
+        "duration" : 49730
+      }
+    }, {
+      "uid" : "288c1c6b4a16d81c",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4e553d60] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607540494095,
+        "stop" : 1607540494095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9a0dd7663df0f1c0",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"11\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5afaf1468069415f77a1e25c5def4af0\n*** Element info: {Using=link text, value=11}",
+      "time" : {
+        "start" : 1607540166131,
+        "stop" : 1607540264763,
+        "duration" : 98632
+      }
+    }, {
+      "uid" : "11b99dcfea5df23e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607539808070,
+        "stop" : 1607539918438,
+        "duration" : 110368
+      }
+    }, {
+      "uid" : "39bd44f96bcb2efd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5ce7973cd434ea4f418323e0dbb74abb\n*** Element info: {Using=xpath, value=//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b}",
+      "time" : {
+        "start" : 1607539552923,
+        "stop" : 1607539642792,
+        "duration" : 89869
+      }
+    }, {
+      "uid" : "a61c6f6a10d9f609",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss92\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 7fafbd48886fb391885f83aec898284d",
+      "time" : {
+        "start" : 1607539390740,
+        "stop" : 1607539392924,
+        "duration" : 2184
+      }
+    }, {
+      "uid" : "52e431226a90a40e",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss81\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 371e408c85adc9be36030a52d2b4bdfb",
+      "time" : {
+        "start" : 1607539104859,
+        "stop" : 1607539107067,
+        "duration" : 2208
+      }
+    }, {
+      "uid" : "1a1a458d0e32431c",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss81\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: f7ddea15f236085491e480d791f47660",
+      "time" : {
+        "start" : 1607538974202,
+        "stop" : 1607538976455,
+        "duration" : 2253
+      }
+    }, {
+      "uid" : "e12c87251991e05",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss84\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: b7fe9d4354d082b325127fe618359e08",
+      "time" : {
+        "start" : 1607538797962,
+        "stop" : 1607538800249,
+        "duration" : 2287
+      }
+    }, {
+      "uid" : "1c2914f306067176",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss84\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 401ef510eb10025e86cd9c5e26095564",
+      "time" : {
+        "start" : 1607538644994,
+        "stop" : 1607538647457,
+        "duration" : 2463
+      }
+    }, {
+      "uid" : "a67b8bd818eed59f",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss84\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 87a14656222ae79690a829cef23708fc",
+      "time" : {
+        "start" : 1607537975130,
+        "stop" : 1607537977315,
+        "duration" : 2185
+      }
+    }, {
+      "uid" : "d3fa5a7f5ed4ccfe",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@45ac973] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607534923348,
+        "stop" : 1607534923348,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e55fa5f2815096c7",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss92\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: ad57a0c87b3de62d1c93d6a7ecff4ac5",
+      "time" : {
+        "start" : 1607533347656,
+        "stop" : 1607533349937,
+        "duration" : 2281
+      }
+    }, {
+      "uid" : "1f2a2642c68ec0e1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss72\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 3505b1a83a962c3876e6d5d3a59dc100",
+      "time" : {
+        "start" : 1607533250225,
+        "stop" : 1607533252500,
+        "duration" : 2275
+      }
+    }, {
+      "uid" : "cbc05ed76527c7b2",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607532820997,
+        "stop" : 1607532924447,
+        "duration" : 103450
+      }
+    }, {
+      "uid" : "12cdf386e3877838",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@19d0d1ab] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607532594504,
+        "stop" : 1607532594504,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1e4ea9ef83b246f3",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@3d0f4ac4] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607527110776,
+        "stop" : 1607527110776,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8cfe7f032608ecb0",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607525874740,
+        "stop" : 1607525998736,
+        "duration" : 123996
+      }
+    }, {
+      "uid" : "7a08dd10c26204c8",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@68cc6319] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607524192674,
+        "stop" : 1607524192674,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "518aa8ad6ecf4f8b",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607477588615,
+        "stop" : 1607477695778,
+        "duration" : 107163
+      }
+    }, {
+      "uid" : "19653bb51191b974",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607476484427,
+        "stop" : 1607476616903,
+        "duration" : 132476
+      }
+    }, {
+      "uid" : "545c3354e4f03ce2",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607455190058,
+        "stop" : 1607456718865,
+        "duration" : 1528807
+      }
+    }, {
+      "uid" : "bcd8929be94ad38a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss132\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 68508a1504710253ea9017dcd11815b3",
+      "time" : {
+        "start" : 1607454933226,
+        "stop" : 1607454970444,
+        "duration" : 37218
+      }
+    }, {
+      "uid" : "23bc233c18e9fe62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607454615013,
+        "stop" : 1607454686859,
+        "duration" : 71846
+      }
+    }, {
+      "uid" : "40fee97c50978e38",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"21\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: cb77873539edbdf45fcf898565266321\n*** Element info: {Using=link text, value=21}",
+      "time" : {
+        "start" : 1607454521286,
+        "stop" : 1607454549670,
+        "duration" : 28384
+      }
+    }, {
+      "uid" : "f38000a8282f85bf",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"21\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 927494123b9e50a03fc362c164957bf9\n*** Element info: {Using=link text, value=21}",
+      "time" : {
+        "start" : 1607454346792,
+        "stop" : 1607454375477,
+        "duration" : 28685
+      }
+    }, {
+      "uid" : "5b97cb2ae79a323c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607453688333,
+        "stop" : 1607453758841,
+        "duration" : 70508
+      }
+    }, {
+      "uid" : "5b37eb4bf8ffec02",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss116\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 6a5b1181e9cebc9f3c1cdf39cbddbb8c",
+      "time" : {
+        "start" : 1607453372241,
+        "stop" : 1607453409064,
+        "duration" : 36823
+      }
+    }, {
+      "uid" : "38b39f194e5412d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607453051780,
+        "stop" : 1607453124120,
+        "duration" : 72340
+      }
+    }, {
+      "uid" : "486055ea1171ac23",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: d2ab1de021bc41a7fa83a077ad598e2f\n*** Element info: {Using=xpath, value=//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div[1]/div/div/div/div[2]/form/div[2]/div/div[2]/b}",
+      "time" : {
+        "start" : 1607452872373,
+        "stop" : 1607452926137,
+        "duration" : 53764
+      }
+    }, {
+      "uid" : "ef84b731abf89dcb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"1\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 3997570defec569fb5b7c4292965cb04\n*** Element info: {Using=link text, value=1}",
+      "time" : {
+        "start" : 1607452799759,
+        "stop" : 1607452827460,
+        "duration" : 27701
+      }
+    }, {
+      "uid" : "3c3388c45e948d02",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSP.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607452711667,
+        "stop" : 1607452711685,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "cda154393c362bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607452469605,
+        "stop" : 1607452540766,
+        "duration" : 71161
+      }
+    }, {
+      "uid" : "a94dd697a1bfc451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607452262411,
+        "stop" : 1607452332741,
+        "duration" : 70330
+      }
+    }, {
+      "uid" : "1c121c6681398e3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607452112705,
+        "stop" : 1607452182889,
+        "duration" : 70184
+      }
+    }, {
+      "uid" : "d901a8bb830ef8b7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"1\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 0b0f87b9e17d0ea4f5426c1771dbca90\n*** Element info: {Using=link text, value=1}",
+      "time" : {
+        "start" : 1607451958175,
+        "stop" : 1607451983456,
+        "duration" : 25281
+      }
+    }, {
+      "uid" : "365a3ba0c01de349",
+      "status" : "broken",
+      "statusDetails" : "Cannot get a text value from a numeric cell",
+      "time" : {
+        "start" : 1607451729194,
+        "stop" : 1607451752565,
+        "duration" : 23371
+      }
+    }, {
+      "uid" : "ebd8f7f9402343c1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss129\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: c8f19eb0b966994d6d59e2411d412c76",
+      "time" : {
+        "start" : 1607450667000,
+        "stop" : 1607450701769,
+        "duration" : 34769
+      }
+    }, {
+      "uid" : "75112a56e2016386",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@50841932] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607450488069,
+        "stop" : 1607450488071,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "baf89e8b381ced28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607450026590,
+        "stop" : 1607450091577,
+        "duration" : 64987
+      }
+    }, {
+      "uid" : "3fdd1080200b03b8",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@7da6d695] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607449945611,
+        "stop" : 1607449945611,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3089a00643c75d75",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@48301bfe] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607449866539,
+        "stop" : 1607449866539,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8c3f14bc01a3ea2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607440296428,
+        "stop" : 1607440357205,
+        "duration" : 60777
+      }
+    }, {
+      "uid" : "ef3fb036150fc01f",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss53\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: c31234e44d59febcadd3563716a9e210",
+      "time" : {
+        "start" : 1607440118006,
+        "stop" : 1607440122687,
+        "duration" : 4681
+      }
+    }, {
+      "uid" : "a0ea277835abcd23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607392008166,
+        "stop" : 1607392067696,
+        "duration" : 59530
+      }
+    }, {
+      "uid" : "1df5dbaf175f761f",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607391788073,
+        "stop" : 1607391880816,
+        "duration" : 92743
+      }
+    }, {
+      "uid" : "9452808ba2bb1eca",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607391655718,
+        "stop" : 1607391655727,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "7b99af9b7faf5dc1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss167\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 5ec45971f339e15a9b81352061c9a4b3",
+      "time" : {
+        "start" : 1607391188586,
+        "stop" : 1607391375882,
+        "duration" : 187296
+      }
+    }, {
+      "uid" : "d3c6d60a09f819a4",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@56351c02] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607390357411,
+        "stop" : 1607390357411,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "773a469dd1d5f9f9",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607390289742,
+        "stop" : 1607390388585,
+        "duration" : 98843
+      }
+    }, {
+      "uid" : "5721088ff8114bc9",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss123\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 60dadf500983963236ca54341215b836",
+      "time" : {
+        "start" : 1607390136631,
+        "stop" : 1607390169553,
+        "duration" : 32922
+      }
+    }, {
+      "uid" : "b470690c20a756aa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //body[@id='body']/div[@id='app-site']/div/div/div/div/header/div/div[1]//*[local-name()='svg']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1607389988273,
+        "stop" : 1607389999555,
+        "duration" : 11282
+      }
+    }, {
+      "uid" : "f5961d938802a50e",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss117\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 24e45dcf22d1216a77ec3dca01c0e487",
+      "time" : {
+        "start" : 1607389841727,
+        "stop" : 1607389874610,
+        "duration" : 32883
+      }
+    }, {
+      "uid" : "93d2620da34f6f36",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Element <svg class=\"MuiSvgIcon-root side-menu mr-3 d-block\" focusable=\"false\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" aria-label=\"Menu\">...</svg> is not clickable at point (36, 35). Other element would receive the click: <div class=\"MuiBackdrop-root jss128\" aria-hidden=\"true\" style=\"opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;\">...</div>\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 57a71619c5a51922f27e9b2e47e45f70",
+      "time" : {
+        "start" : 1607389660662,
+        "stop" : 1607389693659,
+        "duration" : 32997
+      }
+    }, {
+      "uid" : "ed0c1d0b23474ef9",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@7d4e424e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607389528472,
+        "stop" : 1607389528472,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af41104905a6b349",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@575cfec1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607389411416,
+        "stop" : 1607389411416,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa0d6f2920f1a700",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@304e1e4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607388435223,
+        "stop" : 1607388435223,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "916794cbb20af978",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@16024b49] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607382790685,
+        "stop" : 1607382790685,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "547b97418120bc1d",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6d7772d3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607382785188,
+        "stop" : 1607382785188,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a746f42ec0d17969",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@37d3e740] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607382683838,
+        "stop" : 1607382683839,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f74bb803985cb1a6",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607382419587,
+        "stop" : 1607382516992,
+        "duration" : 97405
+      }
+    }, {
+      "uid" : "bbdf98db693f4bb0",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6d7772d3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607382366169,
+        "stop" : 1607382366169,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c78c4a59cfacca08",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@66f5770e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607382221926,
+        "stop" : 1607382221926,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9040733ef236f64a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607381893479,
+        "stop" : 1607381991811,
+        "duration" : 98332
+      }
+    }, {
+      "uid" : "eda20029b97e65ba",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@799206ad] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607381830524,
+        "stop" : 1607381830524,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d459b6e9f2d693b",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@52463255] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607373586320,
+        "stop" : 1607373586320,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2534d184485be02",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@37b1218] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607373390421,
+        "stop" : 1607373390422,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9853d726cc9d06dd",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@23e573e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607373222923,
+        "stop" : 1607373222924,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "18c455cc57ac4d08",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@23e573e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607373081756,
+        "stop" : 1607373081756,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc145cad2d28bbd2",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607363378436,
+        "stop" : 1607363478058,
+        "duration" : 99622
+      }
+    }, {
+      "uid" : "906bb6e30010d660",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607362310050,
+        "stop" : 1607362429212,
+        "duration" : 119162
+      }
+    }, {
+      "uid" : "2ee7751fccf3f97f",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@37d3e740] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607362223856,
+        "stop" : 1607362223857,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d06cd95cc5cbb1c9",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607361838466,
+        "stop" : 1607361938949,
+        "duration" : 100483
+      }
+    }, {
+      "uid" : "85cc43c703534340",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607361313775,
+        "stop" : 1607361412433,
+        "duration" : 98658
+      }
+    }, {
+      "uid" : "da756885b6ffc2bd",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@e08d871] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607361167180,
+        "stop" : 1607361167180,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f073f4508d17226",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (39b8a294986bfbf9b009d836f65ab80e)] -> xpath: //span[starts-with(@class,'nav-text') and contains (text(),'Generate Slots')]] (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 39b8a294986bfbf9b009d836f65ab80e",
+      "time" : {
+        "start" : 1607360942864,
+        "stop" : 1607360992439,
+        "duration" : 49575
+      }
+    }, {
+      "uid" : "9184fe99d8dab74d",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@66851aa5] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607360861779,
+        "stop" : 1607360861780,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7e9a1c23621c5658",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@23119bc3] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607360820617,
+        "stop" : 1607360820617,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "619e994405d105e3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607360344475,
+        "stop" : 1607360444024,
+        "duration" : 99549
+      }
+    }, {
+      "uid" : "63176c2a9bed3f00",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607360151187,
+        "stop" : 1607360171703,
+        "duration" : 20516
+      }
+    }, {
+      "uid" : "79d4bf798b782125",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1607359685687,
+        "stop" : 1607359784780,
+        "duration" : 99093
+      }
+    }, {
+      "uid" : "561a7c54f367f2fa",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@3fb0d9de] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607359573616,
+        "stop" : 1607359573616,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7bbbaaea2ab42f1",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\xls.files\\DoctorGSI1.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1607359471711,
+        "stop" : 1607359471725,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "9c7a70b7f2f1cae6",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@43120a77] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607359300766,
+        "stop" : 1607359300766,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d0424060ec0e082",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@1a4564a2] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607285034585,
+        "stop" : 1607285034586,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ac9db44cd619aa7a",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@5c0d3715] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607264752909,
+        "stop" : 1607264752909,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "268b7d577d40f47",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@5d373794] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607264321516,
+        "stop" : 1607264321516,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae42ce4fba13bc3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607264137318,
+        "stop" : 1607264202224,
+        "duration" : 64906
+      }
+    }, {
+      "uid" : "e48fb0c742e0300b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607263953952,
+        "stop" : 1607263982630,
+        "duration" : 28678
+      }
+    }, {
+      "uid" : "b4fed0e2292d047c",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 443bde9bd61706e13ee287388f862ad0",
+      "time" : {
+        "start" : 1607262629835,
+        "stop" : 1607262842840,
+        "duration" : 213005
+      }
+    }, {
+      "uid" : "81f8409f1d9c2121",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607262077527,
+        "stop" : 1607262110188,
+        "duration" : 32661
+      }
+    }, {
+      "uid" : "a252ff5202bda7f5",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@23cfdfa2] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607261561579,
+        "stop" : 1607261561579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c3a1e9c59fd1e71f",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@18918d70] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607261504150,
+        "stop" : 1607261504151,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9267c68b2b3b2d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607260526321,
+        "stop" : 1607260553852,
+        "duration" : 27531
+      }
+    }, {
+      "uid" : "cd85b11feaf8e7b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607260200119,
+        "stop" : 1607260227453,
+        "duration" : 27334
+      }
+    }, {
+      "uid" : "c4ae8aff36dad693",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@396c1228] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607260183037,
+        "stop" : 1607260183037,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97d513592e88b35d",
+      "status" : "broken",
+      "statusDetails" : "Cannot get a text value from a numeric cell",
+      "time" : {
+        "start" : 1607259939771,
+        "stop" : 1607259947862,
+        "duration" : 8091
+      }
+    }, {
+      "uid" : "1836f92c03902862",
+      "status" : "broken",
+      "statusDetails" : "org.apache.xmlbeans.XmlException: error: Unexpected end of file after null",
+      "time" : {
+        "start" : 1607259488571,
+        "stop" : 1607259488648,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "b9b5780cab83912b",
+      "status" : "broken",
+      "statusDetails" : "Cannot get a text value from a numeric cell",
+      "time" : {
+        "start" : 1607259357271,
+        "stop" : 1607259366528,
+        "duration" : 9257
+      }
+    }, {
+      "uid" : "f6332f1a823da728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607259144966,
+        "stop" : 1607259176590,
+        "duration" : 31624
+      }
+    }, {
+      "uid" : "c7a580a266befc66",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@31de8099] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607258356110,
+        "stop" : 1607258356110,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "764f4a1bdaa6f957",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@152d2a58] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607258274437,
+        "stop" : 1607258274437,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bf26b7e06cdccdc1",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@12478b4e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607258208006,
+        "stop" : 1607258208007,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e1cc23aeb4300f5e",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@75507e68] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607258070316,
+        "stop" : 1607258070317,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f89c3c0e5500df87",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@48f2d51d] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607258005723,
+        "stop" : 1607258005723,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3800579fe17ba16f",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@40d04cf8] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607257894420,
+        "stop" : 1607257894420,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "326c3598740eea33",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@13ae87a6] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607257804553,
+        "stop" : 1607257804553,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "92bf05b65e068c67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607230383715,
+        "stop" : 1607230413039,
+        "duration" : 29324
+      }
+    }, {
+      "uid" : "8b18d48ae6484f75",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@774189d0] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607205454689,
+        "stop" : 1607205454689,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64cbfff406252982",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607203758451,
+        "stop" : 1607203787833,
+        "duration" : 29382
+      }
+    }, {
+      "uid" : "1da75c01521f05b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607202573431,
+        "stop" : 1607202603277,
+        "duration" : 29846
+      }
+    }, {
+      "uid" : "252071b6d1a7160d",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4c599679] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607202423261,
+        "stop" : 1607202423261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a35c4cbad71ce8fe",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@2681185e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607194196741,
+        "stop" : 1607194196742,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dac6ce3abfea2d9c",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@4c599679] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607193551118,
+        "stop" : 1607193551118,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b7156fa611fa03d",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@a3e458] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607128402251,
+        "stop" : 1607128402251,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5d07c141c49e4b",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@75507e68] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607126875425,
+        "stop" : 1607126875425,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8046334ccd77e0e2",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@152d2a58] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607119783124,
+        "stop" : 1607119783124,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "709efb5c2216ab00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607119516731,
+        "stop" : 1607119545327,
+        "duration" : 28596
+      }
+    }, {
+      "uid" : "3e0e4dee74b44711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607119151775,
+        "stop" : 1607119179975,
+        "duration" : 28200
+      }
+    }, {
+      "uid" : "f203dc4b7fa5de8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607118872029,
+        "stop" : 1607118901594,
+        "duration" : 29565
+      }
+    }, {
+      "uid" : "6549af57318bb97c",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@7c07023] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607118730467,
+        "stop" : 1607118730467,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d98189186ac8b9bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607118601630,
+        "stop" : 1607118630700,
+        "duration" : 29070
+      }
+    }, {
+      "uid" : "d1cae7e15b093fa",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@5b977aaa] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607116621695,
+        "stop" : 1607116621695,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6dabcc1e1c999909",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@788fa91f] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028270152,
+        "stop" : 1607028270152,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e214dcf9736d3211",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@24ae2183] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028148522,
+        "stop" : 1607028148522,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ad1687b71157201",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@c0cb9c2] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1607028117421,
+        "stop" : 1607028117421,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d21a7313c4214b30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606924220283,
+        "stop" : 1606924251833,
+        "duration" : 31550
+      }
+    }, {
+      "uid" : "f7629658fc9e4d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606922640737,
+        "stop" : 1606922672245,
+        "duration" : 31508
+      }
+    }, {
+      "uid" : "871141b4fabb6557",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.GenerateSlots.GenerateSlotsTest@6dcdc378] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1606868167418,
+        "stop" : 1606868167418,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "376d60bdff87dad2.json",
+  "parameterValues" : [ ]
+}

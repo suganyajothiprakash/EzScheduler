@@ -1,0 +1,263 @@
+{
+  "uid" : "f8475908c277c98",
+  "name" : "Navigate_GenerateSlots",
+  "fullName" : "sailotech.com.EzScheduler.TestPages.GenerateSlotsTest.TC_03_GenerateSlots",
+  "historyId" : "3300c6782e1771ba66fa57d2b9fc6a5b",
+  "time" : {
+    "start" : 1608160429714,
+    "stop" : 1608160562701,
+    "duration" : 132987
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1608160402829,
+      "stop" : 1608160423736,
+      "duration" : 20907
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1608160423736,
+      "stop" : 1608160423956,
+      "duration" : 220
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1608160567902,
+      "stop" : 1608160568075,
+      "duration" : 173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1608160562706,
+      "stop" : 1608160562706,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1608160567901,
+      "stop" : 1608160567902,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sailotech.com.EzScheduler.TestPages.GenerateSlotsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sailotech.com.EzScheduler.TestPages.GenerateSlotsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_03_GenerateSlots"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "sailotech.com.EzScheduler.TestPages.GenerateSlotsTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "19464@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a237f5a30ee92c58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608157150831,
+        "stop" : 1608157260527,
+        "duration" : 109696
+      }
+    }, {
+      "uid" : "6ddd12a2ab7adc30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608156226083,
+        "stop" : 1608156298945,
+        "duration" : 72862
+      }
+    }, {
+      "uid" : "22c4f861c66994d8",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@34cb1310] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608156186730,
+        "stop" : 1608156186730,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3506075fbe210138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608155844039,
+        "stop" : 1608155917967,
+        "duration" : 73928
+      }
+    }, {
+      "uid" : "c72f54b8ce23ecfe",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@44a25dc7] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608080173692,
+        "stop" : 1608080173692,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b75f1dc9793e7b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608063748152,
+        "stop" : 1608063829776,
+        "duration" : 81624
+      }
+    }, {
+      "uid" : "dcc1bd22a3ae401a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608039983211,
+        "stop" : 1608040075240,
+        "duration" : 92029
+      }
+    }, {
+      "uid" : "244afc808f2680ea",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}\nSession ID: 882da77a61b8ed164be16aafedb54250\n*** Element info: {Using=xpath, value=//*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/div/div/div[1]/div[1]/div/div/div}",
+      "time" : {
+        "start" : 1608001778809,
+        "stop" : 1608001996104,
+        "duration" : 217295
+      }
+    }, {
+      "uid" : "1402a19243dc3601",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@4a3404fa] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001738222,
+        "stop" : 1608001738222,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "57866b68741fd8b1",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@4a3404fa] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001651730,
+        "stop" : 1608001651730,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f60639540d907040",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@3f31892e] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001509874,
+        "stop" : 1608001509874,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a00d90a7b650b2",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@694c0ed1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001388336,
+        "stop" : 1608001388336,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef0b363fdf5168f1",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@3fb4beb1] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001286946,
+        "stop" : 1608001286946,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a680ab2b45cfabb",
+      "status" : "skipped",
+      "statusDetails" : "Method GenerateSlotsTest.TC_03_GenerateSlots()[pri:0, instance:sailotech.com.EzScheduler.TestPages.GenerateSlotsTest@2b441609] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1608001229358,
+        "stop" : 1608001229359,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8475908c277c98.json",
+  "parameterValues" : [ ]
+}

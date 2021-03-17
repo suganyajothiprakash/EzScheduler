@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1613660154997" stop="1613660192516" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1613660173963" stop="1613660184430" status="passed">
+            <name>TC_12_ConsumerLogin</name>
+            <description type="text">Navigate To Patient Login page</description>
+            <steps/>
+            <attachments>
+                <attachment title="NavigateEzHomePage" source="bfd0c1a3-c604-4800-8ee7-3592c8c236eb-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="com.sailotech.testautomation.ezscheduler.tests.Consumerlogin_test"/>
+                <label name="testMethod" value="TC_12_ConsumerLogin"/>
+                <label name="severity" value="normal"/>
+                <label name="testId" value="TC_12"/>
+                <label name="host" value="DESKTOP-A4GJKOM"/>
+                <label name="thread" value="14588@DESKTOP-A4GJKOM.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

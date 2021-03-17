@@ -1,0 +1,308 @@
+{
+  "uid" : "37ac6e58d29b2736",
+  "name" : "PatientRegistration",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest.TC_01_PatientRegistration",
+  "historyId" : "9325a06df56cfa79c943c642c7bdeed8",
+  "time" : {
+    "start" : 1611155881441,
+    "stop" : 1611155893300,
+    "duration" : 11859
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1611155866010,
+      "stop" : 1611155881196,
+      "duration" : 15186
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "startRecording",
+    "time" : {
+      "start" : 1611155881197,
+      "stop" : 1611155881363,
+      "duration" : 166
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "stopRecording",
+    "time" : {
+      "start" : 1611155912531,
+      "stop" : 1611155913111,
+      "duration" : 580
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1611155893473,
+      "stop" : 1611155893473,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1611155908429,
+      "stop" : 1611155912530,
+      "duration" : 4101
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01_PatientRegistration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.Consumerregistrationtest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "29628@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a715b614eed2554b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611155428578,
+        "stop" : 1611155441014,
+        "duration" : 12436
+      }
+    }, {
+      "uid" : "3474ac96bde8821d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611083209827,
+        "stop" : 1611083223064,
+        "duration" : 13237
+      }
+    }, {
+      "uid" : "55690868c1d19653",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611009460707,
+        "stop" : 1611009473560,
+        "duration" : 12853
+      }
+    }, {
+      "uid" : "4eb26f44ee69e96f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611009301561,
+        "stop" : 1611009314617,
+        "duration" : 13056
+      }
+    }, {
+      "uid" : "3e29346fca4498f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003788266,
+        "stop" : 1611003807130,
+        "duration" : 18864
+      }
+    }, {
+      "uid" : "6f090eb44cff5d36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003634335,
+        "stop" : 1611003647321,
+        "duration" : 12986
+      }
+    }, {
+      "uid" : "838720e42776af88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003521779,
+        "stop" : 1611003534754,
+        "duration" : 12975
+      }
+    }, {
+      "uid" : "415977d016dcb201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003418267,
+        "stop" : 1611003431267,
+        "duration" : 13000
+      }
+    }, {
+      "uid" : "a97c655d80a7d69f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1611003351888,
+        "stop" : 1611003378232,
+        "duration" : 26344
+      }
+    }, {
+      "uid" : "21c098e70dafb6ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003225845,
+        "stop" : 1611003238756,
+        "duration" : 12911
+      }
+    }, {
+      "uid" : "bef740dcda82c252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611003089766,
+        "stop" : 1611003119773,
+        "duration" : 30007
+      }
+    }, {
+      "uid" : "1a1a77b09121e1de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610989896623,
+        "stop" : 1610989926020,
+        "duration" : 29397
+      }
+    }, {
+      "uid" : "fe3059cd747da3ff",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (0a4d9486a9bd82ea6eaf1a46a4d09d69)] -> xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div/div/input] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610989532713,
+        "stop" : 1610989552178,
+        "duration" : 19465
+      }
+    }, {
+      "uid" : "4c3b5632642cbc61",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610989458595,
+        "stop" : 1610989478942,
+        "duration" : 20347
+      }
+    }, {
+      "uid" : "b69c5bd8755696fa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610989402100,
+        "stop" : 1610989428417,
+        "duration" : 26317
+      }
+    }, {
+      "uid" : "625d97b829cf642d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610989330829,
+        "stop" : 1610989351371,
+        "duration" : 20542
+      }
+    }, {
+      "uid" : "81e0c8ef1c864b5e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"app-site\"]/div/div/div[3]/main/div/div/div/div/div[2]/form/fieldset/div/div[1]/div[1]/div/div/input' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1610989195521,
+        "stop" : 1610989222089,
+        "duration" : 26568
+      }
+    }, {
+      "uid" : "f5b11662b773a288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610988770751,
+        "stop" : 1610988831926,
+        "duration" : 61175
+      }
+    }, {
+      "uid" : "1313ea36e0fb0283",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610737359445,
+        "stop" : 1610737371401,
+        "duration" : 11956
+      }
+    }, {
+      "uid" : "3fcf442b8befa8bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610736271967,
+        "stop" : 1610736283874,
+        "duration" : 11907
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37ac6e58d29b2736.json",
+  "parameterValues" : [ ]
+}

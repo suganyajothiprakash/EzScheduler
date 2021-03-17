@@ -1,0 +1,705 @@
+{
+  "uid" : "d91b020b3a26775b",
+  "name" : "Navigate to Admin Login page",
+  "fullName" : "com.sailotech.ezscheduler.Testpages.CreateDoctorTest.TC_08_Navigate_to_AdminLogin",
+  "historyId" : "43e74bbfadaa742a7fd624ff556e4a9d",
+  "time" : {
+    "start" : 1612391703390,
+    "stop" : 1612391709928,
+    "duration" : 6538
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1612391684517,
+      "stop" : 1612391702735,
+      "duration" : 18218
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "display",
+    "time" : {
+      "start" : 1612391702736,
+      "stop" : 1612391702736,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "screenRecord",
+    "time" : {
+      "start" : 1612391702736,
+      "stop" : 1612391703014,
+      "duration" : 278
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1612391703047,
+      "stop" : 1612391703047,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1612391709950,
+      "stop" : 1612391709950,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterClass",
+    "time" : {
+      "start" : 1612391745852,
+      "stop" : 1612391750181,
+      "duration" : 4329
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.sailotech.ezscheduler.Testpages.CreateDoctorTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.sailotech.ezscheduler.Testpages.CreateDoctorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_08_Navigate_to_AdminLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.sailotech.ezscheduler.Testpages.CreateDoctorTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A4GJKOM"
+  }, {
+    "name" : "thread",
+    "value" : "39036@DESKTOP-A4GJKOM.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c211310c1343b348",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612391550488,
+        "stop" : 1612391557462,
+        "duration" : 6974
+      }
+    }, {
+      "uid" : "805e463ba4a41eed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612391389275,
+        "stop" : 1612391395913,
+        "duration" : 6638
+      }
+    }, {
+      "uid" : "706d33a1693c8349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612391072554,
+        "stop" : 1612391079446,
+        "duration" : 6892
+      }
+    }, {
+      "uid" : "ab11f4a58f6c24ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390897506,
+        "stop" : 1612390915789,
+        "duration" : 18283
+      }
+    }, {
+      "uid" : "cb8e1c3da19a94ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390797467,
+        "stop" : 1612390804696,
+        "duration" : 7229
+      }
+    }, {
+      "uid" : "1510511ff6bddab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390661231,
+        "stop" : 1612390668497,
+        "duration" : 7266
+      }
+    }, {
+      "uid" : "ff9d351961fcf4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390425900,
+        "stop" : 1612390431044,
+        "duration" : 5144
+      }
+    }, {
+      "uid" : "8ccaf82d101a3f7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390421171,
+        "stop" : 1612390469172,
+        "duration" : 48001
+      }
+    }, {
+      "uid" : "4b8481afbda49b3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390241192,
+        "stop" : 1612390248150,
+        "duration" : 6958
+      }
+    }, {
+      "uid" : "d2a1d554259c81d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612390123116,
+        "stop" : 1612390129741,
+        "duration" : 6625
+      }
+    }, {
+      "uid" : "9a0ca218c18c2cc3",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612390055356,
+        "stop" : 1612390055536,
+        "duration" : 180
+      }
+    }, {
+      "uid" : "e44b4ef4fdfcc2e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612388236840,
+        "stop" : 1612388243013,
+        "duration" : 6173
+      }
+    }, {
+      "uid" : "38767e957b5ba514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612388076183,
+        "stop" : 1612388085847,
+        "duration" : 9664
+      }
+    }, {
+      "uid" : "ebc6fa9858cac95e",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612387966908,
+        "stop" : 1612387967044,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "68b52e249fc46281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612387316910,
+        "stop" : 1612387322502,
+        "duration" : 5592
+      }
+    }, {
+      "uid" : "516ee7badf7e5f2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612387199433,
+        "stop" : 1612387205220,
+        "duration" : 5787
+      }
+    }, {
+      "uid" : "3a86a7cb1cac4a52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612387119214,
+        "stop" : 1612387124870,
+        "duration" : 5656
+      }
+    }, {
+      "uid" : "18856663d39e300",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612387089577,
+        "stop" : 1612387089700,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "aa69ae193dc66a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386940071,
+        "stop" : 1612386946859,
+        "duration" : 6788
+      }
+    }, {
+      "uid" : "b04564eb02878266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386693300,
+        "stop" : 1612386699585,
+        "duration" : 6285
+      }
+    }, {
+      "uid" : "52c8a9a18cd4b9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386589410,
+        "stop" : 1612386595483,
+        "duration" : 6073
+      }
+    }, {
+      "uid" : "6b3079d21d5d8919",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386492314,
+        "stop" : 1612386498013,
+        "duration" : 5699
+      }
+    }, {
+      "uid" : "2f9adae3e06cfe00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386402103,
+        "stop" : 1612386406890,
+        "duration" : 4787
+      }
+    }, {
+      "uid" : "ff8605ea18cf8a49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612386094297,
+        "stop" : 1612386098949,
+        "duration" : 4652
+      }
+    }, {
+      "uid" : "90639ec0c2645bc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612385935318,
+        "stop" : 1612385941335,
+        "duration" : 6017
+      }
+    }, {
+      "uid" : "7cbbf8284a8e7073",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612385855152,
+        "stop" : 1612385861699,
+        "duration" : 6547
+      }
+    }, {
+      "uid" : "bcde40858ed7abb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612385588838,
+        "stop" : 1612385594868,
+        "duration" : 6030
+      }
+    }, {
+      "uid" : "a82f3d8bf9bf19d5",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612385537425,
+        "stop" : 1612385537544,
+        "duration" : 119
+      }
+    }, {
+      "uid" : "5b67f00161a28633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612385401940,
+        "stop" : 1612385407623,
+        "duration" : 5683
+      }
+    }, {
+      "uid" : "dd7650ba7c62eb2",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612385360247,
+        "stop" : 1612385360376,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "ab712ea56fd8c5ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612385179561,
+        "stop" : 1612385185552,
+        "duration" : 5991
+      }
+    }, {
+      "uid" : "86ca08a0587760b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612378464868,
+        "stop" : 1612378470710,
+        "duration" : 5842
+      }
+    }, {
+      "uid" : "930709829ed3ed10",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612378423870,
+        "stop" : 1612378424051,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "ea307b5e012d5d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612378298761,
+        "stop" : 1612378304264,
+        "duration" : 5503
+      }
+    }, {
+      "uid" : "149bee21dc13a48f",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612378265644,
+        "stop" : 1612378265868,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "6e9ad9a2f84c4ddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612378139954,
+        "stop" : 1612378146682,
+        "duration" : 6728
+      }
+    }, {
+      "uid" : "4a88131410d275e8",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612378097376,
+        "stop" : 1612378097571,
+        "duration" : 195
+      }
+    }, {
+      "uid" : "1d3084bd43505b15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612377937243,
+        "stop" : 1612377944313,
+        "duration" : 7070
+      }
+    }, {
+      "uid" : "391ce81711167586",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612377900714,
+        "stop" : 1612377900905,
+        "duration" : 191
+      }
+    }, {
+      "uid" : "7c7829da52fc0d58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612376391519,
+        "stop" : 1612376396457,
+        "duration" : 4938
+      }
+    }, {
+      "uid" : "cb9db139c7802228",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612375281100,
+        "stop" : 1612375287252,
+        "duration" : 6152
+      }
+    }, {
+      "uid" : "84ac064aa68fbd1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612375148022,
+        "stop" : 1612375154366,
+        "duration" : 6344
+      }
+    }, {
+      "uid" : "f7be93f5a8c49d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612374999134,
+        "stop" : 1612375007932,
+        "duration" : 8798
+      }
+    }, {
+      "uid" : "f102bc001f518b6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612374863999,
+        "stop" : 1612374870500,
+        "duration" : 6501
+      }
+    }, {
+      "uid" : "bbb664c53895584c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612374799471,
+        "stop" : 1612374806416,
+        "duration" : 6945
+      }
+    }, {
+      "uid" : "bbabab90013edb95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612374623005,
+        "stop" : 1612374629924,
+        "duration" : 6919
+      }
+    }, {
+      "uid" : "ab4c8416ad28deda",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\sukki\\OneDrive\\EzSchedulerscratch\\EzScheduler\\inputFiles\\Admin.xlsx (The process cannot access the file because it is being used by another process)",
+      "time" : {
+        "start" : 1612374544846,
+        "stop" : 1612374545063,
+        "duration" : 217
+      }
+    }, {
+      "uid" : "664fd7ba8d78d0ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612371771180,
+        "stop" : 1612371778109,
+        "duration" : 6929
+      }
+    }, {
+      "uid" : "e214f48282e0c42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369922318,
+        "stop" : 1612369927734,
+        "duration" : 5416
+      }
+    }, {
+      "uid" : "275e803dd3098437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369881899,
+        "stop" : 1612369888476,
+        "duration" : 6577
+      }
+    }, {
+      "uid" : "503d75599d19e8f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369835096,
+        "stop" : 1612369840626,
+        "duration" : 5530
+      }
+    }, {
+      "uid" : "685bce76390fcff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369678375,
+        "stop" : 1612369685091,
+        "duration" : 6716
+      }
+    }, {
+      "uid" : "8c115b76de815193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369586287,
+        "stop" : 1612369591963,
+        "duration" : 5676
+      }
+    }, {
+      "uid" : "97b0f39242ee2509",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612369426971,
+        "stop" : 1612369432603,
+        "duration" : 5632
+      }
+    }, {
+      "uid" : "1f993317d3a3af93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612368772127,
+        "stop" : 1612368777494,
+        "duration" : 5367
+      }
+    }, {
+      "uid" : "bd9e0dbc4ff7991b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612368703635,
+        "stop" : 1612368710132,
+        "duration" : 6497
+      }
+    }, {
+      "uid" : "9440ea8f568e0ac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612368612515,
+        "stop" : 1612368619330,
+        "duration" : 6815
+      }
+    }, {
+      "uid" : "256fff2adfce79ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612368411175,
+        "stop" : 1612368416856,
+        "duration" : 5681
+      }
+    }, {
+      "uid" : "3b35c8dc9bc40f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612368226214,
+        "stop" : 1612368232982,
+        "duration" : 6768
+      }
+    }, {
+      "uid" : "aab90dfc63433d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612365714943,
+        "stop" : 1612365721573,
+        "duration" : 6630
+      }
+    }, {
+      "uid" : "19a594ff20b86bc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612365569503,
+        "stop" : 1612365576124,
+        "duration" : 6621
+      }
+    }, {
+      "uid" : "ad86aee87624e1ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612365468502,
+        "stop" : 1612365475222,
+        "duration" : 6720
+      }
+    }, {
+      "uid" : "acfc9f81e237e63e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612365400795,
+        "stop" : 1612365407780,
+        "duration" : 6985
+      }
+    }, {
+      "uid" : "85049cc2c3e7a23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612365339251,
+        "stop" : 1612365345922,
+        "duration" : 6671
+      }
+    }, {
+      "uid" : "ed5d17bd918fde3d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Username']\"}\n  (Session info: chrome=88.0.4324.104)\n  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-A4GJKOM', ip: '192.168.1.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\\Users\\sukki\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 88.0.4324.104, webStorageEnabled: true}\nSession ID: 5540a81b1fd13379f53bf852f5aba120\n*** Element info: {Using=xpath, value=//input[@placeholder='Username']}",
+      "time" : {
+        "start" : 1612365004716,
+        "stop" : 1612365020828,
+        "duration" : 16112
+      }
+    }, {
+      "uid" : "f98fdc34db3a93a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612363765798,
+        "stop" : 1612363772177,
+        "duration" : 6379
+      }
+    }, {
+      "uid" : "cafb8d143b923c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612363681804,
+        "stop" : 1612363689151,
+        "duration" : 7347
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d91b020b3a26775b.json",
+  "parameterValues" : [ ]
+}
